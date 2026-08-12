@@ -1,0 +1,15 @@
+__pycache__/
+*.exe
+CloudyData_UVB*
+Enzo_Build
+Evtime
+GRACKLE_INFO
+Grid*
+Particle*
+RefinementMask
+OutputLevelInformation.out
+OutputLog
+performance.out
+starnet_insitu_figs/
+starnet_insitu_logs/
+z_*/
