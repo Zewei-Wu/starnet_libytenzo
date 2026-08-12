@@ -1,0 +1,709 @@
+# this is libyt-linked ENZO 0427
+The following have been reloaded with a version change:
+  1) intel/19.0.5 => intel/19.1.1
+
+warning: the following parameter line was not interpreted:
+use_grackle                 = 1
+warning: the following parameter line was not interpreted:
+with_radiative_cooling      = 1
+warning: the following parameter line was not interpreted:
+use_volumetric_heating_rate = 0
+warning: the following parameter line was not interpreted:
+use_specific_heating_rate   = 0
+warning: the following parameter line was not interpreted:
+self_shielding_method       = 1
+warning: the following parameter line was not interpreted:
+H2_self_shielding           = 0
+warning: the following parameter line was not interpreted:
+UVbackground                = 1
+warning: the following parameter line was not interpreted:
+Compton_xray_heating        = 0
+warning: the following parameter line was not interpreted:
+LWbackground_intensity      = 0.000000
+warning: the following parameter line was not interpreted:
+LWbackground_sawtooth_suppression = 0
+warning: the following parameter line was not interpreted:
+dust_chemistry              = 0
+warning: the following parameter line was not interpreted:
+local_dust_to_gas_ratio     = 0.009387
+warning: the following parameter line was not interpreted:
+use_isrf_field              = 0
+warning: the following parameter line was not interpreted:
+use_dust_density_field      = 0
+Output to Global Dir .
+Successfully read ParameterFile z_0015/z_0015.
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+INITIALDT :::::::::::   0.00000000e+00
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+dt, Initialdt: 0.0661648 0 
+TopGrid dt = 6.616479e-02     time = 25.286404182035    cycle = 522    z = 19.279997637244
+dt, Initialdt: 0.0662138 0 
+TopGrid dt = 6.621380e-02     time = 25.352568968377    cycle = 523    z = 19.244694831352
+dt, Initialdt: 0.0662517 0 
+TopGrid dt = 6.625167e-02     time = 25.418782770976    cycle = 524    z = 19.209519269366
+dt, Initialdt: 0.06629 0 
+TopGrid dt = 6.628998e-02     time = 25.485034444611    cycle = 525    z = 19.174476109603
+dt, Initialdt: 0.0663284 0 
+TopGrid dt = 6.632844e-02     time = 25.551324423908    cycle = 526    z = 19.139564329019
+dt, Initialdt: 0.0663674 0 
+TopGrid dt = 6.636736e-02     time = 25.617652862657    cycle = 527    z = 19.104783061338
+dt, Initialdt: 0.0656473 0 
+TopGrid dt = 6.564729e-02     time = 25.684020221574    cycle = 528    z = 19.070131159768
+dt, Initialdt: 0.0657397 0 
+TopGrid dt = 6.573969e-02     time = 25.749667513256    cycle = 529    z = 19.036001729205
+dt, Initialdt: 0.0643657 0 
+TopGrid dt = 6.436573e-02     time = 25.815407206183    cycle = 530    z = 19.001969281632
+dt, Initialdt: 0.0618686 0 
+TopGrid dt = 6.186858e-02     time = 25.879772941074    cycle = 531    z = 18.968787771258
+dt, Initialdt: 0.0637009 0 
+TopGrid dt = 6.370087e-02     time = 25.941641522237    cycle = 532    z = 18.937022971666
+dt, Initialdt: 0.0643831 0 
+TopGrid dt = 6.438310e-02     time = 26.005342396923    cycle = 533    z = 18.904449088919
+dt, Initialdt: 0.064456 0 
+TopGrid dt = 6.445602e-02     time = 26.069725496822    cycle = 534    z = 18.871661200738
+dt, Initialdt: 0.0646377 0 
+TopGrid dt = 6.463766e-02     time = 26.134181515214    cycle = 535    z = 18.838971092026
+dt, Initialdt: 0.064879 0 
+TopGrid dt = 6.487902e-02     time = 26.198819177157    cycle = 536    z = 18.806323442242
+dt, Initialdt: 0.0650948 0 
+TopGrid dt = 6.509481e-02     time = 26.263698197169    cycle = 537    z = 18.773688572829
+dt, Initialdt: 0.065178 0 
+TopGrid dt = 6.517804e-02     time = 26.328793003992    cycle = 538    z = 18.741079920986
+*** Error in `/work2/11056/zwu/frontera/enzo_gh/data/251110/ic512_b_starnetlibyt/enzo_260427.exe': free(): invalid pointer: 0x0000000008b244b0 ***
+======= Backtrace: =========
+/lib64/libc.so.6(+0x838ee)[0x2b692b47d8ee]
+/work2/11056/zwu/frontera/enzo_gh/data/251110/ic512_b_starnetlibyt/enzo_260427.exe[0x67a504]
+/work2/11056/zwu/frontera/enzo_gh/data/251110/ic512_b_starnetlibyt/enzo_260427.exe[0x4b567e]
+/work2/11056/zwu/frontera/enzo_gh/data/251110/ic512_b_starnetlibyt/enzo_260427.exe[0x7fe009]
+/work2/11056/zwu/frontera/enzo_gh/data/251110/ic512_b_starnetlibyt/enzo_260427.exe[0x4f4c93]
+/work2/11056/zwu/frontera/enzo_gh/data/251110/ic512_b_starnetlibyt/enzo_260427.exe[0x4f4900]
+/work2/11056/zwu/frontera/enzo_gh/data/251110/ic512_b_starnetlibyt/enzo_260427.exe[0x4f4900]
+/work2/11056/zwu/frontera/enzo_gh/data/251110/ic512_b_starnetlibyt/enzo_260427.exe[0x4f4900]
+/work2/11056/zwu/frontera/enzo_gh/data/251110/ic512_b_starnetlibyt/enzo_260427.exe[0x4f4900]
+/work2/11056/zwu/frontera/enzo_gh/data/251110/ic512_b_starnetlibyt/enzo_260427.exe[0x4e282f]
+/work2/11056/zwu/frontera/enzo_gh/data/251110/ic512_b_starnetlibyt/enzo_260427.exe[0x40888f]
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x2b692b41c555]
+/work2/11056/zwu/frontera/enzo_gh/data/251110/ic512_b_starnetlibyt/enzo_260427.exe[0x408139]
+======= Memory map: ========
+00400000-00407000 r--p 00000000 3d8:ad14e 144134959974685995             /work2/11056/zwu/frontera/enzo_gh/data/251110/ic512_b_starnetlibyt/enzo_260427.exe
+00407000-00a02000 r-xp 00007000 3d8:ad14e 144134959974685995             /work2/11056/zwu/frontera/enzo_gh/data/251110/ic512_b_starnetlibyt/enzo_260427.exe
+00a02000-00af4000 r--p 00602000 3d8:ad14e 144134959974685995             /work2/11056/zwu/frontera/enzo_gh/data/251110/ic512_b_starnetlibyt/enzo_260427.exe
+00af4000-00af7000 r--p 006f3000 3d8:ad14e 144134959974685995             /work2/11056/zwu/frontera/enzo_gh/data/251110/ic512_b_starnetlibyt/enzo_260427.exe
+00af7000-00b3c000 rw-p 006f6000 3d8:ad14e 144134959974685995             /work2/11056/zwu/frontera/enzo_gh/data/251110/ic512_b_starnetlibyt/enzo_260427.exe
+00b3c000-05a0c000 rw-p 00000000 00:00 0 
+0602a000-1dafb000 rw-p 00000000 00:00 0                                  [heap]
+2b69256bf000-2b69256e1000 r-xp 00000000 fd:00 402681673                  /usr/lib64/ld-2.17.so
+2b69256e1000-2b69256e3000 rw-p 00000000 00:00 0 
+2b69256e3000-2b69256e6000 r--p 00000000 3d8:ad14e 144134765124010327     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libz.so.1.3.2
+2b69256e6000-2b69256f6000 r-xp 00003000 3d8:ad14e 144134765124010327     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libz.so.1.3.2
+2b69256f6000-2b69256fc000 r--p 00013000 3d8:ad14e 144134765124010327     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libz.so.1.3.2
+2b69256fc000-2b69256fd000 r--p 00019000 3d8:ad14e 144134765124010327     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libz.so.1.3.2
+2b69256fd000-2b69256fe000 rw-p 0001a000 3d8:ad14e 144134765124010327     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libz.so.1.3.2
+2b69256fe000-2b692570e000 rw-p 00000000 00:00 0 
+2b692570e000-2b692570f000 r--s 00500000 00:05 14351                      /dev/infiniband/uverbs0
+2b692570f000-2b6925710000 r--s 00700000 00:05 14351                      /dev/infiniband/uverbs0
+2b6925710000-2b6925711000 -w-s 00900000 00:05 14351                      /dev/infiniband/uverbs0
+2b6925711000-2b6925712000 -w-s 00901000 00:05 14351                      /dev/infiniband/uverbs0
+2b6925712000-2b6925713000 r--s 00500000 00:05 14351                      /dev/infiniband/uverbs0
+2b6925713000-2b6925714000 r--s 00700000 00:05 14351                      /dev/infiniband/uverbs0
+2b6925714000-2b6925715000 -w-s 00900000 00:05 14351                      /dev/infiniband/uverbs0
+2b6925715000-2b6925716000 -w-s 00901000 00:05 14351                      /dev/infiniband/uverbs0
+2b6925716000-2b6925717000 -w-s 00902000 00:05 14351                      /dev/infiniband/uverbs0
+2b6925717000-2b6925718000 rw-s 00800000 00:05 14351                      /dev/infiniband/uverbs0
+2b6925718000-2b6925719000 -w-s 00903000 00:05 14351                      /dev/infiniband/uverbs0
+2b6925719000-2b692571c000 rw-p 00000000 00:00 0 
+2b692571d000-2b6925792000 rw-p 00000000 00:00 0 
+2b6925792000-2b69257a3000 r--p 00000000 3d8:ad14e 144134765124028227     /work2/11056/zwu/frontera/enzo_gh/libyt_dev/libyt_pristine/install/lib/libyt.so.0.5.0
+2b69257a3000-2b692581e000 r-xp 00011000 3d8:ad14e 144134765124028227     /work2/11056/zwu/frontera/enzo_gh/libyt_dev/libyt_pristine/install/lib/libyt.so.0.5.0
+2b692581e000-2b692583b000 r--p 0008c000 3d8:ad14e 144134765124028227     /work2/11056/zwu/frontera/enzo_gh/libyt_dev/libyt_pristine/install/lib/libyt.so.0.5.0
+2b692583b000-2b692583c000 r--p 000a8000 3d8:ad14e 144134765124028227     /work2/11056/zwu/frontera/enzo_gh/libyt_dev/libyt_pristine/install/lib/libyt.so.0.5.0
+2b692583c000-2b692583d000 rw-p 000a9000 3d8:ad14e 144134765124028227     /work2/11056/zwu/frontera/enzo_gh/libyt_dev/libyt_pristine/install/lib/libyt.so.0.5.0
+2b692583d000-2b692583e000 rw-p 00000000 00:00 0 
+2b692583e000-2b6925842000 r--p 00000000 3d8:ad14e 144134765124008883     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libgcc_s.so.1
+2b6925842000-2b6925865000 r-xp 00004000 3d8:ad14e 144134765124008883     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libgcc_s.so.1
+2b6925865000-2b6925869000 r--p 00027000 3d8:ad14e 144134765124008883     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libgcc_s.so.1
+2b6925869000-2b692586a000 r--p 0002a000 3d8:ad14e 144134765124008883     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libgcc_s.so.1
+2b692586a000-2b692586b000 rw-p 0002b000 3d8:ad14e 144134765124008883     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libgcc_s.so.1
+2b692586b000-2b692586c000 r--p 00000000 fd:00 274877723                  /opt/apps/intel19/hdf5/1.10.4/x86_64/lib/libsz.so.2.0.0
+2b692586c000-2b692587d000 r-xp 00001000 fd:00 274877723                  /opt/apps/intel19/hdf5/1.10.4/x86_64/lib/libsz.so.2.0.0
+2b692587d000-2b692587f000 r--p 00012000 fd:00 274877723                  /opt/apps/intel19/hdf5/1.10.4/x86_64/lib/libsz.so.2.0.0
+2b692587f000-2b6925880000 r--p 00013000 fd:00 274877723                  /opt/apps/intel19/hdf5/1.10.4/x86_64/lib/libsz.so.2.0.0
+2b6925880000-2b6925881000 rw-p 00014000 fd:00 274877723                  /opt/apps/intel19/hdf5/1.10.4/x86_64/lib/libsz.so.2.0.0
+2b6925881000-2b6925889000 rw-p 00000000 00:00 0 
+2b6925889000-2b692588c000 r--p 00000000 3d8:ad14e 144134765124008903     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libquadmath.so.0.0.0
+2b692588c000-2b69258b8000 r-xp 00003000 3d8:ad14e 144134765124008903     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libquadmath.so.0.0.0
+2b69258b8000-2b69258cf000 r--p 0002f000 3d8:ad14e 144134765124008903     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libquadmath.so.0.0.0
+2b69258cf000-2b69258d0000 r--p 00045000 3d8:ad14e 144134765124008903     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libquadmath.so.0.0.0
+2b69258d0000-2b69258d1000 rw-p 00046000 3d8:ad14e 144134765124008903     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libquadmath.so.0.0.0
+2b69258d1000-2b69258d9000 rw-p 00000000 00:00 0 
+2b69258d9000-2b69258e0000 r--s 00000000 fd:00 269628327                  /usr/lib64/gconv/gconv-modules.cache
+2b69258e0000-2b69258e1000 r--p 00021000 fd:00 402681673                  /usr/lib64/ld-2.17.so
+2b69258e1000-2b69258e2000 rw-p 00022000 fd:00 402681673                  /usr/lib64/ld-2.17.so
+2b69258e2000-2b69258e3000 rw-p 00000000 00:00 0 
+2b69258e3000-2b692592c000 r--p 00000000 fd:00 288862942                  /opt/apps/intel19/hdf5/1.10.4/x86_64/lib/libhdf5.so.103.0.0
+2b692592c000-2b6925c4e000 r-xp 00049000 fd:00 288862942                  /opt/apps/intel19/hdf5/1.10.4/x86_64/lib/libhdf5.so.103.0.0
+2b6925c4e000-2b6925d64000 r--p 0036b000 fd:00 288862942                  /opt/apps/intel19/hdf5/1.10.4/x86_64/lib/libhdf5.so.103.0.0
+2b6925d64000-2b6925d65000 ---p 00481000 fd:00 288862942                  /opt/apps/intel19/hdf5/1.10.4/x86_64/lib/libhdf5.so.103.0.0
+2b6925d65000-2b6925d6f000 r--p 00481000 fd:00 288862942                  /opt/apps/intel19/hdf5/1.10.4/x86_64/lib/libhdf5.so.103.0.0
+2b6925d6f000-2b6925d79000 rw-p 0048b000 fd:00 288862942                  /opt/apps/intel19/hdf5/1.10.4/x86_64/lib/libhdf5.so.103.0.0
+2b6925d79000-2b6925d7c000 rw-p 00000000 00:00 0 
+2b6925d7c000-2b6925e7d000 r-xp 00000000 fd:00 402681688                  /usr/lib64/libm-2.17.so
+2b6925e7d000-2b692607c000 ---p 00101000 fd:00 402681688                  /usr/lib64/libm-2.17.so
+2b692607c000-2b692607d000 r--p 00100000 fd:00 402681688                  /usr/lib64/libm-2.17.so
+2b692607d000-2b692607e000 rw-p 00101000 fd:00 402681688                  /usr/lib64/libm-2.17.so
+2b692607e000-2b69261b8000 r-xp 00000000 fd:00 269112886                  /opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libifcore.so.5
+2b69261b8000-2b69263b7000 ---p 0013a000 fd:00 269112886                  /opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libifcore.so.5
+2b69263b7000-2b69263ba000 r--p 00139000 fd:00 269112886                  /opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libifcore.so.5
+2b69263ba000-2b69263bd000 rw-p 0013c000 fd:00 269112886                  /opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libifcore.so.5
+2b69263bd000-2b69263db000 rw-p 00000000 00:00 0 
+2b69263db000-2b6926595000 r-xp 00000000 fd:00 270867507                  /opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libiomp5.so
+2b6926595000-2b6926795000 ---p 001ba000 fd:00 270867507                  /opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libiomp5.so
+2b6926795000-2b6926798000 r--p 001ba000 fd:00 270867507                  /opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libiomp5.so
+2b6926798000-2b69267a2000 rw-p 001bd000 fd:00 270867507                  /opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libiomp5.so
+2b69267a2000-2b69267d0000 rw-p 00000000 00:00 0 
+2b69267d0000-2b69267f4000 r--p 00000000 3d8:ad14e 144134765124016352     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libgfortran.so.5.0.0
+2b69267f4000-2b6926aed000 r-xp 00024000 3d8:ad14e 144134765124016352     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libgfortran.so.5.0.0
+2b6926aed000-2b6926b24000 r--p 0031d000 3d8:ad14e 144134765124016352     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libgfortran.so.5.0.0
+2b6926b24000-2b6926b25000 r--p 00354000 3d8:ad14e 144134765124016352     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libgfortran.so.5.0.0
+2b6926b25000-2b6926b27000 rw-p 00355000 3d8:ad14e 144134765124016352     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libgfortran.so.5.0.0
+2b6926b27000-2b6926f31000 r-xp 00000000 fd:00 276155326                  /opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libimf.so
+2b6926f31000-2b6927131000 ---p 0040a000 fd:00 276155326                  /opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libimf.so
+2b6927131000-2b6927138000 r--p 0040a000 fd:00 276155326                  /opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libimf.so
+2b6927138000-2b69271ac000 rw-p 00411000 fd:00 276155326                  /opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libimf.so
+2b69271ac000-2b69289b4000 r-xp 00000000 fd:00 276155347                  /opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libsvml.so
+2b69289b4000-2b6928bb4000 ---p 01808000 fd:00 276155347                  /opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libsvml.so
+2b6928bb4000-2b6928c04000 r--p 01808000 fd:00 276155347                  /opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libsvml.so
+2b6928c04000-2b6928c38000 rw-p 01858000 fd:00 276155347                  /opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libsvml.so
+2b6928c38000-2b6928d90000 r-xp 00000000 fd:00 276155338                  /opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libirng.so
+2b6928d90000-2b6928f8f000 ---p 00158000 fd:00 276155338                  /opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libirng.so
+2b6928f8f000-2b6928f90000 r--p 00157000 fd:00 276155338                  /opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libirng.so
+2b6928f90000-2b6928fa3000 rw-p 00158000 fd:00 276155338                  /opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libirng.so
+2b6928fa3000-2b6929011000 r-xp 00000000 fd:00 276155328                  /opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libintlc.so.5
+2b6929011000-2b6929211000 ---p 0006e000 fd:00 276155328                  /opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libintlc.so.5
+2b6929211000-2b6929212000 r--p 0006e000 fd:00 276155328                  /opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libintlc.so.5
+2b6929212000-2b6929213000 rw-p 0006f000 fd:00 276155328                  /opt/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libintlc.so.5
+2b6929213000-2b6929215000 rw-p 00000000 00:00 0 
+2b6929215000-2b692921c000 r-xp 00000000 fd:00 402681719                  /usr/lib64/librt-2.17.so
+2b692921c000-2b692941b000 ---p 00007000 fd:00 402681719                  /usr/lib64/librt-2.17.so
+2b692941b000-2b692941c000 r--p 00006000 fd:00 402681719                  /usr/lib64/librt-2.17.so
+2b692941c000-2b692941d000 rw-p 00007000 fd:00 402681719                  /usr/lib64/librt-2.17.so
+2b692941d000-2b6929434000 r-xp 00000000 fd:00 402681713                  /usr/lib64/libpthread-2.17.so
+2b6929434000-2b6929633000 ---p 00017000 fd:00 402681713                  /usr/lib64/libpthread-2.17.so
+2b6929633000-2b6929634000 r--p 00016000 fd:00 402681713                  /usr/lib64/libpthread-2.17.so
+2b6929634000-2b6929635000 rw-p 00017000 fd:00 402681713                  /usr/lib64/libpthread-2.17.so
+2b6929635000-2b6929639000 rw-p 00000000 00:00 0 
+2b6929639000-2b6929657000 r-xp 00000000 fd:00 405718028                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/lib/libmpicxx.so.12.0.0
+2b6929657000-2b6929856000 ---p 0001e000 fd:00 405718028                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/lib/libmpicxx.so.12.0.0
+2b6929856000-2b6929857000 r--p 0001d000 fd:00 405718028                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/lib/libmpicxx.so.12.0.0
+2b6929857000-2b6929859000 rw-p 0001e000 fd:00 405718028                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/lib/libmpicxx.so.12.0.0
+2b6929859000-2b69299eb000 r-xp 00000000 fd:00 405718032                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/lib/libmpifort.so.12.0.0
+2b69299eb000-2b6929beb000 ---p 00192000 fd:00 405718032                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/lib/libmpifort.so.12.0.0
+2b6929beb000-2b6929bef000 r--p 00192000 fd:00 405718032                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/lib/libmpifort.so.12.0.0
+2b6929bef000-2b6929bf3000 rw-p 00196000 fd:00 405718032                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/lib/libmpifort.so.12.0.0
+2b6929bf3000-2b6929c17000 rw-p 00000000 00:00 0 
+2b6929c17000-2b692aa4c000 r-xp 00000000 fd:00 325413137                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/lib/release/libmpi.so.12.0.0
+2b692aa4c000-2b692ac4c000 ---p 00e35000 fd:00 325413137                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/lib/release/libmpi.so.12.0.0
+2b692ac4c000-2b692ac5d000 r--p 00e35000 fd:00 325413137                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/lib/release/libmpi.so.12.0.0
+2b692ac5d000-2b692ac6e000 rw-p 00e46000 fd:00 325413137                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/lib/release/libmpi.so.12.0.0
+2b692ac6e000-2b692af77000 rw-p 00000000 00:00 0 
+2b692af77000-2b692af79000 r-xp 00000000 fd:00 402681686                  /usr/lib64/libdl-2.17.so
+2b692af79000-2b692b179000 ---p 00002000 fd:00 402681686                  /usr/lib64/libdl-2.17.so
+2b692b179000-2b692b17a000 r--p 00002000 fd:00 402681686                  /usr/lib64/libdl-2.17.so
+2b692b17a000-2b692b17b000 rw-p 00003000 fd:00 402681686                  /usr/lib64/libdl-2.17.so
+2b692b17b000-2b692b225000 r--p 00000000 3d8:ad14e 144134765124008209     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libstdc++.so.6.0.34
+2b692b225000-2b692b356000 r-xp 000aa000 3d8:ad14e 144134765124008209     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libstdc++.so.6.0.34
+2b692b356000-2b692b3e4000 r--p 001db000 3d8:ad14e 144134765124008209     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libstdc++.so.6.0.34
+2b692b3e4000-2b692b3f3000 r--p 00268000 3d8:ad14e 144134765124008209     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libstdc++.so.6.0.34
+2b692b3f3000-2b692b3f6000 rw-p 00277000 3d8:ad14e 144134765124008209     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libstdc++.so.6.0.34
+2b692b3f6000-2b692b3fa000 rw-p 00000000 00:00 0 
+2b692b3fa000-2b692b4ef000 r-xp 00000000 fd:00 402681680                  /usr/lib64/libc-2.17.so
+2b692b4ef000-2b692b4f0000 r-xp 000f5000 fd:00 402681680                  /usr/lib64/libc-2.17.so
+2b692b4f0000-2b692b4f2000 r-xp 000f6000 fd:00 402681680                  /usr/lib64/libc-2.17.so
+2b692b4f2000-2b692b4f4000 r-xp 000f8000 fd:00 402681680                  /usr/lib64/libc-2.17.so
+2b692b4f4000-2b692b4f9000 r-xp 000fa000 fd:00 402681680                  /usr/lib64/libc-2.17.so
+2b692b4f9000-2b692b4fb000 r-xp 000ff000 fd:00 402681680                  /usr/lib64/libc-2.17.so
+2b692b4fb000-2b692b5be000 r-xp 00101000 fd:00 402681680                  /usr/lib64/libc-2.17.so
+2b692b5be000-2b692b7bd000 ---p 001c4000 fd:00 402681680                  /usr/lib64/libc-2.17.so
+2b692b7bd000-2b692b7c1000 r--p 001c3000 fd:00 402681680                  /usr/lib64/libc-2.17.so
+2b692b7c1000-2b692b7c3000 rw-p 001c7000 fd:00 402681680                  /usr/lib64/libc-2.17.so
+2b692b7c3000-2b692b7c8000 rw-p 00000000 00:00 0 
+2b692b7c8000-2b692b84e000 r--p 00000000 3d8:ad14e 144134765124014084     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libpython3.13.so.1.0
+2b692b84e000-2b692baf6000 r-xp 00086000 3d8:ad14e 144134765124014084     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libpython3.13.so.1.0
+2b692baf6000-2b692bc73000 r--p 0032e000 3d8:ad14e 144134765124014084     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libpython3.13.so.1.0
+2b692bc73000-2b692bcc5000 r--p 004aa000 3d8:ad14e 144134765124014084     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libpython3.13.so.1.0
+2b692bcc5000-2b692bd46000 rw-p 004fc000 3d8:ad14e 144134765124014084     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libpython3.13.so.1.0
+2b692bd46000-2b692bdbf000 rw-p 00000000 00:00 0 
+2b692bdbf000-2b692bdfb000 r-xp 00000000 fd:00 402682755                  /usr/lib64/libreadline.so.6.2
+2b692bdfb000-2b692bffb000 ---p 0003c000 fd:00 402682755                  /usr/lib64/libreadline.so.6.2
+2b692bffb000-2b692bffd000 r--p 0003c000 fd:00 402682755                  /usr/lib64/libreadline.so.6.2
+2b692bffd000-2b692c003000 rw-p 0003e000 fd:00 402682755                  /usr/lib64/libreadline.so.6.2
+2b692c003000-2b692c005000 rw-p 00000000 00:00 0 
+2b692c005000-2b692c044000 r-xp 00000000 fd:00 325413143                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/libfabric.so.1
+2b692c044000-2b692c244000 ---p 0003f000 fd:00 325413143                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/libfabric.so.1
+2b692c244000-2b692c247000 rw-p 0003f000 fd:00 325413143                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/libfabric.so.1
+2b692c247000-2b692c249000 r-xp 00000000 fd:00 402681891                  /usr/lib64/libutil-2.17.so
+2b692c249000-2b692c448000 ---p 00002000 fd:00 402681891                  /usr/lib64/libutil-2.17.so
+2b692c448000-2b692c449000 r--p 00001000 fd:00 402681891                  /usr/lib64/libutil-2.17.so
+2b692c449000-2b692c44a000 rw-p 00002000 fd:00 402681891                  /usr/lib64/libutil-2.17.so
+2b692c44a000-2b692c46f000 r-xp 00000000 fd:00 402682378                  /usr/lib64/libtinfo.so.5.9
+2b692c46f000-2b692c66f000 ---p 00025000 fd:00 402682378                  /usr/lib64/libtinfo.so.5.9
+2b692c66f000-2b692c673000 r--p 00025000 fd:00 402682378                  /usr/lib64/libtinfo.so.5.9
+2b692c673000-2b692c674000 rw-p 00029000 fd:00 402682378                  /usr/lib64/libtinfo.so.5.9
+2b692c674000-2b692c67e000 r-xp 00000000 fd:00 408281322                  /usr/lib64/libnuma.so.1.0.0
+2b692c67e000-2b692c87e000 ---p 0000a000 fd:00 408281322                  /usr/lib64/libnuma.so.1.0.0
+2b692c87e000-2b692c87f000 r--p 0000a000 fd:00 408281322                  /usr/lib64/libnuma.so.1.0.0
+2b692c87f000-2b692c880000 rw-p 0000b000 fd:00 408281322                  /usr/lib64/libnuma.so.1.0.0
+2b692c880000-2b692ca81000 rw-s 00000000 00:13 50409608                   /dev/shm/Intel_MPI_3tNO6X (deleted)
+2b692ca81000-2b696ca81000 rw-s 00201000 00:13 50409608                   /dev/shm/Intel_MPI_3tNO6X (deleted)
+2b696ca81000-2b69fb118000 rw-s 40201000 00:13 50409608                   /dev/shm/Intel_MPI_3tNO6X (deleted)
+2b69fb118000-2b69fb165000 r-xp 00000000 fd:00 405718055                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/libverbs-fi.so
+2b69fb165000-2b69fb364000 ---p 0004d000 fd:00 405718055                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/libverbs-fi.so
+2b69fb364000-2b69fb368000 rw-p 0004c000 fd:00 405718055                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/libverbs-fi.so
+2b69fb368000-2b69fb36c000 rw-p 00000000 00:00 0 
+2b69fb36c000-2b69fb36e000 r--p 00000000 3d8:ad14e 144134765124013464     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/grp.cpython-313-x86_64-linux-gnu.so
+2b69fb36e000-2b69fb36f000 r-xp 00002000 3d8:ad14e 144134765124013464     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/grp.cpython-313-x86_64-linux-gnu.so
+2b69fb36f000-2b69fb370000 r--p 00003000 3d8:ad14e 144134765124013464     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/grp.cpython-313-x86_64-linux-gnu.so
+2b69fb370000-2b69fb371000 r--p 00003000 3d8:ad14e 144134765124013464     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/grp.cpython-313-x86_64-linux-gnu.so
+2b69fb371000-2b69fb372000 rw-p 00004000 3d8:ad14e 144134765124013464     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/grp.cpython-313-x86_64-linux-gnu.so
+2b69fb372000-2b69fb376000 r--p 00000000 3d8:ad14e 144134765124012639     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/math.cpython-313-x86_64-linux-gnu.so
+2b69fb376000-2b69fb37f000 r-xp 00004000 3d8:ad14e 144134765124012639     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/math.cpython-313-x86_64-linux-gnu.so
+2b69fb37f000-2b69fb384000 r--p 0000d000 3d8:ad14e 144134765124012639     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/math.cpython-313-x86_64-linux-gnu.so
+2b69fb384000-2b69fb385000 r--p 00012000 3d8:ad14e 144134765124012639     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/math.cpython-313-x86_64-linux-gnu.so
+2b69fb385000-2b69fb386000 rw-p 00013000 3d8:ad14e 144134765124012639     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/math.cpython-313-x86_64-linux-gnu.so
+2b69fb387000-2b69fb39f000 r-xp 00000000 fd:00 403392507                  /usr/lib64/librdmacm.so.1.3.43.0
+2b69fb39f000-2b69fb59e000 ---p 00018000 fd:00 403392507                  /usr/lib64/librdmacm.so.1.3.43.0
+2b69fb59e000-2b69fb59f000 r--p 00017000 fd:00 403392507                  /usr/lib64/librdmacm.so.1.3.43.0
+2b69fb59f000-2b69fb5a0000 rw-p 00018000 fd:00 403392507                  /usr/lib64/librdmacm.so.1.3.43.0
+2b69fb5a0000-2b69fb5a1000 rw-p 00000000 00:00 0 
+2b69fb5a1000-2b69fb5bf000 r-xp 00000000 fd:00 402868793                  /usr/lib64/libibverbs.so.1.14.43.0
+2b69fb5bf000-2b69fb7be000 ---p 0001e000 fd:00 402868793                  /usr/lib64/libibverbs.so.1.14.43.0
+2b69fb7be000-2b69fb7bf000 r--p 0001d000 fd:00 402868793                  /usr/lib64/libibverbs.so.1.14.43.0
+2b69fb7bf000-2b69fb7c0000 rw-p 0001e000 fd:00 402868793                  /usr/lib64/libibverbs.so.1.14.43.0
+2b69fb7c0000-2b69fb7de000 r-xp 00000000 fd:00 402766350                  /usr/lib64/libnl-3.so.200.23.0
+2b69fb7de000-2b69fb9de000 ---p 0001e000 fd:00 402766350                  /usr/lib64/libnl-3.so.200.23.0
+2b69fb9de000-2b69fb9e0000 r--p 0001e000 fd:00 402766350                  /usr/lib64/libnl-3.so.200.23.0
+2b69fb9e0000-2b69fb9e1000 rw-p 00020000 fd:00 402766350                  /usr/lib64/libnl-3.so.200.23.0
+2b69fb9e1000-2b69fba45000 r-xp 00000000 fd:00 402766357                  /usr/lib64/libnl-route-3.so.200.23.0
+2b69fba45000-2b69fbc44000 ---p 00064000 fd:00 402766357                  /usr/lib64/libnl-route-3.so.200.23.0
+2b69fbc44000-2b69fbc47000 r--p 00063000 fd:00 402766357                  /usr/lib64/libnl-route-3.so.200.23.0
+2b69fbc47000-2b69fbc4c000 rw-p 00066000 fd:00 402766357                  /usr/lib64/libnl-route-3.so.200.23.0
+2b69fbc4c000-2b69fbc4e000 rw-p 00000000 00:00 0 
+2b69fbc4e000-2b69fbcbe000 r-xp 00000000 fd:00 402880394                  /usr/lib64/libmlx5.so.1.24.43.0
+2b69fbcbe000-2b69fbebe000 ---p 00070000 fd:00 402880394                  /usr/lib64/libmlx5.so.1.24.43.0
+2b69fbebe000-2b69fbebf000 r--p 00070000 fd:00 402880394                  /usr/lib64/libmlx5.so.1.24.43.0
+2b69fbebf000-2b69fbec0000 rw-p 00071000 fd:00 402880394                  /usr/lib64/libmlx5.so.1.24.43.0
+2b69fbec0000-2b69fbf05000 rw-p 00000000 00:00 0 
+2b69fbf05000-2b69fbf3f000 r-xp 00000000 fd:00 405718054                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/libtcp-fi.so
+2b69fbf3f000-2b69fc13f000 ---p 0003a000 fd:00 405718054                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/libtcp-fi.so
+2b69fc13f000-2b69fc142000 rw-p 0003a000 fd:00 405718054                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/libtcp-fi.so
+2b69fc142000-2b69fc194000 r-xp 00000000 fd:00 405718053                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/libsockets-fi.so
+2b69fc194000-2b69fc394000 ---p 00052000 fd:00 405718053                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/libsockets-fi.so
+2b69fc394000-2b69fc397000 rw-p 00052000 fd:00 405718053                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/libsockets-fi.so
+2b69fc397000-2b69fc3d4000 r-xp 00000000 fd:00 405718052                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/libshm-fi.so
+2b69fc3d4000-2b69fc5d3000 ---p 0003d000 fd:00 405718052                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/libshm-fi.so
+2b69fc5d3000-2b69fc5d6000 rw-p 0003c000 fd:00 405718052                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/libshm-fi.so
+2b69fc5d6000-2b69fc621000 r-xp 00000000 fd:00 405718051                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/librxm-fi.so
+2b69fc621000-2b69fc821000 ---p 0004b000 fd:00 405718051                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/librxm-fi.so
+2b69fc821000-2b69fc824000 rw-p 0004b000 fd:00 405718051                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/librxm-fi.so
+2b69fc824000-2b69fc85e000 r-xp 00000000 fd:00 405718047                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/libmlx-fi.so
+2b69fc85e000-2b69fca5d000 ---p 0003a000 fd:00 405718047                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/libmlx-fi.so
+2b69fca5d000-2b69fca60000 rw-p 00039000 fd:00 405718047                  /opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/libfabric/lib/prov/libmlx-fi.so
+2b69fca60000-2b69fcb1a000 r-xp 00000000 fd:00 403392482                  /usr/lib64/libucp.so.0.0.0
+2b69fcb1a000-2b69fcd1a000 ---p 000ba000 fd:00 403392482                  /usr/lib64/libucp.so.0.0.0
+2b69fcd1a000-2b69fcd1b000 r--p 000ba000 fd:00 403392482                  /usr/lib64/libucp.so.0.0.0
+2b69fcd1b000-2b69fcd22000 rw-p 000bb000 fd:00 403392482                  /usr/lib64/libucp.so.0.0.0
+2b69fcd22000-2b69fcd55000 r-xp 00000000 fd:00 403392496                  /usr/lib64/libuct.so.0.0.0
+2b69fcd55000-2b69fcf54000 ---p 00033000 fd:00 403392496                  /usr/lib64/libuct.so.0.0.0
+2b69fcf54000-2b69fcf55000 r--p 00032000 fd:00 403392496                  /usr/lib64/libuct.so.0.0.0
+2b69fcf55000-2b69fcf59000 rw-p 00033000 fd:00 403392496                  /usr/lib64/libuct.so.0.0.0
+2b69fcf59000-2b69fcf5a000 rw-p 00000000 00:00 0 
+2b69fcf5a000-2b69fd0b7000 r-xp 00000000 fd:00 403392486                  /usr/lib64/libucs.so.0.0.0
+2b69fd0b7000-2b69fd2b7000 ---p 0015d000 fd:00 403392486                  /usr/lib64/libucs.so.0.0.0
+2b69fd2b7000-2b69fd2ca000 r--p 0015d000 fd:00 403392486                  /usr/lib64/libucs.so.0.0.0
+2b69fd2ca000-2b69fd2d2000 rw-p 00170000 fd:00 403392486                  /usr/lib64/libucs.so.0.0.0
+2b69fd2d2000-2b69fd2db000 rw-p 00000000 00:00 0 
+2b69fd2db000-2b69fd2f1000 r-xp 00000000 fd:00 403392418                  /usr/lib64/libucm.so.0.0.0
+2b69fd2f1000-2b69fd4f1000 ---p 00016000 fd:00 403392418                  /usr/lib64/libucm.so.0.0.0
+2b69fd4f1000-2b69fd4f2000 r--p 00016000 fd:00 403392418                  /usr/lib64/libucm.so.0.0.0
+2b69fd4f2000-2b69fd4f3000 rw-p 00017000 fd:00 403392418                  /usr/lib64/libucm.so.0.0.0
+2b69fd4f3000-2b69fd517000 rw-p 00000000 00:00 0 
+2b69fd517000-2b69fd597000 r-xp 00000000 fd:00 269549470                  /usr/lib64/ucx/libuct_ib.so.0.0.0
+2b69fd597000-2b69fd796000 ---p 00080000 fd:00 269549470                  /usr/lib64/ucx/libuct_ib.so.0.0.0
+2b69fd796000-2b69fd797000 r--p 0007f000 fd:00 269549470                  /usr/lib64/ucx/libuct_ib.so.0.0.0
+2b69fd797000-2b69fd79d000 rw-p 00080000 fd:00 269549470                  /usr/lib64/ucx/libuct_ib.so.0.0.0
+2b69fd79d000-2b69fd7a8000 r-xp 00000000 fd:00 269662360                  /usr/lib64/ucx/libuct_rdmacm.so.0.0.0
+2b69fd7a8000-2b69fd9a7000 ---p 0000b000 fd:00 269662360                  /usr/lib64/ucx/libuct_rdmacm.so.0.0.0
+2b69fd9a7000-2b69fd9a8000 r--p 0000a000 fd:00 269662360                  /usr/lib64/ucx/libuct_rdmacm.so.0.0.0
+2b69fd9a8000-2b69fd9a9000 rw-p 0000b000 fd:00 269662360                  /usr/lib64/ucx/libuct_rdmacm.so.0.0.0
+2b69fd9a9000-2b69fd9ad000 r-xp 00000000 fd:00 269662892                  /usr/lib64/ucx/libuct_cma.so.0.0.0
+2b69fd9ad000-2b69fdbac000 ---p 00004000 fd:00 269662892                  /usr/lib64/ucx/libuct_cma.so.0.0.0
+2b69fdbac000-2b69fdbad000 r--p 00003000 fd:00 269662892                  /usr/lib64/ucx/libuct_cma.so.0.0.0
+2b69fdbad000-2b69fdbae000 rw-p 00004000 fd:00 269662892                  /usr/lib64/ucx/libuct_cma.so.0.0.0
+2b69fdbae000-2b69fdbb3000 r-xp 00000000 fd:00 269760956                  /usr/lib64/ucx/libuct_knem.so.0.0.0
+2b69fdbb3000-2b69fddb2000 ---p 00005000 fd:00 269760956                  /usr/lib64/ucx/libuct_knem.so.0.0.0
+2b69fddb2000-2b69fddb3000 r--p 00004000 fd:00 269760956                  /usr/lib64/ucx/libuct_knem.so.0.0.0
+2b69fddb3000-2b69fddb4000 rw-p 00005000 fd:00 269760956                  /usr/lib64/ucx/libuct_knem.so.0.0.0
+2b69fddb4000-2b69fddb8000 r-xp 00000000 fd:00 269662340                  /usr/lib64/ucx/libuct_xpmem.so.0.0.0
+2b69fddb8000-2b69fdfb7000 ---p 00004000 fd:00 269662340                  /usr/lib64/ucx/libuct_xpmem.so.0.0.0
+2b69fdfb7000-2b69fdfb8000 r--p 00003000 fd:00 269662340                  /usr/lib64/ucx/libuct_xpmem.so.0.0.0
+2b69fdfb8000-2b69fdfb9000 rw-p 00004000 fd:00 269662340                  /usr/lib64/ucx/libuct_xpmem.so.0.0.0
+2b69fdfb9000-2b69fdfba000 r-xp 00000000 fd:00 403393016                  /usr/lib64/libxpmem.so.0.0.0
+2b69fdfba000-2b69fe1ba000 ---p 00001000 fd:00 403393016                  /usr/lib64/libxpmem.so.0.0.0
+2b69fe1ba000-2b69fe1bb000 r--p 00001000 fd:00 403393016                  /usr/lib64/libxpmem.so.0.0.0
+2b69fe1bb000-2b69fe1bc000 rw-p 00002000 fd:00 403393016                  /usr/lib64/libxpmem.so.0.0.0
+2b69fe1bc000-2b69fe1fe000 rw-p 00000000 00:00 0 
+2b69fe1fe000-2b69fe1ff000 ---p 00000000 00:00 0 
+2b69fe1ff000-2b69fe800000 rw-p 00000000 00:00 0 
+2b69fe800000-2b6a00e00000 rw-p 00000000 00:00 0 
+2b6a00e00000-2b6a01344000 rw-p 00000000 00:00 0 
+2b6a01344000-2b6a01345000 r--p 00000000 3d8:ad14e 144134765124012357     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_contextvars.cpython-313-x86_64-linux-gnu.so
+2b6a01345000-2b6a01346000 r-xp 00001000 3d8:ad14e 144134765124012357     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_contextvars.cpython-313-x86_64-linux-gnu.so
+2b6a01346000-2b6a01347000 r--p 00002000 3d8:ad14e 144134765124012357     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_contextvars.cpython-313-x86_64-linux-gnu.so
+2b6a01347000-2b6a01348000 r--p 00002000 3d8:ad14e 144134765124012357     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_contextvars.cpython-313-x86_64-linux-gnu.so
+2b6a01348000-2b6a01349000 rw-p 00003000 3d8:ad14e 144134765124012357     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_contextvars.cpython-313-x86_64-linux-gnu.so
+2b6a0134a000-2b6a01400000 rw-p 00000000 00:00 0 
+2b6a01400000-2b6a01e00000 rw-p 00000000 00:00 0 
+2b6a01e00000-2b6a020b1000 rw-p 00000000 00:00 0 
+2b6a020b1000-2b6a020b8000 r--p 00000000 3d8:ad14e 144134765124012987     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_ctypes.cpython-313-x86_64-linux-gnu.so
+2b6a020b8000-2b6a020c8000 r-xp 00007000 3d8:ad14e 144134765124012987     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_ctypes.cpython-313-x86_64-linux-gnu.so
+2b6a020c8000-2b6a020cf000 r--p 00017000 3d8:ad14e 144134765124012987     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_ctypes.cpython-313-x86_64-linux-gnu.so
+2b6a020cf000-2b6a020d0000 r--p 0001e000 3d8:ad14e 144134765124012987     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_ctypes.cpython-313-x86_64-linux-gnu.so
+2b6a020d0000-2b6a020d2000 rw-p 0001f000 3d8:ad14e 144134765124012987     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_ctypes.cpython-313-x86_64-linux-gnu.so
+2b6a020d2000-2b6a020d4000 r--p 00000000 3d8:ad14e 144134765124010366     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libffi.so.8.2.0
+2b6a020d4000-2b6a020da000 r-xp 00002000 3d8:ad14e 144134765124010366     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libffi.so.8.2.0
+2b6a020da000-2b6a020dc000 r--p 00008000 3d8:ad14e 144134765124010366     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libffi.so.8.2.0
+2b6a020dc000-2b6a020dd000 r--p 00009000 3d8:ad14e 144134765124010366     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libffi.so.8.2.0
+2b6a020dd000-2b6a020de000 rw-p 0000a000 3d8:ad14e 144134765124010366     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libffi.so.8.2.0
+2b6a020e4000-2b6a020ea000 r--p 00000000 3d8:ad14e 144134765124012662     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_datetime.cpython-313-x86_64-linux-gnu.so
+2b6a020ea000-2b6a020fd000 r-xp 00006000 3d8:ad14e 144134765124012662     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_datetime.cpython-313-x86_64-linux-gnu.so
+2b6a020fd000-2b6a02103000 r--p 00019000 3d8:ad14e 144134765124012662     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_datetime.cpython-313-x86_64-linux-gnu.so
+2b6a02103000-2b6a02104000 r--p 0001f000 3d8:ad14e 144134765124012662     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_datetime.cpython-313-x86_64-linux-gnu.so
+2b6a02104000-2b6a02107000 rw-p 00020000 3d8:ad14e 144134765124012662     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_datetime.cpython-313-x86_64-linux-gnu.so
+2b6a02107000-2b6a02109000 r--p 00000000 3d8:ad14e 144134765124013245     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_opcode.cpython-313-x86_64-linux-gnu.so
+2b6a02109000-2b6a0210b000 r-xp 00002000 3d8:ad14e 144134765124013245     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_opcode.cpython-313-x86_64-linux-gnu.so
+2b6a0210b000-2b6a0210c000 r--p 00004000 3d8:ad14e 144134765124013245     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_opcode.cpython-313-x86_64-linux-gnu.so
+2b6a0210c000-2b6a0210d000 r--p 00005000 3d8:ad14e 144134765124013245     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_opcode.cpython-313-x86_64-linux-gnu.so
+2b6a0210d000-2b6a0210e000 rw-p 00006000 3d8:ad14e 144134765124013245     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_opcode.cpython-313-x86_64-linux-gnu.so
+2b6a02111000-2b6a022c9000 rw-p 00000000 00:00 0 
+2b6a022fd000-2b6a02301000 r--p 00000000 3d8:ad14e 144134765124012947     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_struct.cpython-313-x86_64-linux-gnu.so
+2b6a02301000-2b6a02306000 r-xp 00004000 3d8:ad14e 144134765124012947     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_struct.cpython-313-x86_64-linux-gnu.so
+2b6a02306000-2b6a0230a000 r--p 00009000 3d8:ad14e 144134765124012947     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_struct.cpython-313-x86_64-linux-gnu.so
+2b6a0230a000-2b6a0230b000 r--p 0000c000 3d8:ad14e 144134765124012947     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_struct.cpython-313-x86_64-linux-gnu.so
+2b6a0230b000-2b6a0230c000 rw-p 0000d000 3d8:ad14e 144134765124012947     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_struct.cpython-313-x86_64-linux-gnu.so
+2b6a02319000-2b6a10283000 rw-p 00000000 00:00 0 
+2b6a107dd000-2b6a11cbd000 rw-p 00000000 00:00 0 
+2b6a12535000-2b6a1255a000 rw-p 00000000 00:00 0 
+2b6a12683000-2b6a12688000 r--p 00000000 3d8:ad14e 144134765124010905     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_pickle.cpython-313-x86_64-linux-gnu.so
+2b6a12688000-2b6a1269a000 r-xp 00005000 3d8:ad14e 144134765124010905     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_pickle.cpython-313-x86_64-linux-gnu.so
+2b6a1269a000-2b6a126a0000 r--p 00017000 3d8:ad14e 144134765124010905     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_pickle.cpython-313-x86_64-linux-gnu.so
+2b6a126a0000-2b6a126a1000 r--p 0001d000 3d8:ad14e 144134765124010905     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_pickle.cpython-313-x86_64-linux-gnu.so
+2b6a126a1000-2b6a126a2000 rw-p 0001e000 3d8:ad14e 144134765124010905     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/lib-dynload/_pickle.cpython-313-x86_64-linux-gnu.so
+2b6a126b0000-2b6a13ad0000 rw-p 00000000 00:00 0 
+2b6a14350000-2b6a14353000 r--p 00000000 3d8:ad14e 144134765124017909     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/site-packages/numpy/linalg/_umath_linalg.cpython-313-x86_64-linux-gnu.so
+2b6a14353000-2b6a1436e000 r-xp 00003000 3d8:ad14e 144134765124017909     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/site-packages/numpy/linalg/_umath_linalg.cpython-313-x86_64-linux-gnu.so
+2b6a1436e000-2b6a14372000 r--p 0001e000 3d8:ad14e 144134765124017909     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/site-packages/numpy/linalg/_umath_linalg.cpython-313-x86_64-linux-gnu.so
+2b6a14372000-2b6a14373000 r--p 00021000 3d8:ad14e 144134765124017909     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/site-packages/numpy/linalg/_umath_linalg.cpython-313-x86_64-linux-gnu.so
+2b6a14373000-2b6a14374000 rw-p 00022000 3d8:ad14e 144134765124017909     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/site-packages/numpy/linalg/_umath_linalg.cpython-313-x86_64-linux-gnu.so
+2b6a14379000-2b6a15799000 rw-p 00000000 00:00 0 
+2b6a15f8c000-2b6a1c4cf000 r--p 00000000 fd:00 269627938                  /usr/lib/locale/locale-archive
+2b6a1c4cf000-2b6a1c7cf000 rw-p 00000000 00:00 0 
+2b6a1c7cf000-2b6a1c7f9000 r--p 00000000 3d8:ad14e 144134765124016696     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/site-packages/numpy/_core/_multiarray_umath.cpython-313-x86_64-linux-gnu.so
+2b6a1c7f9000-2b6a1ce5e000 r-xp 0002a000 3d8:ad14e 144134765124016696     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/site-packages/numpy/_core/_multiarray_umath.cpython-313-x86_64-linux-gnu.so
+2b6a1ce5e000-2b6a1cfdd000 r--p 0068f000 3d8:ad14e 144134765124016696     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/site-packages/numpy/_core/_multiarray_umath.cpython-313-x86_64-linux-gnu.so
+2b6a1cfdd000-2b6a1cfe1000 r--p 0080e000 3d8:ad14e 144134765124016696     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/site-packages/numpy/_core/_multiarray_umath.cpython-313-x86_64-linux-gnu.so
+2b6a1cfe1000-2b6a1d002000 rw-p 00812000 3d8:ad14e 144134765124016696     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/python3.13/site-packages/numpy/_core/_multiarray_umath.cpython-313-x86_64-linux-gnu.so
+2b6a1d002000-2b6a1d01a000 rw-p 00000000 00:00 0 
+2b6a1d01a000-2b6a1d187000 r--p 00000000 3d8:ad14e 144134765124016387     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libopenblasp-r0.3.32.so
+2b6a1d187000-2b6a1d188000 r-xp 0016d000 3d8:ad14e 144134765124016387     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libopenblasp-r0.3.32.so
+2b6a1d188000-2b6a1d18a000 ---p 0016e000 3d8:ad14e 144134765124016387     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libopenblasp-r0.3.32.so
+2b6a1d18a000-2b6a1f3e9000 r-xp 00170000 3d8:ad14e 144134765124016387     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libopenblasp-r0.3.32.so
+2b6a1f3e9000-2b6a1f639000 r--p 023cf000 3d8:ad14e 144134765124016387     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libopenblasp-r0.3.32.so
+2b6a1f639000-2b6a1f649000 r--p 0261e000 3d8:ad14e 144134765124016387     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libopenblasp-r0.3.32.so
+2b6a1f649000-2b6a1f661000 rw-p 0262e000 3d8:ad14e 144134765124016387     /work2/11056/zwu/frontera/miniconda3/envs/libyt/lib/libopenblasp-r0.3.32.so
+2b6a1f661000-2b6a1f676000 rw-p 00000000 00:00 0 
+2b6a1f676000-2b6a27676000 rw-p 00000000 00:00 0 
+2b6a27676000-2b6a28cdd000 rw-p 00000000 00:00 0 
+7f0000000000-7f0003000000 rw-p 00000000 00:00 0 
+7f1000000000-7f1000400000 rw-p 00000000 00:00 0 
+7f2000000000-7f2002400000 rw-p 00000000 00:00 0 
+7fff7a7a4000-7fff7aeb4000 rw-p 00000000 00:00 0                          [stack]
+7fff7af31000-7fff7af33000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]

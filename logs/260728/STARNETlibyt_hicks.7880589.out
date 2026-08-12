@@ -1,0 +1,486 @@
+=== libyt environment ready ===
+  python:    /work2/11056/zwu/frontera/miniconda3/envs/libyt/bin/python
+  numpy can find libstdc++ with GLIBCXX_3.4.29:
+2
+  ✓ found GLIBCXX_3.4.29 in conda libstdc++
+  LIBYT_HOME: /work2/11056/zwu/frontera/enzo_gh/libyt_dev/libyt/install
+================================
+=== Running libyt STARNET ===
+/work2/11056/zwu/frontera/miniconda3/envs/libyt/bin/python
+/opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/bin/mpirun
+Restarting from z_0015/
+TACC:  Starting up job 7880589 
+TACC:  Starting parallel tasks... 
+bash initiated
+Environmental variables loaded
+Aliases loaded
+bash initiated
+Environmental variables loaded
+Aliases loaded
+bash initiated
+Environmental variables loaded
+Aliases loaded
+bash initiated
+Environmental variables loaded
+Aliases loaded
+bash initiated
+Environmental variables loaded
+Aliases loaded
+bash initiated
+Environmental variables loaded
+Aliases loaded
+bash initiated
+Environmental variables loaded
+Aliases loaded
+bash initiated
+Environmental variables loaded
+Aliases loaded
+bash initiated
+Environmental variables loaded
+Aliases loaded
+MPI_Init: NumberOfProcessors = 560
+Reading parameter file z_0015/z_0015
+
+The Grackle Version 3.4.2-dev
+Git Branch   main
+Git Revision ec36984d6d43a0ded2a9174211c11f86e0b61e99
+
+Initializing grackle data.
+Initializing UV background.
+Reading UV background data from CloudyData_UVB=HM2012_shielded_Incatasciato2023_LWB.h5.
+UV background information:
+  Haardt & Madau (2012, ApJ, 746, 125) [Galaxies & Quasars]
+  z_min =  0.000
+  z_max = 30.000
+Grackle run-time parameters:
+use_grackle                       = 1
+with_radiative_cooling            = 1
+primordial_chemistry              = 2
+dust_chemistry                    = 0
+metal_cooling                     = 3
+UVbackground                      = 1
+grackle_data_file                 = CloudyData_UVB=HM2012_shielded_Incatasciato2023_LWB.h5
+cmb_temperature_floor             = 1
+Gamma                             = 1.6667
+h2_on_dust                        = 0
+use_dust_density_field            = 0
+dust_recombination_cooling        = -1
+photoelectric_heating             = 0
+photoelectric_heating_rate        = 8.5e-26
+use_isrf_field                    = 0
+interstellar_radiation_field      = 1.7
+use_volumetric_heating_rate       = 0
+use_specific_heating_rate         = 0
+use_temperature_floor             = 0
+temperature_floor_scalar          = 0
+three_body_rate                   = 0
+cie_cooling                       = 0
+h2_optical_depth_approximation    = 0
+ih2co                             = 1
+ipiht                             = 1
+HydrogenFractionByMass            = 0.73
+DeuteriumToHydrogenRatio          = 6.8e-05
+SolarMetalFractionByMass          = 0.01295
+local_dust_to_gas_ratio           = 0.009387
+CaseBRecombination                = 0
+NumberOfTemperatureBins           = 600
+TemperatureStart                  = 1
+TemperatureEnd                    = 1e+09
+NumberOfDustTemperatureBins       = 250
+DustTemperatureStart              = 1
+DustTemperatureEnd                = 1500
+Compton_xray_heating              = 0
+LWbackground_sawtooth_suppression = 0
+LWbackground_intensity            = 0
+UVbackground_redshift_on          = 30
+UVbackground_redshift_off         = 0
+UVbackground_redshift_fullon      = 7
+UVbackground_redshift_drop        = 0
+cloudy_electron_fraction_factor   = 0.00915396
+use_radiative_transfer            = 0
+radiative_transfer_coupled_rate_solver = 0
+radiative_transfer_intermediate_step = 0
+radiative_transfer_hydrogen_only  = 0
+self_shielding_method             = 1
+H2_self_shielding                 = 0
+H2_custom_shielding               = 0
+h2_charge_exchange_rate           = 1
+h2_dust_rate                      = 1
+h2_h_cooling_rate                 = 1
+collisional_excitation_rates      = 1
+collisional_ionisation_rates      = 1
+recombination_cooling_rates       = 1
+bremsstrahlung_cooling_rates      = 1
+max_iterations                    = 10000
+exit_after_iterations_exceeded    = 0
+omp_nthreads                      = 0
+OpenMP: off
+WARNING! PartitionNestedGrids = 1 forces Parallel IO = 1
+Initialdt in ReadParameterFile = 0.000000e+00
+DetermineNumberOfNodes: 10 nodes, 56 cores per node
+OPEN data hierarchy z_0015/z_0015.hierarchy
+Initializing libyt interface
+[YT_INFO   ] ******libyt version******
+[YT_INFO   ]          0.5.0
+[YT_INFO   ]   SERIAL_MODE: OFF
+[YT_INFO   ]   INTERACTIVE_MODE: ON
+[YT_INFO   ]   JUPYTER_KERNEL: OFF
+[YT_INFO   ]   SUPPORT_TIMER: OFF
+[YT_INFO   ] *************************
+[YT_INFO   ] Initializing libyt ...
+[YT_INFO   ]    verbose = 1
+[YT_INFO   ]     script = inline
+[YT_INFO   ]    counter = 0
+[YT_INFO   ] check_data = false
+[YT_INFO   ] Importing YT inline analysis script "inline" ... done
+CPUTime-output: Frac = 1.000000, Current = 0.182199 (0), Stop = 2592000.000000, Last = 0
+[YT_INFO   ] Setting YT parameters ...
+[YT_INFO   ] Setting YT parameters ... done.
+[YT_INFO   ] Getting pointer to particle list information ...
+[YT_INFO   ] Getting pointer to particle list information  ... done.
+[YT_INFO   ] Getting pointer to field list information ...
+[YT_INFO   ] Getting pointer to field list information  ... done.
+[YT_INFO   ] Getting pointer to local grids information ...
+[YT_INFO   ] Getting pointer to local grids information  ... done.
+[YT_INFO   ] Loading full hierarchy and local data to libyt ...
+[YT_INFO   ] Loading full hierarchy and local data ... done.
+[YT_INFO   ] Performing YT inline analysis yt_inline_func() ...
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 56 PID 202268 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 57 PID 202269 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 58 PID 202270 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 59 PID 202271 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 60 PID 202272 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 61 PID 202273 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 62 PID 202274 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 63 PID 202275 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 64 PID 202276 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 65 PID 202277 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 66 PID 202278 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 67 PID 202279 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 68 PID 202280 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 69 PID 202281 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 70 PID 202282 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 71 PID 202283 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 72 PID 202284 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 73 PID 202285 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 74 PID 202286 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 75 PID 202287 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 76 PID 202288 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 77 PID 202289 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 78 PID 202290 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 79 PID 202291 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 80 PID 202292 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 81 PID 202293 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 82 PID 202294 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 83 PID 202295 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 84 PID 202296 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 85 PID 202297 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 86 PID 202298 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 87 PID 202299 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 88 PID 202300 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 89 PID 202301 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 90 PID 202302 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 91 PID 202303 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 92 PID 202304 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 93 PID 202305 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 94 PID 202306 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 95 PID 202307 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 96 PID 202308 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 97 PID 202309 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 98 PID 202310 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 99 PID 202311 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 100 PID 202312 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 101 PID 202313 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 102 PID 202314 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 103 PID 202315 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 104 PID 202316 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 105 PID 202317 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 106 PID 202318 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 107 PID 202319 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 108 PID 202320 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 109 PID 202321 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 110 PID 202322 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 111 PID 202323 RUNNING AT c105-134
+=   KILLED BY SIGNAL: 7 (Bus error)
+===================================================================================
+TACC:  MPI job exited with code: 255 
+TACC:  Shutdown complete. Exiting. 
+=== Done ===

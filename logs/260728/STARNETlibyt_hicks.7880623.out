@@ -1,0 +1,483 @@
+=== libyt environment ready ===
+  python:    /work2/11056/zwu/frontera/miniconda3/envs/libyt/bin/python
+  numpy can find libstdc++ with GLIBCXX_3.4.29:
+2
+  ✓ found GLIBCXX_3.4.29 in conda libstdc++
+  LIBYT_HOME: /work2/11056/zwu/frontera/enzo_gh/libyt_dev/libyt/install
+================================
+=== Running libyt STARNET ===
+/work2/11056/zwu/frontera/miniconda3/envs/libyt/bin/python
+/opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/bin/mpirun
+Restarting from z_0015/
+TACC:  Starting up job 7880623 
+TACC:  Starting parallel tasks... 
+bash initiated
+Environmental variables loaded
+Aliases loaded
+bash initiated
+Environmental variables loaded
+Aliases loaded
+bash initiated
+Environmental variables loaded
+Aliases loaded
+bash initiated
+Environmental variables loaded
+Aliases loaded
+bash initiated
+Environmental variables loaded
+Aliases loaded
+bash initiated
+Environmental variables loaded
+Aliases loaded
+bash initiated
+Environmental variables loaded
+Aliases loaded
+bash initiated
+Environmental variables loaded
+Aliases loaded
+bash initiated
+Environmental variables loaded
+Aliases loaded
+MPI_Init: NumberOfProcessors = 560
+Reading parameter file z_0015/z_0015
+
+The Grackle Version 3.4.2-dev
+Git Branch   main
+Git Revision ec36984d6d43a0ded2a9174211c11f86e0b61e99
+
+Initializing grackle data.
+Initializing UV background.
+Reading UV background data from CloudyData_UVB=HM2012_shielded_Incatasciato2023_LWB.h5.
+UV background information:
+  Haardt & Madau (2012, ApJ, 746, 125) [Galaxies & Quasars]
+  z_min =  0.000
+  z_max = 30.000
+Grackle run-time parameters:
+use_grackle                       = 1
+with_radiative_cooling            = 1
+primordial_chemistry              = 2
+dust_chemistry                    = 0
+metal_cooling                     = 3
+UVbackground                      = 1
+grackle_data_file                 = CloudyData_UVB=HM2012_shielded_Incatasciato2023_LWB.h5
+cmb_temperature_floor             = 1
+Gamma                             = 1.6667
+h2_on_dust                        = 0
+use_dust_density_field            = 0
+dust_recombination_cooling        = -1
+photoelectric_heating             = 0
+photoelectric_heating_rate        = 8.5e-26
+use_isrf_field                    = 0
+interstellar_radiation_field      = 1.7
+use_volumetric_heating_rate       = 0
+use_specific_heating_rate         = 0
+use_temperature_floor             = 0
+temperature_floor_scalar          = 0
+three_body_rate                   = 0
+cie_cooling                       = 0
+h2_optical_depth_approximation    = 0
+ih2co                             = 1
+ipiht                             = 1
+HydrogenFractionByMass            = 0.73
+DeuteriumToHydrogenRatio          = 6.8e-05
+SolarMetalFractionByMass          = 0.01295
+local_dust_to_gas_ratio           = 0.009387
+CaseBRecombination                = 0
+NumberOfTemperatureBins           = 600
+TemperatureStart                  = 1
+TemperatureEnd                    = 1e+09
+NumberOfDustTemperatureBins       = 250
+DustTemperatureStart              = 1
+DustTemperatureEnd                = 1500
+Compton_xray_heating              = 0
+LWbackground_sawtooth_suppression = 0
+LWbackground_intensity            = 0
+UVbackground_redshift_on          = 30
+UVbackground_redshift_off         = 0
+UVbackground_redshift_fullon      = 7
+UVbackground_redshift_drop        = 0
+cloudy_electron_fraction_factor   = 0.00915396
+use_radiative_transfer            = 0
+radiative_transfer_coupled_rate_solver = 0
+radiative_transfer_intermediate_step = 0
+radiative_transfer_hydrogen_only  = 0
+self_shielding_method             = 1
+H2_self_shielding                 = 0
+H2_custom_shielding               = 0
+h2_charge_exchange_rate           = 1
+h2_dust_rate                      = 1
+h2_h_cooling_rate                 = 1
+collisional_excitation_rates      = 1
+collisional_ionisation_rates      = 1
+recombination_cooling_rates       = 1
+bremsstrahlung_cooling_rates      = 1
+max_iterations                    = 10000
+exit_after_iterations_exceeded    = 0
+omp_nthreads                      = 0
+OpenMP: off
+WARNING! PartitionNestedGrids = 1 forces Parallel IO = 1
+Initialdt in ReadParameterFile = 0.000000e+00
+DetermineNumberOfNodes: 10 nodes, 56 cores per node
+OPEN data hierarchy z_0015/z_0015.hierarchy
+Initializing libyt interface
+[YT_INFO   ] ******libyt version******
+[YT_INFO   ]          0.5.0
+[YT_INFO   ]   SERIAL_MODE: OFF
+[YT_INFO   ]   INTERACTIVE_MODE: ON
+[YT_INFO   ]   JUPYTER_KERNEL: OFF
+[YT_INFO   ]   SUPPORT_TIMER: OFF
+[YT_INFO   ] *************************
+[YT_INFO   ] Initializing libyt ...
+[YT_INFO   ]    verbose = 1
+[YT_INFO   ]     script = inline
+[YT_INFO   ]    counter = 0
+[YT_INFO   ] check_data = false
+[YT_INFO   ] Importing YT inline analysis script "inline" ... done
+CPUTime-output: Frac = 1.000000, Current = 0.11284 (0), Stop = 2592000.000000, Last = 0
+[YT_INFO   ] Setting YT parameters ...
+[YT_INFO   ] Setting YT parameters ... done.
+[YT_INFO   ] Getting pointer to particle list information ...
+[YT_INFO   ] Getting pointer to particle list information  ... done.
+[YT_INFO   ] Getting pointer to field list information ...
+[YT_INFO   ] Getting pointer to field list information  ... done.
+[YT_INFO   ] Getting pointer to local grids information ...
+[YT_INFO   ] Getting pointer to local grids information  ... done.
+[YT_INFO   ] Loading full hierarchy and local data to libyt ...
+[YT_INFO   ] Loading full hierarchy and local data ... done.
+[YT_INFO   ] Performing YT inline analysis yt_inline_func() ...
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 0 PID 56831 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 1 PID 56832 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 2 PID 56833 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 3 PID 56834 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 4 PID 56835 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 5 PID 56836 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 6 PID 56837 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 7 PID 56838 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 8 PID 56839 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 9 PID 56840 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 10 PID 56841 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 11 PID 56842 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 12 PID 56843 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 13 PID 56844 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 14 PID 56845 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 15 PID 56846 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 16 PID 56847 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 17 PID 56848 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 18 PID 56849 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 19 PID 56850 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 20 PID 56851 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 21 PID 56852 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 22 PID 56853 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 23 PID 56854 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 24 PID 56855 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 25 PID 56856 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 26 PID 56857 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 27 PID 56858 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 28 PID 56859 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 29 PID 56860 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 30 PID 56861 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 31 PID 56862 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 32 PID 56863 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 33 PID 56864 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 34 PID 56865 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 35 PID 56866 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 36 PID 56867 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 37 PID 56868 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 38 PID 56869 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 39 PID 56870 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 40 PID 56871 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 41 PID 56872 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 42 PID 56873 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 43 PID 56874 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 44 PID 56875 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 45 PID 56876 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 46 PID 56877 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 47 PID 56878 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 48 PID 56879 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 49 PID 56880 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 50 PID 56881 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 51 PID 56882 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 52 PID 56883 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 53 PID 56884 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 54 PID 56885 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 55 PID 56886 RUNNING AT c123-121
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================

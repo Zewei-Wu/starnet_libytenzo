@@ -1,0 +1,117 @@
+# this is un-libyted ENZO 0429
+The following have been reloaded with a version change:
+  1) intel/19.0.5 => intel/19.1.1
+
+warning: the following parameter line was not interpreted:
+NumberOfLibytCalls         = 0
+warning: the following parameter line was not interpreted:
+NumberOfLibytTopGridCalls  = 0
+warning: the following parameter line was not interpreted:
+NumberOfLibytSubcycleCalls = 0
+warning: the following parameter line was not interpreted:
+libyt_script_name = inline_null
+warning: the following parameter line was not interpreted:
+libyt_fig_basename = libyt_smoke
+warning: the following parameter line was not interpreted:
+CycleSkipLibytCall  = 999999
+warning: the following parameter line was not interpreted:
+CycleLastLibytCall  = 110
+warning: the following parameter line was not interpreted:
+TimeLastLibytCall    = 0.81651
+warning: the following parameter line was not interpreted:
+dtLibytCall          = 0
+warning: the following parameter line was not interpreted:
+use_grackle                 = 1
+warning: the following parameter line was not interpreted:
+with_radiative_cooling      = 1
+warning: the following parameter line was not interpreted:
+use_volumetric_heating_rate = 0
+warning: the following parameter line was not interpreted:
+use_specific_heating_rate   = 0
+warning: the following parameter line was not interpreted:
+self_shielding_method       = 1
+warning: the following parameter line was not interpreted:
+H2_self_shielding           = 0
+warning: the following parameter line was not interpreted:
+UVbackground                = 1
+warning: the following parameter line was not interpreted:
+Compton_xray_heating        = 0
+warning: the following parameter line was not interpreted:
+LWbackground_intensity      = 0.000000
+warning: the following parameter line was not interpreted:
+LWbackground_sawtooth_suppression = 0
+warning: the following parameter line was not interpreted:
+dust_chemistry              = 0
+warning: the following parameter line was not interpreted:
+local_dust_to_gas_ratio     = 0.009387
+warning: the following parameter line was not interpreted:
+use_isrf_field              = 0
+warning: the following parameter line was not interpreted:
+use_dust_density_field      = 0
+Output to Global Dir .
+Successfully read ParameterFile z_0015/z_0015.
+INITIALDT :::::::::::   0.00000000e+00
+dt, Initialdt: 0.0662138 0 
+TopGrid dt = 6.621380e-02     time = 25.352568968377    cycle = 523    z = 19.244694831352
+dt, Initialdt: 0.0662517 0 
+TopGrid dt = 6.625167e-02     time = 25.418782770975    cycle = 524    z = 19.209519269366
+dt, Initialdt: 0.06629 0 
+TopGrid dt = 6.628998e-02     time = 25.485034444607    cycle = 525    z = 19.174476109605
+dt, Initialdt: 0.0663284 0 
+TopGrid dt = 6.632844e-02     time = 25.551324423883    cycle = 526    z = 19.139564329031
+dt, Initialdt: 0.0663674 0 
+TopGrid dt = 6.636736e-02     time = 25.617652862634    cycle = 527    z = 19.104783061351
+dt, Initialdt: 0.0656473 0 
+TopGrid dt = 6.564729e-02     time = 25.684020221512    cycle = 528    z = 19.070131159801
+dt, Initialdt: 0.0657397 0 
+TopGrid dt = 6.573969e-02     time = 25.749667513439    cycle = 529    z = 19.03600172911
+dt, Initialdt: 0.0643657 0 
+TopGrid dt = 6.436574e-02     time = 25.815407206672    cycle = 530    z = 19.001969281379
+dt, Initialdt: 0.0618686 0 
+TopGrid dt = 6.186858e-02     time = 25.879772942134    cycle = 531    z = 18.968787770712
+dt, Initialdt: 0.0637009 0 
+TopGrid dt = 6.370088e-02     time = 25.941641523771    cycle = 532    z = 18.93702297088
+dt, Initialdt: 0.0643831 0 
+TopGrid dt = 6.438310e-02     time = 26.005342399027    cycle = 533    z = 18.904449087845
+dt, Initialdt: 0.064456 0 
+TopGrid dt = 6.445602e-02     time = 26.069725500186    cycle = 534    z = 18.871661199028
+dt, Initialdt: 0.0646377 0 
+TopGrid dt = 6.463766e-02     time = 26.134181519991    cycle = 535    z = 18.838971089608
+dt, Initialdt: 0.064879 0 
+TopGrid dt = 6.487902e-02     time = 26.198819183114    cycle = 536    z = 18.80632343924
+dt, Initialdt: 0.0650948 0 
+TopGrid dt = 6.509481e-02     time = 26.263698203916    cycle = 537    z = 18.773688569442
+dt, Initialdt: 0.065178 0 
+TopGrid dt = 6.517804e-02     time = 26.32879301147    cycle = 538    z = 18.741079917248
+dt, Initialdt: 0.0654468 0 
+TopGrid dt = 6.544678e-02     time = 26.393971047444    cycle = 539    z = 18.708563926757
+dt, Initialdt: 0.065898 0 
+TopGrid dt = 6.589803e-02     time = 26.459417825091    cycle = 540    z = 18.676048249403
+dt, Initialdt: 0.0664774 0 
+TopGrid dt = 6.647737e-02     time = 26.525315857103    cycle = 541    z = 18.643443535881
+dt, Initialdt: 0.0670388 0 
+TopGrid dt = 6.703877e-02     time = 26.591793225346    cycle = 542    z = 18.61068868898
+dt, Initialdt: 0.0670892 0 
+TopGrid dt = 6.708915e-02     time = 26.658831997881    cycle = 543    z = 18.577795149282
+dt, Initialdt: 0.0671423 0 
+TopGrid dt = 6.714227e-02     time = 26.725921148766    cycle = 544    z = 18.545014577542
+*** Error in `/work2/11056/zwu/frontera/enzo_gh/data/251110/ic512_b_starnetlibyt/enzo_260429.exe': corrupted size vs. prev_size: 0x000000001725b160 ***
+slurmstepd: error: *** JOB 7891952 ON c129-051 CANCELLED AT 2026-08-07T00:39:34 ***
+[proxy:0:0@c129-051.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/proxy/intel/i_proxy.c:124): downstream from host c129-052 exited with status 255
+[proxy:0:0@c129-051.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/proxy/intel/i_proxy.c:124): downstream from host c129-053 exited with status 255
+[mpiexec@c129-051.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c129-054 exited with status 255
+[mpiexec@c129-051.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c129-063 exited with status 255
+[mpiexec@c129-051.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c129-072 exited with status 255
+[mpiexec@c129-051.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c129-081 exited with status 255
+[mpiexec@c129-051.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c129-084 exited with status 255
+[mpiexec@c129-051.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c129-093 exited with status 255
+[mpiexec@c129-051.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c129-102 exited with status 255
+[mpiexec@c129-051.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c129-111 exited with status 255
+[mpiexec@c129-051.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c129-113 exited with status 255
+[mpiexec@c129-051.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c129-121 exited with status 255
+[mpiexec@c129-051.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c129-123 exited with status 255
+[mpiexec@c129-051.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c129-131 exited with status 255
+[mpiexec@c129-051.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c129-133 exited with status 255
+[mpiexec@c129-051.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c129-141 exited with status 255
+[mpiexec@c129-051.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c129-143 exited with status 255
+[mpiexec@c129-051.frontera.tacc.utexas.edu] main (../../../../../src/pm/i_hydra/mpiexec/mpiexec.c:2096): assert (exitcodes != NULL) failed

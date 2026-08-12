@@ -1,0 +1,82 @@
+gcc   : /opt/apps/gcc/9.1.0/bin/gcc   9.1.0
+cmake : /home1/apps/cmake/4.1.1/bin/cmake cmake version 4.1.1
+conda in PATH            : 0   (must be 0)
+conda in LD_LIBRARY_PATH : 0   (must be 0)
+CC  = /opt/apps/gcc/9.1.0/bin/gcc
+CXX = /opt/apps/gcc/9.1.0/bin/g++
+
+[0m [0m           __    __     __  __     ______     __     ______      
+[0m [0m          /\ "-./  \   /\ \/\ \   /\  ___\   /\ \   /\  ___\  
+[0m [0m          \ \ \-./\ \  \ \ \_\ \  \ \___  \  \ \ \  \ \ \____ 
+[0m [0m           \ \_\ \ \_\  \ \_____\  \/\_____\  \ \_\  \ \_____\ 
+[0m [0m            \/_/  \/_/   \/_____/   \/_____/   \/_/   \/_____/ 
+[0m
+[0m [0m                                   this is music! version 2.0a
+[0m
+[0m [0mVersion: git rev.: 967651b+, tag: N/A, branch: master
+[0m [0mThis RelWithDebInfo build was compiled at 11:33:56 on Jul 30 2026
+[0m [0mCompiled with GNU C++ version 9.1.0
+[0m [0mOpening log file '125Mpc_baryons_256-L6.conf_log.txt'.
+[0m [0m-------------------------------------------------------------------------------
+[0m [0mCPU vendor string                : Intel(R) Xeon(R) Platinum 8280 CPU @ 2.70GHz
+[0m [0mAvailable HW threads / task      : 56 (56 used)
+[0m [0mTotal system memory (phys)       : 191386 Mb
+[0m [0mUsed system memory (phys)        : Max: 1383 Mb, Min: 1383 Mb
+[0m [0mAvailable system memory (phys)   : Max: 190003 Mb, Min: 190003 Mb
+[0m [0mOS/Kernel version                : Linux version 3.10 build 1160
+[0m [0mFFTW version                     : fftw-3.3.10
+[0m [0mFFTW supports multi-threading    : yes
+[0m [0mFFTW mode                        : FFTW_ESTIMATE
+[0m [0m-------------------------------------------------------------------------------
+[0m [0m-------------------------------------------------------------------------------
+[0m [0mCosmological parameters are: 
+[0m [0m h        = 0.7             sigma_8  = 0.82            n_s     = 0.96            
+[0m [0m Omega_c  = 0.237685        Omega_b  = 0.047           Omega_m = 0.286           
+[0m [0m Omega_r  = 0               Omega_nu = 0.00131468      ∑m_nu   = 0.06eV
+[0m [0m Omega_DE = 0.714           w_0      = -1              w_a     = 0               
+[0m [0mLinear growth factors: D+_target = 1, D+_start = 0.012981
+[0m [0m-------------------------------------------------------------------------------
+[0m - Selecting transfer function plug-in 'camb_file'...
+ [0mReading tabulated transfer function data from file     '/work2/11056/zwu/frontera/enzo_gh/music_ics/inputs/test_transfer_z99.dat'
+[0m [0mCAUTION: make sure that this transfer function 	 has been output for z=99.000000!
+[0m [0mRead CAMB transfer function table with 213 rows
+[0m [0mFixing PS normalisation from specified sigma8 = 0.82
+[0m [0m . TF supports distinct CDM+baryons : yes
+[0m [0m . TF maximum wave number        : 760.961 h/Mpc
+[0m [0m- starting at a=0.01
+[0m - Selecting region generator plug-in 'convex_hull'...
+ [0mregion point file appears to contain 3 columns
+[0m [0munapplying shift of previous zoom region to region particles :	 [-81,84,-61] = (-0.316406,0.328125,-0.238281)
+[0m [0mRegion center from convex hull centroid determined at	 (0.819687,0.173722,0.740416)
+[0m - Selecting random number generator plug-in 'MUSIC'...
+ [0m    refinement region is 'convex_hull', w/ bounding box
+[0m [0m            left = [0.80208,0.161534,0.727736]
+[0m [0m           right = [0.839745,0.184369,0.755335]
+[0m [0m- Internal refinement bounding box: [7957,8574]x[8022,8396]x[8019,8471]
+[0m [0m-------------------------------------------------------------------------------
+[0m [0m- Domain will be shifted by (-81, 84, -61)
+
+[0m [0m- Grid structure:
+     Level 8   :   offset = (0    , 0    , 0    )
+                     size = (256  , 256  , 256  )
+     Level 9   :   offset = (108  , 109  , 109  )
+                     size = (84   , 76   , 78   )
+     Level 10  :   offset = (17   , 17   , 17   )
+                     size = (100  , 86   , 90   )
+     Level 11  :   offset = (17   , 17   , 17   )
+                     size = (134  , 104  , 114  )
+     Level 12  :   offset = (16   , 16   , 16   )
+                     size = (204  , 144  , 162  )
+     Level 13  :   offset = (17   , 17   , 16   )
+                     size = (342  , 220  , 260  )
+     Level 14  :   offset = (16   , 17   , 17   )
+                     size = (618  , 374  , 454  )
+-------------------------------------------------------------------------------
+[0m [0m- Finest level :
+                   extent =  4714.97 x 2853.39 x 3463.75 h-3 kpc**3
+                 mtotgrid =  3.69867e+12 h-1 M_o
+            particle mass =  29455.2 h-1 M_o
+         baryon mass/cell =  5792.45 h-1 M_o
+                       dx =  7.62939 h-1 kpc
+-------------------------------------------------------------------------------
+[0m - Selecting output plug-in 'enzo'...

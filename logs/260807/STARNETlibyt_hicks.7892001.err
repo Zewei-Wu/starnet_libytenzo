@@ -1,0 +1,406 @@
+
+The following have been reloaded with a version change:
+  1) intel/19.0.5 => intel/19.1.1
+
+ldd: missing file arguments
+Try `ldd --help' for more information.
+warning: the following parameter line was not interpreted:
+use_grackle                 = 1
+warning: the following parameter line was not interpreted:
+with_radiative_cooling      = 1
+warning: the following parameter line was not interpreted:
+use_volumetric_heating_rate = 0
+warning: the following parameter line was not interpreted:
+use_specific_heating_rate   = 0
+warning: the following parameter line was not interpreted:
+self_shielding_method       = 1
+warning: the following parameter line was not interpreted:
+H2_self_shielding           = 0
+warning: the following parameter line was not interpreted:
+UVbackground                = 1
+warning: the following parameter line was not interpreted:
+Compton_xray_heating        = 0
+warning: the following parameter line was not interpreted:
+LWbackground_intensity      = 0.000000
+warning: the following parameter line was not interpreted:
+LWbackground_sawtooth_suppression = 0
+warning: the following parameter line was not interpreted:
+dust_chemistry              = 0
+warning: the following parameter line was not interpreted:
+local_dust_to_gas_ratio     = 0.009387
+warning: the following parameter line was not interpreted:
+use_isrf_field              = 0
+warning: the following parameter line was not interpreted:
+use_dust_density_field      = 0
+Output to Global Dir .
+Successfully read ParameterFile z_0015/z_0015.
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+INITIALDT :::::::::::   0.00000000e+00
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+dt, Initialdt: 0.0661648 0 
+TopGrid dt = 6.616479e-02     time = 25.286404182035    cycle = 522    z = 19.279997637244
+dt, Initialdt: 0.0662262 0 
+TopGrid dt = 6.622621e-02     time = 25.352568968377    cycle = 523    z = 19.244694831352
+dt, Initialdt: 0.0662764 0 
+TopGrid dt = 6.627643e-02     time = 25.418795182645    cycle = 524    z = 19.209512690083
+dt, Initialdt: 0.0663271 0 
+TopGrid dt = 6.632706e-02     time = 25.485071616597    cycle = 525    z = 19.174456490479
+dt, Initialdt: 0.0663778 0 
+TopGrid dt = 6.637778e-02     time = 25.5513986751    cycle = 526    z = 19.139525309099
+dt, Initialdt: 0.0664289 0 
+TopGrid dt = 6.642893e-02     time = 25.617776455029    cycle = 527    z = 19.104718391921
+dt, Initialdt: 0.0656966 0 
+TopGrid dt = 6.569656e-02     time = 25.684205386857    cycle = 528    z = 19.070034689578
+dt, Initialdt: 0.0657957 0 
+TopGrid dt = 6.579565e-02     time = 25.749901946318    cycle = 529    z = 19.035880109492
+dt, Initialdt: 0.0644235 0 
+TopGrid dt = 6.442347e-02     time = 25.815697600971    cycle = 530    z = 19.001819269116
+dt, Initialdt: 0.0619378 0 
+TopGrid dt = 6.193777e-02     time = 25.880121068558    cycle = 531    z = 18.968608680301
+dt, Initialdt: 0.063779 0 
+TopGrid dt = 6.377903e-02     time = 25.942058841901    cycle = 532    z = 18.936809138604
+dt, Initialdt: 0.0644677 0 
+TopGrid dt = 6.446768e-02     time = 26.005837870401    cycle = 533    z = 18.904196246419
+dt, Initialdt: 0.0645429 0 
+TopGrid dt = 6.454294e-02     time = 26.070305552137    cycle = 534    z = 18.871366413929
+dt, Initialdt: 0.0647309 0 
+TopGrid dt = 6.473088e-02     time = 26.134848490642    cycle = 535    z = 18.838633525159
+dt, Initialdt: 0.0649824 0 
+TopGrid dt = 6.498240e-02     time = 26.199579372015    cycle = 536    z = 18.805940275987
+dt, Initialdt: 0.0652109 0 
+TopGrid dt = 6.521091e-02     time = 26.264561769788    cycle = 537    z = 18.773255092441
+dt, Initialdt: 0.0653037 0 
+TopGrid dt = 6.530374e-02     time = 26.32977268371    cycle = 538    z = 18.740590185825
+dt, Initialdt: 0.0655907 0 
+TopGrid dt = 6.559065e-02     time = 26.395076420749    cycle = 539    z = 18.708013632806
+dt, Initialdt: 0.0660525 0 
+TopGrid dt = 6.605247e-02     time = 26.460667073889    cycle = 540    z = 18.675428893721
+dt, Initialdt: 0.0666005 0 
+TopGrid dt = 6.660046e-02     time = 26.526719540583    cycle = 541    z = 18.642750496721
+dt, Initialdt: 0.0671994 0 
+TopGrid dt = 6.719943e-02     time = 26.593320001424    cycle = 542    z = 18.609938016548
+dt, Initialdt: 0.0673369 0 
+TopGrid dt = 6.733686e-02     time = 26.660519431333    cycle = 543    z = 18.576968964697
+dt, Initialdt: 0.0674016 0 
+TopGrid dt = 6.740156e-02     time = 26.727856292386    cycle = 544    z = 18.544071075659
+dt, Initialdt: 0.0674629 0 
+TopGrid dt = 6.746289e-02     time = 26.795257849349    cycle = 545    z = 18.511279545623
+dt, Initialdt: 0.067499 0 
+TopGrid dt = 6.749898e-02     time = 26.862720734934    cycle = 546    z = 18.478595558217
+dt, Initialdt: 0.0675333 0 
+TopGrid dt = 6.753330e-02     time = 26.930219711452    cycle = 547    z = 18.446030718928
+dt, Initialdt: 0.0675705 0 
+TopGrid dt = 6.757047e-02     time = 26.997753014671    cycle = 548    z = 18.413585180491
+dt, Initialdt: 0.0676105 0 
+TopGrid dt = 6.761052e-02     time = 27.065323488419    cycle = 549    z = 18.381256887044
+dt, Initialdt: 0.0667376 0 
+TopGrid dt = 6.673761e-02     time = 27.132934011674    cycle = 550    z = 18.349043794171
+dt, Initialdt: 0.0658245 0 
+TopGrid dt = 6.582455e-02     time = 27.199671617052    cycle = 551    z = 18.317377543537
+dt, Initialdt: 0.0657272 0 
+TopGrid dt = 6.572717e-02     time = 27.265496163734    cycle = 552    z = 18.286271121581
+dt, Initialdt: 0.0658621 0 
+TopGrid dt = 6.586214e-02     time = 27.331223332737    cycle = 553    z = 18.255335231356
+dt, Initialdt: 0.0656543 0 
+TopGrid dt = 6.565425e-02     time = 27.397085469833    cycle = 554    z = 18.224459946682
+dt, Initialdt: 0.0654524 0 
+TopGrid dt = 6.545238e-02     time = 27.462739721868    cycle = 555    z = 18.19380499664
+dt, Initialdt: 0.0652306 0 
+TopGrid dt = 6.523060e-02     time = 27.528192100979    cycle = 556    z = 18.163365648441
+slurmstepd: error: *** JOB 7892001 ON c123-021 CANCELLED AT 2026-08-07T03:24:32 ***
+[proxy:0:0@c123-021.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/proxy/intel/i_proxy.c:124): downstream from host c123-022 exited with status 255
+[proxy:0:0@c123-021.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/proxy/intel/i_proxy.c:124): downstream from host c123-023 exited with status 255
+[mpiexec@c123-021.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c123-024 exited with status 255
+[mpiexec@c123-021.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c123-033 exited with status 255
+[mpiexec@c123-021.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c123-042 exited with status 255
+[mpiexec@c123-021.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c123-051 exited with status 255
+[mpiexec@c123-021.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c123-054 exited with status 255
+[mpiexec@c123-021.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c123-063 exited with status 255
+[mpiexec@c123-021.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c123-072 exited with status 255
+[mpiexec@c123-021.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c123-081 exited with status 255
+[mpiexec@c123-021.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c123-083 exited with status 255
+[mpiexec@c123-021.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c123-091 exited with status 255
+[mpiexec@c123-021.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c123-093 exited with status 255
+[mpiexec@c123-021.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c123-101 exited with status 255
+[mpiexec@c123-021.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c123-103 exited with status 255
+[mpiexec@c123-021.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c123-111 exited with status 255
+[mpiexec@c123-021.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c123-113 exited with status 255
+[mpiexec@c123-021.frontera.tacc.utexas.edu] main (../../../../../src/pm/i_hydra/mpiexec/mpiexec.c:2096): assert (exitcodes != NULL) failed

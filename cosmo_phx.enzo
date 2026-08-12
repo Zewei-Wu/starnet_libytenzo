@@ -1,0 +1,260 @@
+# This is a translation of Will Hicks' parameter file for the cosmo_phx simulation on ENZO-E
+
+# Zewei Wu, UCSD
+# Date created: 2025/9/24
+# Date modified: 2025/11/17
+# Uses 512 resolution
+
+
+#
+# ------------------------------
+# define problem
+# ------------------------------
+#
+ProblemType                              = 30      // cosmology simulation
+TopGridRank                              = 3
+TopGridDimensions                        = 512 512 512
+PotentialIterations                      = 10      // new from Azton's runs
+SelfGravity                              = 1       // gravity on, records density_total, potential, acceleration_x/y/z
+RefineBy                                 = 2
+# boundary conditions, all periodic
+TopGridGravityBoundary                   = 0       // 0=periodic for gravity
+LeftFaceBoundaryCondition                = 3 3 3   // 3=periodic for fluids
+RightFaceBoundaryCondition               = 3 3 3
+
+
+#
+# problem paramaters
+#
+# HYDRO FIELDS
+CosmologySimulationDensityName           = GridDensity
+CosmologySimulationVelocity1Name         = GridVelocities_x
+CosmologySimulationVelocity2Name         = GridVelocities_y
+CosmologySimulationVelocity3Name         = GridVelocities_z
+# COSMO & DM FIELDS
+CosmologySimulationCalculatePositions    = 1
+CosmologySimulationNumberOfInitialGrids  = 1
+CosmologySimulationParticleVelocity1Name = ParticleVelocities_x
+CosmologySimulationParticleVelocity2Name = ParticleVelocities_y
+CosmologySimulationParticleVelocity3Name = ParticleVelocities_z
+CosmologySimulationParticleDisplacement1Name = ParticleDisplacements_x
+CosmologySimulationParticleDisplacement2Name = ParticleDisplacements_y
+CosmologySimulationParticleDisplacement3Name = ParticleDisplacements_z
+
+#
+# cosmology parameters
+#
+ComovingCoordinates                      = 1          // Comoving coords for expansions
+CosmologyOmegaMatterNow                  = 0.3111     // omega_matter_now = 0.3111000000000000;
+CosmologyOmegaLambdaNow                  = 0.6889     // omega_lambda_now = 0.6889000000000000;
+CosmologySimulationOmegaBaryonNow        = 0.04896    // omega_baryon_now = 0.04896000000000000;
+CosmologySimulationOmegaCDMNow           = 0.26214    // omega_cdm_now = 0.2621400000000000;
+CosmologyHubbleConstantNow               = 0.6766     // hubble_constant_now = 0.6766000000000000; in 100 km/s/Mpc
+CosmologyComovingBoxSize                 = 3.4664     // comoving_box_size = 3.466400000000000; in Mpc/h
+CosmologyMaxExpansionRate                = 0.015      // maximum allowed delta(a)/a
+CosmologyInitialRedshift                 = 199.0      // initial_redshift = 199.00000000000000;
+CosmologyFinalRedshift                   = 2.000000000000000        // final_redshift = 2.000000000000000;
+GravitationalConstant                    = 1          // grav_const = 1.0; true for cosmology
+
+
+# global parameters
+GreensFunctionMaxNumber                  = 30
+ParallelRootGridIO                       = 1
+ParallelParticleIO                       = 1
+PartitionNestedGrids                     = 1  // only in FOGGIE param files
+UnigridTranspose                         = 2
+
+
+#
+# ------------------------------
+# I/O and stop/start parameters
+# ------------------------------
+#
+dtDataDump       = 0   // disable dt data dump for now
+RedshiftDumpName = z_  // redshift snapshots
+RedshiftDumpDir  = z_
+DataDumpName     = s_  // snapshot files
+DataDumpDir      = s_
+OutputCoolingTime = 1   // true for Hicks' runs
+OutputTemperature = 1
+
+CosmologyOutputRedshift[0]  = 199  // starting redshift and intermediates to make plots with
+CosmologyOutputRedshift[1]  = 150
+CosmologyOutputRedshift[2]  = 100
+CosmologyOutputRedshift[3]  = 75
+CosmologyOutputRedshift[4]  = 50
+CosmologyOutputRedshift[5]  = 35
+CosmologyOutputRedshift[6]  = 25
+CosmologyOutputRedshift[7]  = 24.9
+CosmologyOutputRedshift[8]  = 24.8
+CosmologyOutputRedshift[9]  = 24.7
+CosmologyOutputRedshift[10] = 24.5
+CosmologyOutputRedshift[11] = 24
+CosmologyOutputRedshift[12] = 22
+CosmologyOutputRedshift[13] = 19.28
+CosmologyOutputRedshift[14] = 17.73
+CosmologyOutputRedshift[15] = 16.6
+CosmologyOutputRedshift[16] = 15.63
+CosmologyOutputRedshift[17] = 14.79
+CosmologyOutputRedshift[18] = 14.06
+CosmologyOutputRedshift[19] = 13.45
+CosmologyOutputRedshift[20] = 12.9
+CosmologyOutputRedshift[21] = 12.37
+CosmologyOutputRedshift[22] = 11.92
+CosmologyOutputRedshift[23] = 10.5
+CosmologyOutputRedshift[24] = 8
+CosmologyOutputRedshift[25] = 6
+CosmologyOutputRedshift[26] = 4
+CosmologyOutputRedshift[27] = 3
+CosmologyOutputRedshift[28] = 2
+CosmologyOutputRedshift[29] = 0
+
+#
+# load balancing
+#
+LoadBalancing          = 4   // only in FOGGIE param file
+ResetLoadBalancing     = 0
+LoadBalancingCycleSkip = 2
+LoadBalancingMinLevel  = 0
+LoadBalancingMaxLevel  = 50
+
+#
+# ------------------------------
+# hydro parameters
+# ------------------------------
+#
+UseHydro                    = 1       // turn on Hydro
+HydroMethod                 = 0       // PPM, same as Hicks'
+Gamma                       = 1.66670
+PPMDiffusionParameter       = 0       // diffusion = false;
+PPMFlatteningParameter       = 0       // flattening = 0;
+DualEnergyFormalism         = 1       // dual_energy = true; use total & internal energy
+InterpolationMethod         = 1       // SecondOrderA
+FluxCorrection              = 2       // Azton's set to 2
+ConservativeInterpolation   = 0
+CourantSafetyNumber         = 0.1     // courant = 0.1000000000000000;
+ParticleCourantSafetyNumber = 0.8
+UseMinimumPressureSupport   = 0
+
+#
+# grid refinement parameters
+#
+StaticHierarchy                       = 0
+MaximumRefinementLevel                = 5 // 5 for Hicks
+MaximumGravityRefinementLevel         = 5  // most refined level for gravitational smoothing
+MaximumParticleRefinementLevel        = 5  // probably should be -1 to turn off, but doesn't affect performance too much. FOGGIE runs had them the same as grid levels
+RefineBy                              = 2
+# CellFlaggingMethod = 2: baryon overdensity
+# CellFlaggingMethod = 4: particle (DM) mass
+CellFlaggingMethod                    = 2 4  // add 8 for must-refine particles
+MinimumOverDensityForRefinement       = 8.0 8.0  // mass_baryon.min_refine = 8.0; mass_dark.min_refine = 8.0
+MinimumMassForRefinementLevelExponent = 0.0 0.0
+MinimumEfficiency                     = 0.35
+
+RebuildHierarchyCycleSkip[0] = 2   // only in FOGGIE param file
+RebuildHierarchyCycleSkip[1] = 2
+RebuildHierarchyCycleSkip[2] = 2
+RebuildHierarchyCycleSkip[3] = 2
+RebuildHierarchyCycleSkip[4] = 2
+
+
+
+
+
+
+#
+# ------------------------------
+# Baryon microphysics parameters
+# ------------------------------
+#
+
+RadiativeCooling        = 1 // with_radiative_cooling = 1;
+use_grackle             = 1 // chemistry enabled
+MultiSpecies            = 2 // primordial_chemistry = 2; 2 = nine-species model (including H2, H2+ and H-) will be computed
+
+# ---------------
+# cooling
+# ---------------
+MetalCooling            = 3 // sets grackle.metal_cooling, records metal_density, Azton's runs had MetalCooling = 3 which uses Cloudy cooling from Smith, Sigurdsson, & Abel 2008
+CloudyCoolingGridFile   = CloudyData_UVB=HM2012_shielded_Incatasciato2023_LWB.h5 // uses Hicks' grackle file for metal cooling
+
+# ---------------
+# UV background strength & SED
+# ---------------
+UVbackground            = 1
+grackle_data_file       = CloudyData_UVB=HM2012_shielded_Incatasciato2023_LWB.h5 // uses Hicks' grackle file for UV background table; provides the spectra and effect on rates
+RadiationRedshiftFullOn    = 7.0   // UVbackground_redshift_fullon = 7.0; applies a second linear scaling
+RadiationRedshiftOn        = 30.0  // UVbackground_redshift_on = 30.0;
+
+# ---------------
+# LW background profile with z & shielding
+# ---------------
+RadiationFieldType      = 14 // redshift dependent LW background Xu+16 for Azton, Incatasciato+23 for Will; the intrinsic scaling with z, should probably be 0...?
+RadiationShield         = 2  // H2_self_shielding = 1 for Will, shields H2 with a Sobolev-like W-G+11 methods for Grackle-3.2
+self_shielding_method   = 1  // apparently this is a parameter you can set according to the FOGGIE runs, = 1 for Will, shields only HI
+
+# chemistry
+HydrogenFractionByMass  = 0.73  // HydrogenFractionByMass = 0.73
+CMBTemperatureFloor     = 1            // cmb_temperature_floor = 1;
+CRdensFloor             = 1e-2         // density  = 1e-2; # overdensity of 0.01
+
+# ---------------
+# star formation and feedback parameters
+# ---------------
+StarParticleCreation            = 40
+StarParticleFeedback          = 40
+
+# =3, Population III stars / Abel, Wise & Bryan (2007)
+# =5, Radiative star clusters  / Wise & Cen (2009)
+# =40 = 2^3+2^5, pop III + star clusters
+
+
+# =3 pop III SF
+PopIIIOverDensityThreshold      = -100  # overdensity turned off
+PopIIIMetalCriticalFraction     = 4.1e-8
+PopIIIH2CriticalFraction        = 1e-3
+PopIIISupernovaRadius           = 10
+PopIIISupernovaUseColour        = 1
+PopIIIHeliumIonization          = 1
+PopIIIOutputOnFeedback          = 0  # this must be off to avoid flooding the storage with interpolated outputs
+# mass
+PopIIIStarMass                  = 20
+PopIIIInitialMassFunction       = 1
+PopIIIInitialMassFunctionSeed   = 1823
+PopIIIMassRange                 = 1.00 300.00
+
+# =5 star cluster
+StarClusterUseMetalField      = 1
+StarClusterMinDynamicalTime   = 3e+06
+StarClusterIonizingLuminosity = 1.12e+46
+StarClusterSNEnergy           = 1e49
+StarClusterSNRadius           = 10
+StarClusterFormEfficiency     = 0.07
+StarClusterMinimumMass        = 1000
+
+
+
+
+
+# ---------------
+# unused parameters
+# ---------------
+
+# = 0, 1, 2, 5, 7, 8, and 13, parameters for regular pop II
+#StarMakerTypeIaSNe            = 1  // tracks MetalSNIa_Density
+#StarMakerOverDensityThreshold = 10    // 1.0e+4 in FOGGIE
+#StarMakerMinimumMass          = 1e5   // 1.0e+3 in FOGGIE
+#StarMakerMinimumDynamicalTime = 1e6   // 1.0e+6 in FOGGIE
+#StarMakerMassEfficiency       = 0.1   // 0.2 in FOGGIE
+#StarMassEjectionFraction      = 0.25  // 0.25 in FOGGIE
+#StarMetalYield                = 0.1   // 0.025 in FOGGIE
+#StarEnergyToThermalFeedback   = 1e-5  // 1e-5 in FOGGIE
+#StarFeedbackDistRadius        = 1     // 1 in FOGGIE
+#StarFeedbackDistCellStep      = 3     // 3 in FOGGIE
+
+#
+# metallicity parameters
+#
+
+# currently not implemented
+#MetallicityRefinementMinMetallicity    = 1e-20

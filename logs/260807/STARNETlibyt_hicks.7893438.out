@@ -1,0 +1,594 @@
+=== libyt environment ready ===
+  python:    /work2/11056/zwu/frontera/miniconda3/envs/libyt/bin/python
+  numpy can find libstdc++ with GLIBCXX_3.4.29:
+2
+  ✓ found GLIBCXX_3.4.29 in conda libstdc++
+  LIBYT_HOME: /work2/11056/zwu/frontera/enzo_gh/libyt_dev/libyt/install
+================================
+=== Running libyt STARNET ===
+/work2/11056/zwu/frontera/miniconda3/envs/libyt/bin/python
+/opt/intel/compilers_and_libraries_2020.4.304/linux/mpi/intel64/bin/mpirun
+imports OK 2.4.3
+Restarting from z_0012/
+TACC:  Starting up job 7893438 
+TACC:  Starting parallel tasks... 
+MPI_Init: NumberOfProcessors = 560
+Reading parameter file z_0012/z_0012
+
+The Grackle Version 3.4.2-dev
+Git Branch   main
+Git Revision ec36984d6d43a0ded2a9174211c11f86e0b61e99
+
+Initializing grackle data.
+Initializing UV background.
+Reading UV background data from CloudyData_UVB=HM2012_shielded_Incatasciato2023_LWB.h5.
+UV background information:
+  Haardt & Madau (2012, ApJ, 746, 125) [Galaxies & Quasars]
+  z_min =  0.000
+  z_max = 30.000
+Grackle run-time parameters:
+use_grackle                       = 1
+with_radiative_cooling            = 1
+primordial_chemistry              = 2
+dust_chemistry                    = 0
+metal_cooling                     = 3
+UVbackground                      = 1
+grackle_data_file                 = CloudyData_UVB=HM2012_shielded_Incatasciato2023_LWB.h5
+cmb_temperature_floor             = 1
+Gamma                             = 1.6667
+h2_on_dust                        = 0
+use_dust_density_field            = 0
+dust_recombination_cooling        = -1
+photoelectric_heating             = 0
+photoelectric_heating_rate        = 8.5e-26
+use_isrf_field                    = 0
+interstellar_radiation_field      = 1.7
+use_volumetric_heating_rate       = 0
+use_specific_heating_rate         = 0
+use_temperature_floor             = 0
+temperature_floor_scalar          = 0
+three_body_rate                   = 0
+cie_cooling                       = 0
+h2_optical_depth_approximation    = 0
+ih2co                             = 1
+ipiht                             = 1
+HydrogenFractionByMass            = 0.73
+DeuteriumToHydrogenRatio          = 6.8e-05
+SolarMetalFractionByMass          = 0.01295
+local_dust_to_gas_ratio           = 0.009387
+CaseBRecombination                = 0
+NumberOfTemperatureBins           = 600
+TemperatureStart                  = 1
+TemperatureEnd                    = 1e+09
+NumberOfDustTemperatureBins       = 250
+DustTemperatureStart              = 1
+DustTemperatureEnd                = 1500
+Compton_xray_heating              = 0
+LWbackground_sawtooth_suppression = 0
+LWbackground_intensity            = 0
+UVbackground_redshift_on          = 30
+UVbackground_redshift_off         = 0
+UVbackground_redshift_fullon      = 7
+UVbackground_redshift_drop        = 0
+cloudy_electron_fraction_factor   = 0.00915396
+use_radiative_transfer            = 0
+radiative_transfer_coupled_rate_solver = 0
+radiative_transfer_intermediate_step = 0
+radiative_transfer_hydrogen_only  = 0
+self_shielding_method             = 1
+H2_self_shielding                 = 0
+H2_custom_shielding               = 0
+h2_charge_exchange_rate           = 1
+h2_dust_rate                      = 1
+h2_h_cooling_rate                 = 1
+collisional_excitation_rates      = 1
+collisional_ionisation_rates      = 1
+recombination_cooling_rates       = 1
+bremsstrahlung_cooling_rates      = 1
+max_iterations                    = 10000
+exit_after_iterations_exceeded    = 0
+omp_nthreads                      = 0
+OpenMP: off
+WARNING! PartitionNestedGrids = 1 forces Parallel IO = 1
+Initialdt in ReadParameterFile = 0.000000e+00
+DetermineNumberOfNodes: 40 nodes, 14 cores per node
+OPEN data hierarchy z_0012/z_0012.hierarchy
+Initializing libyt interface
+[YT_INFO   ] ******libyt version******
+[YT_INFO   ]          0.5.0
+[YT_INFO   ]   SERIAL_MODE: OFF
+[YT_INFO   ]   INTERACTIVE_MODE: ON
+[YT_INFO   ]   JUPYTER_KERNEL: OFF
+[YT_INFO   ]   SUPPORT_TIMER: OFF
+[YT_INFO   ] *************************
+[YT_INFO   ] Initializing libyt ...
+[YT_INFO   ]    verbose = 1
+[YT_INFO   ]     script = inline
+[YT_INFO   ]    counter = 0
+[YT_INFO   ] check_data = false
+[YT_INFO   ] Importing YT inline analysis script "inline" ... done
+CPUTime-output: Frac = 1.000000, Current = 0.119668 (0), Stop = 2592000.000000, Last = 0
+[YT_INFO   ] Setting YT parameters ...
+[YT_INFO   ] Setting YT parameters ... done.
+[YT_INFO   ] Getting pointer to particle list information ...
+[YT_INFO   ] Getting pointer to particle list information  ... done.
+[YT_INFO   ] Getting pointer to field list information ...
+[YT_INFO   ] Getting pointer to field list information  ... done.
+[YT_INFO   ] Getting pointer to local grids information ...
+[YT_INFO   ] Getting pointer to local grids information  ... done.
+[YT_INFO   ] Loading full hierarchy and local data to libyt ...
+[YT_INFO   ] Loading full hierarchy and local data ... done.
+[YT_INFO   ] Performing YT inline analysis yt_inline_func() ...
+[YT_INFO   ] Performing YT inline analysis yt_inline_func() ... done.
+RebuildHierarchy: level = 0
+CommunicationTransferParticles: moved = 3296697
+CommunicationTransferStars: moved = 0
+CommunicationTransferActiveParticles: moved = 0
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 5054128
+RebuildHierarchy[0]: Flagged 558/1120 grids. 328654 flagged cells
+LoadBalance: Number of grids moved = 4015 out of 4055 (0.0685904 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 249880
+RebuildHierarchy[1]: Flagged 259/4055 grids. 18198 flagged cells
+LoadBalance: Number of grids moved = 303 out of 310 (0.00781637 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 40648
+RebuildHierarchy[2]: Flagged 59/310 grids. 3230 flagged cells
+LoadBalance: Number of grids moved = 65 out of 65 (0.0121148 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 6240
+RebuildHierarchy[3]: Flagged 19/65 grids. 651 flagged cells
+LoadBalance: Number of grids moved = 18 out of 19 (4.96805e-05 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3656
+RebuildHierarchy[4]: Flagged 11/19 grids. 426 flagged cells
+LoadBalance: Number of grids moved = 11 out of 11 (0.00313831 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3656
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+grid:SetNumberOfColours: NEQ_HYDRO = 6, NSpecies = 9, NColor = 0
+Level[0]: dt = 0.0628872  0.0628872 (0.0628872/0.0628872)
+PrepareGreens: Start = 0 0 36  Dim = 32 52 38
+PrepareGreens: Start = 0 0 0  Dim = 32 52 36
+Level[1]: dt = 0.0320105  0.0320105 (0.0320105/0.0628872)
+Level[2]: dt = 0.0163971  0.0163971 (0.0163971/0.0320105)
+Level[3]: dt = 0.00756637  0.00756637 (0.00756637/0.0163971)
+Level[4]: dt = 0.00368462  0.00368462 (0.00368462/0.00756637)
+Level[5]: dt = 0.0018082  0.0018082 (0.0018082/0.00368462)
+RebuildHierarchy: level = 5
+TransferSubgridParticles[5]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3656
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[5]: dt = 0.00187642  0.00183217 (0.00368462/0.00368462)
+EvolveLevel[5]: NumberOfSubCycles = 2 (2 total, 2 sub)
+RebuildHierarchy: level = 4
+TransferSubgridParticles[4]: Moved 2 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3656
+RebuildHierarchy[4]: Flagged 11/19 grids. 426 flagged cells
+LoadBalance: Number of grids moved = 11 out of 11 (0.00312712 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3656
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[4]: dt = 0.00388175  0.0039246 (0.00756637/0.00756637)
+Level[5]: dt = 0.00183307  0.00183307 (0.00183307/0.00388175)
+RebuildHierarchy: level = 5
+TransferSubgridParticles[5]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3656
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[5]: dt = 0.00183408  0.00183408 (0.00366714/0.00388175)
+RebuildHierarchy: level = 5
+TransferSubgridParticles[5]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3656
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[5]: dt = 0.000214604  0.00183515 (0.00388175/0.00388175)
+EvolveLevel[5]: NumberOfSubCycles = 3 (5 total, 3 sub)
+EvolveLevel[4]: NumberOfSubCycles = 2 (2 total, 2 sub)
+RebuildHierarchy: level = 3
+TransferSubgridParticles[3]: Moved 22 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 5568
+RebuildHierarchy[3]: Flagged 21/65 grids. 705 flagged cells
+LoadBalance: Number of grids moved = 20 out of 21 (4.64618e-05 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3656
+RebuildHierarchy[4]: Flagged 11/21 grids. 417 flagged cells
+LoadBalance: Number of grids moved = 11 out of 11 (0.00310097 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3656
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[3]: dt = 0.00756696  0.00756696 (0.0151333/0.0163971)
+Level[4]: dt = 0.00392829  0.00392829 (0.00392829/0.00756696)
+Level[5]: dt = 0.00183526  0.00183526 (0.00183526/0.00392829)
+RebuildHierarchy: level = 5
+TransferSubgridParticles[5]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3592
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[5]: dt = 0.00183639  0.00183639 (0.00367165/0.00392829)
+RebuildHierarchy: level = 5
+TransferSubgridParticles[5]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3592
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[5]: dt = 0.000256639  0.0018376 (0.00392829/0.00392829)
+EvolveLevel[5]: NumberOfSubCycles = 3 (8 total, 3 sub)
+RebuildHierarchy: level = 4
+TransferSubgridParticles[4]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3592
+RebuildHierarchy[4]: Flagged 11/21 grids. 420 flagged cells
+LoadBalance: Number of grids moved = 11 out of 11 (0.00310266 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3592
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[4]: dt = 0.00363867  0.00393555 (0.00756696/0.00756696)
+Level[5]: dt = 0.00183775  0.00183775 (0.00183775/0.00363867)
+RebuildHierarchy: level = 5
+TransferSubgridParticles[5]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3592
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[5]: dt = 0.00180092  0.00183908 (0.00363867/0.00363867)
+EvolveLevel[5]: NumberOfSubCycles = 2 (10 total, 2 sub)
+EvolveLevel[4]: NumberOfSubCycles = 2 (4 total, 2 sub)
+Level[3]: dt = 0.00126377  0.00756836 (0.0163971/0.0163971)
+Level[4]: dt = 0.00126377  0.00394453 (0.00126377/0.00126377)
+Level[5]: dt = 0.00126377  0.00184046 (0.00126377/0.00126377)
+EvolveLevel[5]: NumberOfSubCycles = 1 (11 total, 1 sub)
+EvolveLevel[4]: NumberOfSubCycles = 1 (5 total, 1 sub)
+EvolveLevel[3]: NumberOfSubCycles = 3 (3 total, 3 sub)
+RebuildHierarchy: level = 2
+TransferSubgridParticles[2]: Moved 1619 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 39840
+RebuildHierarchy[2]: Flagged 61/310 grids. 3338 flagged cells
+LoadBalance: Number of grids moved = 66 out of 66 (0.00355501 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 6000
+RebuildHierarchy[3]: Flagged 21/66 grids. 723 flagged cells
+LoadBalance: Number of grids moved = 20 out of 21 (4.57279e-05 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3592
+RebuildHierarchy[4]: Flagged 11/21 grids. 450 flagged cells
+LoadBalance: Number of grids moved = 11 out of 11 (0.00361887 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3592
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[2]: dt = 0.0156134  0.0164684 (0.0320105/0.0320105)
+Level[3]: dt = 0.00756884  0.00756884 (0.00756884/0.0156134)
+Level[4]: dt = 0.00394629  0.00394629 (0.00394629/0.00756884)
+Level[5]: dt = 0.00184148  0.00184148 (0.00184148/0.00394629)
+RebuildHierarchy: level = 5
+TransferSubgridParticles[5]: Moved 1 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3808
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[5]: dt = 0.00184306  0.00184306 (0.00368454/0.00394629)
+RebuildHierarchy: level = 5
+TransferSubgridParticles[5]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3808
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[5]: dt = 0.000261754  0.0018446 (0.00394629/0.00394629)
+EvolveLevel[5]: NumberOfSubCycles = 3 (14 total, 3 sub)
+RebuildHierarchy: level = 4
+TransferSubgridParticles[4]: Moved 1 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3808
+RebuildHierarchy[4]: Flagged 11/21 grids. 450 flagged cells
+LoadBalance: Number of grids moved = 11 out of 11 (0.0036105 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3808
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[4]: dt = 0.00362255  0.00394391 (0.00756884/0.00756884)
+Level[5]: dt = 0.00184477  0.00184477 (0.00184477/0.00362255)
+RebuildHierarchy: level = 5
+TransferSubgridParticles[5]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3808
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[5]: dt = 0.00177778  0.00184615 (0.00362255/0.00362255)
+EvolveLevel[5]: NumberOfSubCycles = 2 (16 total, 2 sub)
+EvolveLevel[4]: NumberOfSubCycles = 2 (7 total, 2 sub)
+RebuildHierarchy: level = 3
+TransferSubgridParticles[3]: Moved 7 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 6200
+RebuildHierarchy[3]: Flagged 21/66 grids. 723 flagged cells
+LoadBalance: Number of grids moved = 20 out of 21 (5.48549e-05 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3808
+RebuildHierarchy[4]: Flagged 11/21 grids. 450 flagged cells
+LoadBalance: Number of grids moved = 11 out of 11 (0.00361304 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3808
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[3]: dt = 0.00757207  0.00757207 (0.0151409/0.0156134)
+Level[4]: dt = 0.00394206  0.00394206 (0.00394206/0.00757207)
+Level[5]: dt = 0.00184747  0.00184747 (0.00184747/0.00394206)
+RebuildHierarchy: level = 5
+TransferSubgridParticles[5]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3808
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[5]: dt = 0.00184307  0.00184307 (0.00369054/0.00394206)
+RebuildHierarchy: level = 5
+TransferSubgridParticles[5]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3808
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[5]: dt = 0.000251529  0.00183706 (0.00394206/0.00394206)
+EvolveLevel[5]: NumberOfSubCycles = 3 (19 total, 3 sub)
+RebuildHierarchy: level = 4
+TransferSubgridParticles[4]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3808
+RebuildHierarchy[4]: Flagged 11/21 grids. 449 flagged cells
+LoadBalance: Number of grids moved = 11 out of 11 (0.00353135 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3808
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[4]: dt = 0.00363001  0.00394039 (0.00757207/0.00757207)
+Level[5]: dt = 0.00183628  0.00183628 (0.00183628/0.00363001)
+RebuildHierarchy: level = 5
+TransferSubgridParticles[5]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3808
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[5]: dt = 0.00179373  0.00183056 (0.00363001/0.00363001)
+EvolveLevel[5]: NumberOfSubCycles = 2 (21 total, 2 sub)
+EvolveLevel[4]: NumberOfSubCycles = 2 (9 total, 2 sub)
+Level[3]: dt = 0.000472517  0.00757619 (0.0156134/0.0156134)
+Level[4]: dt = 0.000472517  0.00393917 (0.000472517/0.000472517)
+Level[5]: dt = 0.000472517  0.00182663 (0.000472517/0.000472517)
+EvolveLevel[5]: NumberOfSubCycles = 1 (22 total, 1 sub)
+EvolveLevel[4]: NumberOfSubCycles = 1 (10 total, 1 sub)
+EvolveLevel[3]: NumberOfSubCycles = 3 (6 total, 3 sub)
+EvolveLevel[2]: NumberOfSubCycles = 2 (2 total, 2 sub)
+RebuildHierarchy: level = 1
+TransferSubgridParticles[1]: Moved 39020 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 247784
+RebuildHierarchy[1]: Flagged 261/4055 grids. 18571 flagged cells
+LoadBalance: Number of grids moved = 311 out of 313 (0.00531617 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 41600
+RebuildHierarchy[2]: Flagged 61/313 grids. 3393 flagged cells
+LoadBalance: Number of grids moved = 67 out of 67 (0.00359284 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 6200
+RebuildHierarchy[3]: Flagged 22/67 grids. 770 flagged cells
+LoadBalance: Number of grids moved = 21 out of 22 (4.65214e-05 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3808
+RebuildHierarchy[4]: Flagged 11/22 grids. 449 flagged cells
+LoadBalance: Number of grids moved = 11 out of 11 (0.00361282 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3808
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[1]: dt = 0.0308766  0.0320214 (0.0628872/0.0628872)
+Level[2]: dt = 0.0165063  0.0165063 (0.0165063/0.0308766)
+Level[3]: dt = 0.00757652  0.00757652 (0.00757652/0.0165063)
+Level[4]: dt = 0.00393902  0.00393902 (0.00393902/0.00757652)
+Level[5]: dt = 0.00182569  0.00182569 (0.00182569/0.00393902)
+RebuildHierarchy: level = 5
+TransferSubgridParticles[5]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3808
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[5]: dt = 0.00182197  0.00182197 (0.00364766/0.00393902)
+RebuildHierarchy: level = 5
+TransferSubgridParticles[5]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3808
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[5]: dt = 0.000291359  0.0018201 (0.00393902/0.00393902)
+EvolveLevel[5]: NumberOfSubCycles = 3 (25 total, 3 sub)
+RebuildHierarchy: level = 4
+TransferSubgridParticles[4]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3808
+RebuildHierarchy[4]: Flagged 11/22 grids. 449 flagged cells
+LoadBalance: Number of grids moved = 11 out of 11 (0.00355692 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3808
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[4]: dt = 0.0036375  0.00393807 (0.00757652/0.00757652)
+Level[5]: dt = 0.00181981  0.00181981 (0.00181981/0.0036375)
+RebuildHierarchy: level = 5
+TransferSubgridParticles[5]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3864
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[5]: dt = 0.0018177  0.00181735 (0.0036375/0.0036375)
+EvolveLevel[5]: NumberOfSubCycles = 2 (27 total, 2 sub)
+EvolveLevel[4]: NumberOfSubCycles = 2 (12 total, 2 sub)
+RebuildHierarchy: level = 3
+TransferSubgridParticles[3]: Moved 1 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 6640
+RebuildHierarchy[3]: Flagged 21/67 grids. 759 flagged cells
+LoadBalance: Number of grids moved = 20 out of 21 (4.67338e-05 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3864
+RebuildHierarchy[4]: Flagged 11/21 grids. 458 flagged cells
+LoadBalance: Number of grids moved = 11 out of 11 (0.00359281 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3864
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[3]: dt = 0.00758209  0.00758209 (0.0151586/0.0165063)
+Level[4]: dt = 0.00393752  0.00393752 (0.00393752/0.00758209)
+Level[5]: dt = 0.00181644  0.00181644 (0.00181644/0.00393752)
+RebuildHierarchy: level = 5
+TransferSubgridParticles[5]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3960
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[5]: dt = 0.00181419  0.00181419 (0.00363063/0.00393752)
+RebuildHierarchy: level = 5
+TransferSubgridParticles[5]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3960
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[5]: dt = 0.000306892  0.0018126 (0.00393752/0.00393752)
+EvolveLevel[5]: NumberOfSubCycles = 3 (30 total, 3 sub)
+RebuildHierarchy: level = 4
+TransferSubgridParticles[4]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3960
+RebuildHierarchy[4]: Flagged 11/21 grids. 449 flagged cells
+LoadBalance: Number of grids moved = 11 out of 11 (0.00355985 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3960
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[4]: dt = 0.00364457  0.00392846 (0.00758209/0.00758209)
+Level[5]: dt = 0.00181248  0.00181248 (0.00181248/0.00364457)
+RebuildHierarchy: level = 5
+TransferSubgridParticles[5]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3832
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[5]: dt = 0.0018321  0.00181044 (0.00364457/0.00364457)
+EvolveLevel[5]: NumberOfSubCycles = 2 (32 total, 2 sub)
+EvolveLevel[4]: NumberOfSubCycles = 2 (14 total, 2 sub)
+Level[3]: dt = 0.00134765  0.00758858 (0.0165063/0.0165063)
+Level[4]: dt = 0.00134765  0.00392211 (0.00134765/0.00134765)
+Level[5]: dt = 0.00134765  0.00180883 (0.00134765/0.00134765)
+EvolveLevel[5]: NumberOfSubCycles = 1 (33 total, 1 sub)
+EvolveLevel[4]: NumberOfSubCycles = 1 (15 total, 1 sub)
+EvolveLevel[3]: NumberOfSubCycles = 3 (9 total, 3 sub)
+RebuildHierarchy: level = 2
+TransferSubgridParticles[2]: Moved 46 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 41816
+RebuildHierarchy[2]: Flagged 61/313 grids. 3383 flagged cells
+LoadBalance: Number of grids moved = 67 out of 67 (0.00357482 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 6696
+RebuildHierarchy[3]: Flagged 20/67 grids. 738 flagged cells
+LoadBalance: Number of grids moved = 19 out of 20 (4.64544e-05 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3832
+RebuildHierarchy[4]: Flagged 11/20 grids. 458 flagged cells
+LoadBalance: Number of grids moved = 11 out of 11 (0.00362822 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3832
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[2]: dt = 0.0143704  0.0165037 (0.0308766/0.0308766)
+Level[3]: dt = 0.00758989  0.00758989 (0.00758989/0.0143704)
+Level[4]: dt = 0.00392086  0.00392086 (0.00392086/0.00758989)
+Level[5]: dt = 0.0018083  0.0018083 (0.0018083/0.00392086)
+RebuildHierarchy: level = 5
+TransferSubgridParticles[5]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3904
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[5]: dt = 0.00180621  0.00180621 (0.00361452/0.00392086)
+RebuildHierarchy: level = 5
+TransferSubgridParticles[5]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3904
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[5]: dt = 0.00030634  0.00180537 (0.00392086/0.00392086)
+EvolveLevel[5]: NumberOfSubCycles = 3 (36 total, 3 sub)
+RebuildHierarchy: level = 4
+TransferSubgridParticles[4]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3904
+RebuildHierarchy[4]: Flagged 11/20 grids. 449 flagged cells
+LoadBalance: Number of grids moved = 11 out of 11 (0.00358623 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3904
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[4]: dt = 0.00366904  0.00391965 (0.00758989/0.00758989)
+Level[5]: dt = 0.00180544  0.00180544 (0.00180544/0.00366904)
+RebuildHierarchy: level = 5
+TransferSubgridParticles[5]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3808
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[5]: dt = 0.0018636  0.00180494 (0.00366904/0.00366904)
+EvolveLevel[5]: NumberOfSubCycles = 2 (38 total, 2 sub)
+EvolveLevel[4]: NumberOfSubCycles = 2 (17 total, 2 sub)
+RebuildHierarchy: level = 3
+TransferSubgridParticles[3]: Moved 6 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 6400
+RebuildHierarchy[3]: Flagged 21/67 grids. 746 flagged cells
+LoadBalance: Number of grids moved = 20 out of 21 (4.68604e-05 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3808
+RebuildHierarchy[4]: Flagged 11/21 grids. 467 flagged cells
+LoadBalance: Number of grids moved = 11 out of 11 (0.00357263 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 3808
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[3]: dt = 0.00678047  0.00759771 (0.0143704/0.0143704)
+Level[4]: dt = 0.00392073  0.00392073 (0.00392073/0.00678047)
+Level[5]: dt = 0.00180625  0.00180625 (0.00180625/0.00392073)
+RebuildHierarchy: level = 5
+TransferSubgridParticles[5]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 4096
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[5]: dt = 0.00180861  0.00180861 (0.00361485/0.00392073)
+RebuildHierarchy: level = 5
+TransferSubgridParticles[5]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 4096
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[5]: dt = 0.00030588  0.00181042 (0.00392073/0.00392073)
+EvolveLevel[5]: NumberOfSubCycles = 3 (41 total, 3 sub)
+RebuildHierarchy: level = 4
+TransferSubgridParticles[4]: Moved 1 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 4096
+RebuildHierarchy[4]: Flagged 11/21 grids. 470 flagged cells
+LoadBalance: Number of grids moved = 11 out of 11 (0.00354869 seconds elapsed)
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 4096
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[4]: dt = 0.00285973  0.00391832 (0.00678047/0.00678047)
+Level[5]: dt = 0.00181091  0.00181091 (0.00181091/0.00285973)
+RebuildHierarchy: level = 5
+TransferSubgridParticles[5]: Moved 0 particles, 0 stars, 0 active particles.
+DetermineSGSize: MaxSubgridSize = 2000, MinSubgridEdge = 4, ncells = 4096
+RebuildHierarchy[5]: Flagged 0/11 grids. 0 flagged cells
+Level[5]: dt = 0.00104882  0.00181435 (0.00285973/0.00285973)
+EvolveLevel[5]: NumberOfSubCycles = 2 (43 total, 2 sub)
+EvolveLevel[4]: NumberOfSubCycles = 2 (19 total, 2 sub)
+EvolveLevel[3]: NumberOfSubCycles = 2 (11 total, 2 sub)
+EvolveLevel[2]: NumberOfSubCycles = 2 (4 total, 2 sub)
+EvolveLevel[1]: NumberOfSubCycles = 2 (2 total, 2 sub)
+EvolveLevel[0]: NumberOfSubCycles = 1 (1 total, 1 sub)
+CPUTime-output: Frac = 0.999645, Current = 919.201 (919.201), Stop = 2592000.000000, Last = 919.201
+[YT_INFO   ] Setting YT parameters ...
+[YT_INFO   ] Setting YT parameters ... done.
+[YT_INFO   ] Getting pointer to particle list information ...
+[YT_INFO   ] Getting pointer to particle list information  ... done.
+[YT_INFO   ] Getting pointer to field list information ...
+[YT_INFO   ] Getting pointer to field list information  ... done.
+[YT_INFO   ] Getting pointer to local grids information ...
+[YT_INFO   ] Getting pointer to local grids information  ... done.
+[YT_INFO   ] Loading full hierarchy and local data to libyt ...
+[YT_INFO   ] Loading full hierarchy and local data ... done.
+[YT_INFO   ] Performing YT inline analysis yt_inline_func() ...
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 0 PID 214440 RUNNING AT c156-193
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 1 PID 214441 RUNNING AT c156-193
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 2 PID 214442 RUNNING AT c156-193
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 3 PID 214443 RUNNING AT c156-193
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 4 PID 214444 RUNNING AT c156-193
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 5 PID 214445 RUNNING AT c156-193
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 6 PID 214446 RUNNING AT c156-193
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 7 PID 214447 RUNNING AT c156-193
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 8 PID 214448 RUNNING AT c156-193
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 9 PID 214449 RUNNING AT c156-193
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 10 PID 214450 RUNNING AT c156-193
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 11 PID 214451 RUNNING AT c156-193
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 12 PID 214452 RUNNING AT c156-193
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 13 PID 214453 RUNNING AT c156-193
+=   KILLED BY SIGNAL: 15 (Terminated)
+===================================================================================
