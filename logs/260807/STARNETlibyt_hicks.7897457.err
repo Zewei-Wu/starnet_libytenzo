@@ -1,0 +1,1682 @@
+
+The following have been reloaded with a version change:
+  1) intel/19.0.5 => intel/19.1.1
+
+ldd: missing file arguments
+Try `ldd --help' for more information.
+warning: the following parameter line was not interpreted:
+use_grackle                 = 1
+warning: the following parameter line was not interpreted:
+with_radiative_cooling      = 1
+warning: the following parameter line was not interpreted:
+use_volumetric_heating_rate = 0
+warning: the following parameter line was not interpreted:
+use_specific_heating_rate   = 0
+warning: the following parameter line was not interpreted:
+self_shielding_method       = 1
+warning: the following parameter line was not interpreted:
+H2_self_shielding           = 0
+warning: the following parameter line was not interpreted:
+UVbackground                = 1
+warning: the following parameter line was not interpreted:
+Compton_xray_heating        = 0
+warning: the following parameter line was not interpreted:
+LWbackground_intensity      = 0.000000
+warning: the following parameter line was not interpreted:
+LWbackground_sawtooth_suppression = 0
+warning: the following parameter line was not interpreted:
+dust_chemistry              = 0
+warning: the following parameter line was not interpreted:
+local_dust_to_gas_ratio     = 0.009387
+warning: the following parameter line was not interpreted:
+use_isrf_field              = 0
+warning: the following parameter line was not interpreted:
+use_dust_density_field      = 0
+Output to Global Dir .
+Successfully read ParameterFile z_0010/z_0010.
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 50 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 330 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 52 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 333 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 53 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 334 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 239 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 55 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 420 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 322 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 504 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 533 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 409 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 269 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 4 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 42 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 132 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 428 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 451 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 113 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 323 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 506 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 497 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 534 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 240 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 262 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 9 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 43 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 133 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 431 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 453 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 94 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 324 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 509 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 498 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 540 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 196 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 367 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 210 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 415 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 270 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 10 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 44 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 139 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 433 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 359 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 456 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 97 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 326 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 510 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 500 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 541 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 197 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 369 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 211 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 418 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 252 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 0 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 46 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 143 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 421 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 344 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 457 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 98 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 327 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 511 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 502 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 542 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 198 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 370 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 213 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 419 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 253 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 1 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 47 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 127 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 424 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 360 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 459 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 114 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 328 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 512 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 490 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 543 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 202 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 371 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 215 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 406 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 254 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 2 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 48 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 128 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 434 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 336 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 460 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 84 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 329 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 513 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 491 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 544 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 203 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 372 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 220 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 407 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 255 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 3 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 54 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 131 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 446 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 337 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 461 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 85 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 331 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 514 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 492 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 532 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 204 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 374 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 223 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 408 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 256 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 5 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 76 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 134 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 427 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 338 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 448 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 87 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 332 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 515 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 493 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 536 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 208 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 375 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 241 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 410 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 257 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 6 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 77 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 137 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 435 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 340 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 449 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 88 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 335 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 516 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 495 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 539 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 209 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 376 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 221 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 411 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 259 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 7 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 49 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 145 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 423 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 341 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 450 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 89 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 325 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 507 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 496 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 535 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 201 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 364 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 250 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 412 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 260 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 8 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 51 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 149 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 437 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 342 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 452 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 91 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 312 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 508 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 499 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 537 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 205 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 365 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 238 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 413 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 261 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 11 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 78 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 150 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 438 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 343 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 454 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 92 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 315 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 517 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 501 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 538 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 177 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 366 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 242 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 414 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 265 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 12 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 45 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 151 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 425 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 345 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 455 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 95 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 317 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 505 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 479 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 545 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 179 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 368 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 245 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 416 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 271 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 13 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 79 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 140 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 432 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 346 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 458 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 96 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 318 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 518 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 480 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 548 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 206 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 373 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 246 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 417 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 258 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 81 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 147 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 439 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 347 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 465 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 115 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 319 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 519 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 481 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 550 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 169 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 377 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 249 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 397 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 274 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 15 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 82 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 135 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 440 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 348 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 468 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 118 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 320 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 524 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 486 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 554 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 170 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 382 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 247 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 392 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 279 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 28 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 70 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 148 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 426 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 349 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 470 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 120 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 308 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 527 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 488 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 555 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 175 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 387 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 251 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 393 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 266 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 29 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 71 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 152 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 430 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 363 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 471 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 121 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 309 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 529 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 476 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 556 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 181 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 388 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 248 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 398 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 267 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 22 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 72 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 144 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 442 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 350 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 472 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 123 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 310 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 523 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 482 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 557 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 207 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 389 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 243 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 405 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 268 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 30 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 73 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 146 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 443 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 351 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 474 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 124 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 311 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 525 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 484 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 558 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 174 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 390 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 216 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 394 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 272 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 24 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 57 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 126 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 445 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 352 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 475 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 125 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 313 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 528 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 494 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 559 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 176 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 391 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 222 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 395 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 273 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 31 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 74 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 141 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 422 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 353 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 462 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 119 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 314 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 530 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 503 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 546 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 178 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 378 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 244 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 396 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 275 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 27 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 58 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 142 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 429 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 355 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 463 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 122 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 316 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 522 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 483 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 547 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 173 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 379 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 219 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 400 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 276 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 35 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 75 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 129 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 447 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 356 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 464 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 117 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 321 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 520 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,399 Global parallel computation enabled: 477 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 551 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 200 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 380 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 218 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 404 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 277 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 14 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 59 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 130 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 436 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 357 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 466 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 101 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 297 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 521 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,399 Global parallel computation enabled: 489 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 552 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 189 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 385 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 227 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 399 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 278 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 36 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 80 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 136 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 444 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 358 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 467 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 102 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 305 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 531 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,399 Global parallel computation enabled: 485 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 553 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 190 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 383 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 214 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 401 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 263 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 16 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 60 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 138 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 441 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 362 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 469 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 104 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 306 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 526 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,399 Global parallel computation enabled: 487 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 549 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 199 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 386 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 229 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 402 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 264 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 39 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 63 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 153 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 354 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 473 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 106 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 294 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,399 Global parallel computation enabled: 478 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 191 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 381 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 212 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 403 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 280 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 17 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 67 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 156 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 361 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 109 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 295 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 171 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 384 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,396 Global parallel computation enabled: 217 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 286 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 32 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 56 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 157 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 339 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 100 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 299 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 195 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 235 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 290 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 18 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 61 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 160 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 108 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 304 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 182 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 237 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 291 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 33 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 62 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 164 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 116 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 307 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 183 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 226 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 293 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 19 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 64 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 154 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 90 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 296 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 184 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 228 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 281 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 34 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 69 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 162 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 93 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 298 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 185 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 231 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 282 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 20 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 83 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 163 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 86 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 301 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 186 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 233 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 283 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 37 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 66 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 158 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 112 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 302 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 187 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 234 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 284 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 21 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 65 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 167 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 99 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 303 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 188 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 236 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 285 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 40 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 68 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 159 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 103 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 300 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 192 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 225 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 287 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 23 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 161 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 110 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 180 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 230 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 288 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 41 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 166 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 111 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 193 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 224 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 289 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 25 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 155 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 107 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 194 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 232 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 292 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 38 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 165 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 105 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 172 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,397 Global parallel computation enabled: 26 / 560
+yt : [INFO     ] 2026-08-12 17:39:52,398 Global parallel computation enabled: 168 / 560
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+INITIALDT :::::::::::   0.00000000e+00
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+dt, Initialdt: 0.0607034 0 
+TopGrid dt = 6.070344e-02     time = 18.475145412448    cycle = 412    z = 23.9999997207
+dt, Initialdt: 0.06078 0 
+TopGrid dt = 6.077997e-02     time = 18.535848854663    cycle = 413    z = 23.945385269746
+dt, Initialdt: 0.0608577 0 
+TopGrid dt = 6.085770e-02     time = 18.596628829243    cycle = 414    z = 23.890999815793
+dt, Initialdt: 0.060936 0 
+TopGrid dt = 6.093596e-02     time = 18.657486527016    cycle = 415    z = 23.836840832376
+dt, Initialdt: 0.0610152 0 
+TopGrid dt = 6.101521e-02     time = 18.718422491967    cycle = 416    z = 23.782906399765
+dt, Initialdt: 0.0610914 0 
+TopGrid dt = 6.109140e-02     time = 18.779437698441    cycle = 417    z = 23.729194222121
+dt, Initialdt: 0.0611556 0 
+TopGrid dt = 6.115558e-02     time = 18.840529099025    cycle = 418    z = 23.675705501324
+dt, Initialdt: 0.0612207 0 
+TopGrid dt = 6.122070e-02     time = 18.90168468295    cycle = 419    z = 23.622449331831
+dt, Initialdt: 0.061287 0 
+TopGrid dt = 6.128701e-02     time = 18.962905383821    cycle = 420    z = 23.569423326964
+dt, Initialdt: 0.0613546 0 
+TopGrid dt = 6.135458e-02     time = 19.02419239559    cycle = 421    z = 23.516624908407
+dt, Initialdt: 0.0614233 0 
+TopGrid dt = 6.142326e-02     time = 19.085546979352    cycle = 422    z = 23.464051476805
+dt, Initialdt: 0.0614933 0 
+TopGrid dt = 6.149327e-02     time = 19.146970244022    cycle = 423    z = 23.411700599142
+dt, Initialdt: 0.0615645 0 
+TopGrid dt = 6.156453e-02     time = 19.208463512014    cycle = 424    z = 23.359569610561
+dt, Initialdt: 0.061637 0 
+TopGrid dt = 6.163701e-02     time = 19.270028044709    cycle = 425    z = 23.307656080123
+dt, Initialdt: 0.061711 0 
+TopGrid dt = 6.171103e-02     time = 19.331665051344    cycle = 426    z = 23.255957620091
+dt, Initialdt: 0.0617867 0 
+TopGrid dt = 6.178669e-02     time = 19.393376085602    cycle = 427    z = 23.204471564918
+dt, Initialdt: 0.0618638 0 
+TopGrid dt = 6.186377e-02     time = 19.455162776532    cycle = 428    z = 23.153195226
+dt, Initialdt: 0.0619427 0 
+TopGrid dt = 6.194266e-02     time = 19.517026549665    cycle = 429    z = 23.102126122311
+dt, Initialdt: 0.0620228 0 
+TopGrid dt = 6.202279e-02     time = 19.578969210168    cycle = 430    z = 23.051261468081
+dt, Initialdt: 0.0621043 0 
+TopGrid dt = 7.352910e-04     time = 19.640992003019    cycle = 431    z = 23.000598953475
+Continuation Flag = 1
+dt, Initialdt: 0.0621053 0 
+TopGrid dt = 6.210533e-02     time = 19.641727293979    cycle = 432    z = 22.999999940107
+dt, Initialdt: 0.0621885 0 
+TopGrid dt = 6.218846e-02     time = 19.703832619043    cycle = 433    z = 22.949539628706
+dt, Initialdt: 0.0622727 0 
+TopGrid dt = 6.227274e-02     time = 19.76602107539    cycle = 434    z = 22.899276694943
+dt, Initialdt: 0.0623439 0 
+TopGrid dt = 6.234390e-02     time = 19.828293812868    cycle = 435    z = 22.849209057055
+dt, Initialdt: 0.0624089 0 
+TopGrid dt = 6.240893e-02     time = 19.890637711112    cycle = 436    z = 22.799346045313
+dt, Initialdt: 0.062475 0 
+TopGrid dt = 6.247496e-02     time = 19.953046642458    cycle = 437    z = 22.749691231697
+dt, Initialdt: 0.0625423 0 
+TopGrid dt = 6.254225e-02     time = 20.015521598966    cycle = 438    z = 22.700242399753
+dt, Initialdt: 0.06261 0 
+TopGrid dt = 6.261001e-02     time = 20.078063851649    cycle = 439    z = 22.650997263386
+dt, Initialdt: 0.0626788 0 
+TopGrid dt = 6.267883e-02     time = 20.140673864621    cycle = 440    z = 22.601954191627
+dt, Initialdt: 0.062749 0 
+TopGrid dt = 6.274897e-02     time = 20.203352696622    cycle = 441    z = 22.553111074845
+dt, Initialdt: 0.0628196 0 
+TopGrid dt = 6.281963e-02     time = 20.266101668107    cycle = 442    z = 22.504465629238
+dt, Initialdt: 0.0628907 0 
+TopGrid dt = 6.289069e-02     time = 20.328921295258    cycle = 443    z = 22.456016221639
+dt, Initialdt: 0.0629499 0 
+TopGrid dt = 6.294988e-02     time = 20.391811987997    cycle = 444    z = 22.40776131772
+dt, Initialdt: 0.0630098 0 
+TopGrid dt = 6.300975e-02     time = 20.454761863261    cycle = 445    z = 22.359708648646
+dt, Initialdt: 0.0630701 0 
+TopGrid dt = 6.307007e-02     time = 20.517771614128    cycle = 446    z = 22.31185647082
+dt, Initialdt: 0.0631312 0 
+TopGrid dt = 6.313122e-02     time = 20.580841686982    cycle = 447    z = 22.264203135133
+dt, Initialdt: 0.0631933 0 
+TopGrid dt = 6.319327e-02     time = 20.64397290289    cycle = 448    z = 22.216746730212
+dt, Initialdt: 0.063256 0 
+TopGrid dt = 6.325602e-02     time = 20.707166172183    cycle = 449    z = 22.169485302212
+dt, Initialdt: 0.0633199 0 
+TopGrid dt = 6.331987e-02     time = 20.770422192606    cycle = 450    z = 22.122417080182
+dt, Initialdt: 0.0633848 0 
+TopGrid dt = 6.338475e-02     time = 20.833742062306    cycle = 451    z = 22.075539991053
+dt, Initialdt: 0.0634505 0 
+TopGrid dt = 3.933499e-02     time = 20.89712681382    cycle = 452    z = 22.028852005025
+Continuation Flag = 1
+dt, Initialdt: 0.063492 0 
+TopGrid dt = 6.349195e-02     time = 20.936461799981    cycle = 453    z = 21.999997119317
+dt, Initialdt: 0.0635597 0 
+TopGrid dt = 6.355966e-02     time = 20.99995375186    cycle = 454    z = 21.953611595172
+dt, Initialdt: 0.0636287 0 
+TopGrid dt = 6.362868e-02     time = 21.063513412739    cycle = 455    z = 21.907410134686
+dt, Initialdt: 0.0636994 0 
+TopGrid dt = 6.369941e-02     time = 21.127142090608    cycle = 456    z = 21.861390662491
+dt, Initialdt: 0.0637712 0 
+TopGrid dt = 6.377117e-02     time = 21.190841497889    cycle = 457    z = 21.815550841337
+dt, Initialdt: 0.0638441 0 
+TopGrid dt = 6.384414e-02     time = 21.254612664073    cycle = 458    z = 21.769888855546
+dt, Initialdt: 0.063909 0 
+TopGrid dt = 6.390900e-02     time = 21.318456800352    cycle = 459    z = 21.724402666376
+dt, Initialdt: 0.0639692 0 
+TopGrid dt = 6.396917e-02     time = 21.382365801864    cycle = 460    z = 21.679097083805
+dt, Initialdt: 0.0640303 0 
+TopGrid dt = 6.403033e-02     time = 21.44633497371    cycle = 461    z = 21.633974295755
+dt, Initialdt: 0.0640929 0 
+TopGrid dt = 6.409286e-02     time = 21.510365299143    cycle = 462    z = 21.589032458114
+dt, Initialdt: 0.0641558 0 
+TopGrid dt = 6.415575e-02     time = 21.574458162264    cycle = 463    z = 21.544269471172
+dt, Initialdt: 0.0642196 0 
+TopGrid dt = 6.421962e-02     time = 21.638613916716    cycle = 464    z = 21.499683978403
+dt, Initialdt: 0.0642848 0 
+TopGrid dt = 6.428475e-02     time = 21.702833541398    cycle = 465    z = 21.455274201668
+dt, Initialdt: 0.0643503 0 
+TopGrid dt = 6.435030e-02     time = 21.767118292405    cycle = 466    z = 21.411038089433
+dt, Initialdt: 0.0644169 0 
+TopGrid dt = 6.441695e-02     time = 21.83146859106    cycle = 467    z = 21.36697441239
+dt, Initialdt: 0.0644847 0 
+TopGrid dt = 6.448465e-02     time = 21.895885536119    cycle = 468    z = 21.323081379563
+dt, Initialdt: 0.0645532 0 
+TopGrid dt = 6.455320e-02     time = 21.960370186926    cycle = 469    z = 21.27935724991
+dt, Initialdt: 0.0646228 0 
+TopGrid dt = 6.462278e-02     time = 22.024923385223    cycle = 470    z = 21.235800451274
+dt, Initialdt: 0.064693 0 
+TopGrid dt = 6.469300e-02     time = 22.089546161037    cycle = 471    z = 21.192409304622
+dt, Initialdt: 0.0647645 0 
+TopGrid dt = 6.476453e-02     time = 22.154239162129    cycle = 472    z = 21.149182407143
+dt, Initialdt: 0.0648371 0 
+TopGrid dt = 6.483706e-02     time = 22.219003689904    cycle = 473    z = 21.106117819052
+dt, Initialdt: 0.0649101 0 
+TopGrid dt = 6.491009e-02     time = 22.283840752072    cycle = 474    z = 21.063214056834
+dt, Initialdt: 0.0649842 0 
+TopGrid dt = 3.119977e-02     time = 22.348750840705    cycle = 475    z = 21.02046987924
+Continuation Flag = 1
+dt, Initialdt: 0.0650191 0 
+TopGrid dt = 6.501912e-02     time = 22.379950613857    cycle = 476    z = 20.99999795539
+dt, Initialdt: 0.0650646 0 
+TopGrid dt = 6.506463e-02     time = 22.444969734604    cycle = 477    z = 20.957487731086
+dt, Initialdt: 0.0651117 0 
+TopGrid dt = 6.511167e-02     time = 22.510034366219    cycle = 478    z = 20.915152718495
+dt, Initialdt: 0.0651609 0 
+TopGrid dt = 6.516094e-02     time = 22.575146040572    cycle = 479    z = 20.872990780017
+dt, Initialdt: 0.0652128 0 
+TopGrid dt = 6.521279e-02     time = 22.640306975815    cycle = 480    z = 20.830999326912
+dt, Initialdt: 0.0652659 0 
+TopGrid dt = 6.526586e-02     time = 22.705519764909    cycle = 481    z = 20.789175562995
+dt, Initialdt: 0.0653208 0 
+TopGrid dt = 6.532084e-02     time = 22.770785621388    cycle = 482    z = 20.747517740185
+dt, Initialdt: 0.0653783 0 
+TopGrid dt = 6.537830e-02     time = 22.836106456805    cycle = 483    z = 20.706023607762
+dt, Initialdt: 0.0654366 0 
+TopGrid dt = 6.543662e-02     time = 22.901484753639    cycle = 484    z = 20.664690586913
+dt, Initialdt: 0.0654966 0 
+TopGrid dt = 6.549661e-02     time = 22.966921374874    cycle = 485    z = 20.623517153742
+dt, Initialdt: 0.0655588 0 
+TopGrid dt = 6.555877e-02     time = 23.032417989422    cycle = 486    z = 20.582501299351
+dt, Initialdt: 0.0656215 0 
+TopGrid dt = 6.562145e-02     time = 23.097976762174    cycle = 487    z = 20.541640725907
+dt, Initialdt: 0.0656855 0 
+TopGrid dt = 6.568551e-02     time = 23.163598215903    cycle = 488    z = 20.500934085255
+dt, Initialdt: 0.065751 0 
+TopGrid dt = 6.575105e-02     time = 23.229283723047    cycle = 489    z = 20.46037974443
+dt, Initialdt: 0.0658174 0 
+TopGrid dt = 6.581743e-02     time = 23.295034769006    cycle = 490    z = 20.419975907388
+dt, Initialdt: 0.065885 0 
+TopGrid dt = 6.588499e-02     time = 23.360852200719    cycle = 491    z = 20.379721191807
+dt, Initialdt: 0.0659531 0 
+TopGrid dt = 6.595312e-02     time = 23.426737195647    cycle = 492    z = 20.339614031134
+dt, Initialdt: 0.0660223 0 
+TopGrid dt = 6.602226e-02     time = 23.492690317593    cycle = 493    z = 20.299653249792
+dt, Initialdt: 0.0660924 0 
+TopGrid dt = 6.609239e-02     time = 23.558712574114    cycle = 494    z = 20.259837418038
+dt, Initialdt: 0.066163 0 
+TopGrid dt = 6.616300e-02     time = 23.624804960248    cycle = 495    z = 20.220165040979
+dt, Initialdt: 0.0662345 0 
+TopGrid dt = 6.623448e-02     time = 23.690967963044    cycle = 496    z = 20.180635088661
+dt, Initialdt: 0.0662886 0 
+TopGrid dt = 6.628865e-02     time = 23.757202439185    cycle = 497    z = 20.141246304973
+dt, Initialdt: 0.0663374 0 
+TopGrid dt = 6.633743e-02     time = 23.823491085407    cycle = 498    z = 20.102008137212
+dt, Initialdt: 0.0663871 0 
+TopGrid dt = 6.638707e-02     time = 23.889828517172    cycle = 499    z = 20.062922843253
+dt, Initialdt: 0.0664379 0 
+TopGrid dt = 4.106154e-02     time = 23.956215587381    cycle = 500    z = 20.023988980458
+Continuation Flag = 1
+dt, Initialdt: 0.0664698 0 
+TopGrid dt = 6.646982e-02     time = 23.997277131781    cycle = 501    z = 19.999997604523
+dt, Initialdt: 0.0665222 0 
+TopGrid dt = 6.652224e-02     time = 24.06374694978    cycle = 502    z = 19.961305406537
+dt, Initialdt: 0.0665758 0 
+TopGrid dt = 6.657581e-02     time = 24.130269187812    cycle = 503    z = 19.922760517143
+dt, Initialdt: 0.066631 0 
+TopGrid dt = 6.663097e-02     time = 24.196844994727    cycle = 504    z = 19.884361486651
+dt, Initialdt: 0.0666866 0 
+TopGrid dt = 6.668664e-02     time = 24.263475962431    cycle = 505    z = 19.846106548815
+dt, Initialdt: 0.0667436 0 
+TopGrid dt = 6.674364e-02     time = 24.330162600838    cycle = 506    z = 19.807994562549
+dt, Initialdt: 0.0668022 0 
+TopGrid dt = 6.680217e-02     time = 24.396906238702    cycle = 507    z = 19.770023934184
+dt, Initialdt: 0.0668489 0 
+TopGrid dt = 6.684895e-02     time = 24.463708411731    cycle = 508    z = 19.732192973618
+dt, Initialdt: 0.0668983 0 
+TopGrid dt = 6.689829e-02     time = 24.530557357113    cycle = 509    z = 19.694507492968
+dt, Initialdt: 0.06695 0 
+TopGrid dt = 6.694999e-02     time = 24.597455643848    cycle = 510    z = 19.656965125217
+dt, Initialdt: 0.0670038 0 
+TopGrid dt = 6.700379e-02     time = 24.664405632407    cycle = 511    z = 19.619563646639
+dt, Initialdt: 0.0670602 0 
+TopGrid dt = 6.706023e-02     time = 24.731409423442    cycle = 512    z = 19.582301145236
+dt, Initialdt: 0.0671188 0 
+TopGrid dt = 6.711875e-02     time = 24.798469654073    cycle = 513    z = 19.545175351243
+dt, Initialdt: 0.0671794 0 
+TopGrid dt = 6.717935e-02     time = 24.865588404342    cycle = 514    z = 19.508184333963
+dt, Initialdt: 0.0672394 0 
+TopGrid dt = 6.723942e-02     time = 24.932767758403    cycle = 515    z = 19.471326187201
+dt, Initialdt: 0.0673031 0 
+TopGrid dt = 6.730308e-02     time = 25.00000718201    cycle = 516    z = 19.434600458123
+dt, Initialdt: 0.0673686 0 
+TopGrid dt = 6.736863e-02     time = 25.067310261257    cycle = 517    z = 19.398004458983
+dt, Initialdt: 0.0674353 0 
+TopGrid dt = 6.743528e-02     time = 25.134678889424    cycle = 518    z = 19.361536372226
+dt, Initialdt: 0.0675006 0 
+TopGrid dt = 6.750059e-02     time = 25.202114164828    cycle = 519    z = 19.325194953851
+dt, Initialdt: 0.0675688 0 
+TopGrid dt = 1.678669e-02     time = 25.26961475673    cycle = 520    z = 19.288980285088
+Continuation Flag = 1
+dt, Initialdt: 0.0675855 0 
+TopGrid dt = 6.758553e-02     time = 25.286401441875    cycle = 521    z = 19.279999102468
+dt, Initialdt: 0.0676527 0 
+TopGrid dt = 6.765267e-02     time = 25.353986969045    cycle = 522    z = 19.243939925502
+dt, Initialdt: 0.0677193 0 
+TopGrid dt = 6.771930e-02     time = 25.421639634543    cycle = 523    z = 19.20800502002
+dt, Initialdt: 0.0670408 0 
+TopGrid dt = 6.704076e-02     time = 25.489358938556    cycle = 524    z = 19.172193990739
+dt, Initialdt: 0.0678204 0 
+TopGrid dt = 6.782037e-02     time = 25.556399699442    cycle = 525    z = 19.136897643925
+dt, Initialdt: 0.0670185 0 
+TopGrid dt = 6.701848e-02     time = 25.624220072641    cycle = 526    z = 19.101347504321
+dt, Initialdt: 0.0673528 0 
+TopGrid dt = 6.735282e-02     time = 25.691238554643    cycle = 527    z = 19.066371302189
+dt, Initialdt: 0.0665961 0 
+TopGrid dt = 6.659614e-02     time = 25.758591370546    cycle = 528    z = 19.031373491937
+dt, Initialdt: 0.0663613 0 
+TopGrid dt = 6.636133e-02     time = 25.825187511963    cycle = 529    z = 18.996918505851
+dt, Initialdt: 0.0645295 0 
+TopGrid dt = 6.452950e-02     time = 25.891548840712    cycle = 530    z = 18.962731997257
+dt, Initialdt: 0.0644317 0 
+TopGrid dt = 6.443171e-02     time = 25.956078337521    cycle = 531    z = 18.929628930475
+dt, Initialdt: 0.0656411 0 
+TopGrid dt = 6.564114e-02     time = 26.020510051899    cycle = 532    z = 18.896712598998
+dt, Initialdt: 0.0657115 0 
+TopGrid dt = 6.571155e-02     time = 26.086151190083    cycle = 533    z = 18.863317812987
+dt, Initialdt: 0.0658936 0 
+TopGrid dt = 6.589356e-02     time = 26.15186273631    cycle = 534    z = 18.830027197175
+dt, Initialdt: 0.0662977 0 
+TopGrid dt = 6.629768e-02     time = 26.217756294481    cycle = 535    z = 18.796783951754
+dt, Initialdt: 0.0665516 0 
+TopGrid dt = 6.655157e-02     time = 26.284053977743    cycle = 536    z = 18.763477065786
+dt, Initialdt: 0.0665259 0 
+TopGrid dt = 6.652592e-02     time = 26.350605546274    cycle = 537    z = 18.73018316576
+dt, Initialdt: 0.0665094 0 
+TopGrid dt = 6.650941e-02     time = 26.417131469555    cycle = 538    z = 18.697041871877
+dt, Initialdt: 0.0667237 0 
+TopGrid dt = 6.672365e-02     time = 26.483640875772    cycle = 539    z = 18.664047567646
+dt, Initialdt: 0.0671107 0 
+TopGrid dt = 6.711073e-02     time = 26.550364528382    cycle = 540    z = 18.631085461469
+dt, Initialdt: 0.0677341 0 
+TopGrid dt = 6.773406e-02     time = 26.617475262035    cycle = 541    z = 18.598071111588
+dt, Initialdt: 0.0685897 0 
+TopGrid dt = 6.858973e-02     time = 26.685209319932    cycle = 542    z = 18.564890502959
+dt, Initialdt: 0.0688178 0 
+TopGrid dt = 6.881780e-02     time = 26.753799051417    cycle = 543    z = 18.531433365499
+dt, Initialdt: 0.0688753 0 
+TopGrid dt = 6.887530e-02     time = 26.822616852213    cycle = 544    z = 18.498008315794
+dt, Initialdt: 0.0689323 0 
+TopGrid dt = 6.893225e-02     time = 26.891492154971    cycle = 545    z = 18.464698145621
+dt, Initialdt: 0.068988 0 
+TopGrid dt = 6.898796e-02     time = 26.960424407859    cycle = 546    z = 18.431502503042
+dt, Initialdt: 0.0690183 0 
+TopGrid dt = 6.901831e-02     time = 27.029412372174    cycle = 547    z = 18.398421364834
+dt, Initialdt: 0.0690519 0 
+TopGrid dt = 6.905193e-02     time = 27.098430685239    cycle = 548    z = 18.365466196625
+dt, Initialdt: 0.0690888 0 
+TopGrid dt = 6.908879e-02     time = 27.167482611195    cycle = 549    z = 18.332634681891
+dt, Initialdt: 0.0691283 0 
+TopGrid dt = 6.912833e-02     time = 27.236571402356    cycle = 550    z = 18.299924542305
+dt, Initialdt: 0.0691707 0 
+TopGrid dt = 6.917068e-02     time = 27.305699735407    cycle = 551    z = 18.267333714577
+dt, Initialdt: 0.0692154 0 
+TopGrid dt = 6.921537e-02     time = 27.374870418325    cycle = 552    z = 18.234860225993
+dt, Initialdt: 0.0692626 0 
+TopGrid dt = 6.926255e-02     time = 27.444085788318    cycle = 553    z = 18.202502365129
+dt, Initialdt: 0.0683357 0 
+TopGrid dt = 6.833566e-02     time = 27.513348342628    cycle = 554    z = 18.170258318524
+dt, Initialdt: 0.0673641 0 
+TopGrid dt = 6.736414e-02     time = 27.581684002522    cycle = 555    z = 18.13857808702
+dt, Initialdt: 0.06651 0 
+TopGrid dt = 6.651000e-02     time = 27.649048144234    cycle = 556    z = 18.10747603474
+dt, Initialdt: 0.0659173 0 
+TopGrid dt = 6.591733e-02     time = 27.715558145184    cycle = 557    z = 18.076892000363
+dt, Initialdt: 0.0655546 0 
+TopGrid dt = 6.555457e-02     time = 27.781475479192    cycle = 558    z = 18.046700957613
+dt, Initialdt: 0.0652888 0 
+TopGrid dt = 6.528877e-02     time = 27.847030048256    cycle = 559    z = 18.016794218357
+dt, Initialdt: 0.0650536 0 
+TopGrid dt = 6.505359e-02     time = 27.912318813372    cycle = 560    z = 17.987125041202
+dt, Initialdt: 0.0649164 0 
+TopGrid dt = 6.491644e-02     time = 27.97737240819    cycle = 561    z = 17.957677554058
+dt, Initialdt: 0.0648843 0 
+TopGrid dt = 6.488431e-02     time = 28.042288850317    cycle = 562    z = 17.928405695884
+dt, Initialdt: 0.0649504 0 
+TopGrid dt = 6.495042e-02     time = 28.107173162118    cycle = 563    z = 17.899260967792
+dt, Initialdt: 0.0650893 0 
+TopGrid dt = 6.508934e-02     time = 28.172123581011    cycle = 564    z = 17.870198638674
+dt, Initialdt: 0.0652873 0 
+TopGrid dt = 6.528733e-02     time = 28.237212917285    cycle = 565    z = 17.841185969837
+dt, Initialdt: 0.0613055 0 
+TopGrid dt = 6.130546e-02     time = 28.302500250173    cycle = 566    z = 17.812196806801
+dt, Initialdt: 0.0651023 0 
+TopGrid dt = 6.510235e-02     time = 28.363805708115    cycle = 567    z = 17.78507697874
+dt, Initialdt: 0.0660245 0 
+TopGrid dt = 6.009040e-02     time = 28.428908057445    cycle = 568    z = 17.75638424431
+Continuation Flag = 1
+dt, Initialdt: 0.0662805 0 
+TopGrid dt = 6.628049e-02     time = 28.48899845247    cycle = 569    z = 17.729997366214
+dt, Initialdt: 0.066564 0 
+TopGrid dt = 6.656396e-02     time = 28.555278947106    cycle = 570    z = 17.700999675077
+dt, Initialdt: 0.0668292 0 
+TopGrid dt = 6.682922e-02     time = 28.621842905534    cycle = 571    z = 17.671990654512
+dt, Initialdt: 0.0670702 0 
+TopGrid dt = 6.707020e-02     time = 28.68867212082    cycle = 572    z = 17.642978932348
+dt, Initialdt: 0.0672881 0 
+TopGrid dt = 6.728805e-02     time = 28.755742325357    cycle = 573    z = 17.613975623742
+dt, Initialdt: 0.0671518 0 
+TopGrid dt = 6.715178e-02     time = 28.823030376065    cycle = 574    z = 17.584991192063
+dt, Initialdt: 0.0673751 0 
+TopGrid dt = 6.737515e-02     time = 28.890182158574    cycle = 575    z = 17.556177677835
+dt, Initialdt: 0.0678774 0 
+TopGrid dt = 6.787742e-02     time = 28.957557308012    cycle = 576    z = 17.527380288917
+dt, Initialdt: 0.0680523 0 
+TopGrid dt = 6.805233e-02     time = 29.0254347256    cycle = 577    z = 17.49848090182
+dt, Initialdt: 0.0682394 0 
+TopGrid dt = 6.823944e-02     time = 29.093487055564    cycle = 578    z = 17.469619790068
+dt, Initialdt: 0.0678904 0 
+TopGrid dt = 6.789044e-02     time = 29.161726491805    cycle = 579    z = 17.440792090269
+dt, Initialdt: 0.0676398 0 
+TopGrid dt = 6.763975e-02     time = 29.229616934963    cycle = 580    z = 17.412223180366
+dt, Initialdt: 0.0678214 0 
+TopGrid dt = 6.782138e-02     time = 29.29725668739    cycle = 581    z = 17.383869538274
+dt, Initialdt: 0.0684023 0 
+TopGrid dt = 6.840226e-02     time = 29.365078064834    cycle = 582    z = 17.355549097604
+dt, Initialdt: 0.0663346 0 
+TopGrid dt = 6.633463e-02     time = 29.433480325886    cycle = 583    z = 17.327096305328
+dt, Initialdt: 0.0640645 0 
+TopGrid dt = 6.406449e-02     time = 29.499814952912    cycle = 584    z = 17.299608638689
+dt, Initialdt: 0.0672025 0 
+TopGrid dt = 6.720253e-02     time = 29.563879446656    cycle = 585    z = 17.273159284503
+dt, Initialdt: 0.0672802 0 
+TopGrid dt = 6.728019e-02     time = 29.631081976028    cycle = 586    z = 17.245516823018
+dt, Initialdt: 0.0670112 0 
+TopGrid dt = 6.701115e-02     time = 29.698362164817    cycle = 587    z = 17.21794677706
+dt, Initialdt: 0.0667539 0 
+TopGrid dt = 6.675389e-02     time = 29.765373318899    cycle = 588    z = 17.190590261125
+dt, Initialdt: 0.066544 0 
+TopGrid dt = 6.654398e-02     time = 29.832127210334    cycle = 589    z = 17.163440640813
+dt, Initialdt: 0.0663806 0 
+TopGrid dt = 6.638062e-02     time = 29.898671193097    cycle = 590    z = 17.136476986198
+dt, Initialdt: 0.0662754 0 
+TopGrid dt = 6.627542e-02     time = 29.965051811497    cycle = 591    z = 17.109678999281
+dt, Initialdt: 0.0658756 0 
+TopGrid dt = 6.587561e-02     time = 30.031327230485    cycle = 592    z = 17.083022011033
+dt, Initialdt: 0.0655504 0 
+TopGrid dt = 6.555036e-02     time = 30.097202842665    cycle = 593    z = 17.056622821182
+dt, Initialdt: 0.0654443 0 
+TopGrid dt = 6.544425e-02     time = 30.162753203252    cycle = 594    z = 17.030449395783
+dt, Initialdt: 0.0649902 0 
+TopGrid dt = 6.499015e-02     time = 30.228197454319    cycle = 595    z = 17.004412743647
+dt, Initialdt: 0.0648107 0 
+TopGrid dt = 6.481066e-02     time = 30.293187608668    cycle = 596    z = 16.97864945527
+dt, Initialdt: 0.0650005 0 
+TopGrid dt = 6.500045e-02     time = 30.357998266442    cycle = 597    z = 16.953048875819
+dt, Initialdt: 0.0654815 0 
+TopGrid dt = 6.548151e-02     time = 30.422998719266    cycle = 598    z = 16.927464658756
+dt, Initialdt: 0.0652599 0 
+TopGrid dt = 6.525993e-02     time = 30.488480229759    cycle = 599    z = 16.901783054266
+dt, Initialdt: 0.0650979 0 
+TopGrid dt = 6.509789e-02     time = 30.553740159971    cycle = 600    z = 16.876279657841
+dt, Initialdt: 0.0650477 0 
+TopGrid dt = 6.504773e-02     time = 30.618838051225    cycle = 601    z = 16.850929880444
+dt, Initialdt: 0.0650724 0 
+TopGrid dt = 6.507238e-02     time = 30.683885782533    cycle = 602    z = 16.825689203943
+dt, Initialdt: 0.0628112 0 
+TopGrid dt = 6.281117e-02     time = 30.748958161272    cycle = 603    z = 16.800528042153
+dt, Initialdt: 0.060339 0 
+TopGrid dt = 6.033896e-02     time = 30.811769331827    cycle = 604    z = 16.776325243582
+dt, Initialdt: 0.0606247 0 
+TopGrid dt = 6.062474e-02     time = 30.872108292198    cycle = 605    z = 16.753152370576
+dt, Initialdt: 0.0611095 0 
+TopGrid dt = 6.110953e-02     time = 30.93273302767    cycle = 606    z = 16.729945527717
+dt, Initialdt: 0.0610686 0 
+TopGrid dt = 6.106859e-02     time = 30.993842556954    cycle = 607    z = 16.706629696758
+dt, Initialdt: 0.0613095 0 
+TopGrid dt = 6.130948e-02     time = 31.054911147118    cycle = 608    z = 16.683405905882
+dt, Initialdt: 0.0617578 0 
+TopGrid dt = 6.175776e-02     time = 31.116220627703    cycle = 609    z = 16.660166950878
+dt, Initialdt: 0.0623037 0 
+TopGrid dt = 6.230369e-02     time = 31.177978389455    cycle = 610    z = 16.636835107921
+dt, Initialdt: 0.0629378 0 
+TopGrid dt = 3.561663e-02     time = 31.240282075364    cycle = 611    z = 16.613374942383
+Continuation Flag = 1
+dt, Initialdt: 0.0633009 0 
+TopGrid dt = 6.330089e-02     time = 31.275898709912    cycle = 612    z = 16.599998663775
+dt, Initialdt: 0.0640214 0 
+TopGrid dt = 6.402140e-02     time = 31.339199602176    cycle = 613    z = 16.576287763739
+dt, Initialdt: 0.0642862 0 
+TopGrid dt = 6.428619e-02     time = 31.403220997766    cycle = 614    z = 16.552388037098
+dt, Initialdt: 0.064487 0 
+TopGrid dt = 6.448697e-02     time = 31.467507185778    cycle = 615    z = 16.528471037773
+dt, Initialdt: 0.0641242 0 
+TopGrid dt = 6.412423e-02     time = 31.531994158282    cycle = 616    z = 16.504560999286
+dt, Initialdt: 0.0638544 0 
+TopGrid dt = 6.385441e-02     time = 31.596118387051    cycle = 617    z = 16.480866022161
+dt, Initialdt: 0.0639239 0 
+TopGrid dt = 6.392389e-02     time = 31.659972799495    cycle = 618    z = 16.457350260294
+dt, Initialdt: 0.0643401 0 
+TopGrid dt = 6.434007e-02     time = 31.723896686273    cycle = 619    z = 16.433887961018
+dt, Initialdt: 0.0643906 0 
+TopGrid dt = 6.439055e-02     time = 31.788236759732    cycle = 620    z = 16.410352342551
+dt, Initialdt: 0.0631267 0 
+TopGrid dt = 6.312673e-02     time = 31.852627312569    cycle = 621    z = 16.386877617014
+dt, Initialdt: 0.0614281 0 
+TopGrid dt = 6.142807e-02     time = 31.915754038625    cycle = 622    z = 16.363940297522
+dt, Initialdt: 0.0611721 0 
+TopGrid dt = 6.117212e-02     time = 31.977182103864    cycle = 623    z = 16.341692669428
+dt, Initialdt: 0.0612512 0 
+TopGrid dt = 6.125123e-02     time = 32.038354224245    cycle = 624    z = 16.319608413987
+dt, Initialdt: 0.0614428 0 
+TopGrid dt = 6.144284e-02     time = 32.099605458959    cycle = 625    z = 16.297565902428
+dt, Initialdt: 0.0616446 0 
+TopGrid dt = 6.164464e-02     time = 32.161048301409    cycle = 626    z = 16.275524759077
+dt, Initialdt: 0.0617236 0 
+TopGrid dt = 6.172362e-02     time = 32.222692942277    cycle = 627    z = 16.25348155953
+dt, Initialdt: 0.0618028 0 
+TopGrid dt = 6.180281e-02     time = 32.28441656615    cycle = 628    z = 16.231480382126
+dt, Initialdt: 0.0618862 0 
+TopGrid dt = 6.188622e-02     time = 32.34621937422    cycle = 629    z = 16.209521112647
+dt, Initialdt: 0.0619742 0 
+TopGrid dt = 6.197417e-02     time = 32.408105594036    cycle = 630    z = 16.187602168209
+dt, Initialdt: 0.062052 0 
+TopGrid dt = 6.205201e-02     time = 32.470079763772    cycle = 631    z = 16.165721875545
+dt, Initialdt: 0.0621616 0 
+TopGrid dt = 6.216157e-02     time = 32.532131770385    cycle = 632    z = 16.143883729766
+dt, Initialdt: 0.0623249 0 
+TopGrid dt = 6.232490e-02     time = 32.594293339573    cycle = 633    z = 16.122076526397
+dt, Initialdt: 0.0624962 0 
+TopGrid dt = 6.249625e-02     time = 32.656618235584    cycle = 634    z = 16.100281507622
+dt, Initialdt: 0.0626523 0 
+TopGrid dt = 6.265228e-02     time = 32.719114485372    cycle = 635    z = 16.078496071843
+dt, Initialdt: 0.0627822 0 
+TopGrid dt = 6.278216e-02     time = 32.781766765204    cycle = 636    z = 16.056725752322
+dt, Initialdt: 0.0628975 0 
+TopGrid dt = 6.289750e-02     time = 32.844548929049    cycle = 637    z = 16.034979755375
+dt, Initialdt: 0.0628575 0 
+TopGrid dt = 6.285751e-02     time = 32.907446426229    cycle = 638    z = 16.013263065743
+dt, Initialdt: 0.0628284 0 
+TopGrid dt = 6.282839e-02     time = 32.97030393139    cycle = 639    z = 15.991629166041
+dt, Initialdt: 0.0628103 0 
+TopGrid dt = 6.281034e-02     time = 33.033132318074    cycle = 640    z = 15.97007387698
+dt, Initialdt: 0.0628055 0 
+TopGrid dt = 6.280548e-02     time = 33.095942656409    cycle = 641    z = 15.948592976244
+dt, Initialdt: 0.0628138 0 
+TopGrid dt = 6.281378e-02     time = 33.158748138085    cycle = 642    z = 15.927181570487
+dt, Initialdt: 0.058493 0 
+TopGrid dt = 5.849304e-02     time = 33.221561914934    cycle = 643    z = 15.905834839434
+dt, Initialdt: 0.0578569 0 
+TopGrid dt = 5.785690e-02     time = 33.28005495828    cycle = 644    z = 15.886016876003
+dt, Initialdt: 0.0580004 0 
+TopGrid dt = 5.800042e-02     time = 33.337911858936    cycle = 645    z = 15.866471474134
+dt, Initialdt: 0.0581847 0 
+TopGrid dt = 5.818468e-02     time = 33.395912274973    cycle = 646    z = 15.846934255321
+dt, Initialdt: 0.0584178 0 
+TopGrid dt = 5.841780e-02     time = 33.45409695225    cycle = 647    z = 15.827391711832
+dt, Initialdt: 0.0587315 0 
+TopGrid dt = 5.873149e-02     time = 33.51251475197    cycle = 648    z = 15.807827779434
+dt, Initialdt: 0.0591098 0 
+TopGrid dt = 5.910985e-02     time = 33.57124624677    cycle = 649    z = 15.788215953565
+dt, Initialdt: 0.0595224 0 
+TopGrid dt = 5.952244e-02     time = 33.630356095813    cycle = 650    z = 15.768535370723
+dt, Initialdt: 0.0599448 0 
+TopGrid dt = 5.994483e-02     time = 33.689878538587    cycle = 651    z = 15.748775590083
+dt, Initialdt: 0.0603934 0 
+TopGrid dt = 6.039341e-02     time = 33.749823371376    cycle = 652    z = 15.728934310413
+dt, Initialdt: 0.0608631 0 
+TopGrid dt = 6.086314e-02     time = 33.810216784258    cycle = 653    z = 15.709003865637
+dt, Initialdt: 0.0613339 0 
+TopGrid dt = 6.133392e-02     time = 33.871079926135    cycle = 654    z = 15.688978347883
+dt, Initialdt: 0.0617751 0 
+TopGrid dt = 6.177513e-02     time = 33.932413841962    cycle = 655    z = 15.66885851687
+dt, Initialdt: 0.0606893 0 
+TopGrid dt = 5.721344e-02     time = 33.994188970754    cycle = 656    z = 15.648655130111
+Continuation Flag = 1
+dt, Initialdt: 0.0588459 0 
+TopGrid dt = 5.884594e-02     time = 34.051402413244    cycle = 657    z = 15.629998137099
+dt, Initialdt: 0.0576245 0 
+TopGrid dt = 5.762451e-02     time = 34.110248348575    cycle = 658    z = 15.610863225433
+dt, Initialdt: 0.0565169 0 
+TopGrid dt = 5.651694e-02     time = 34.167872859201    cycle = 659    z = 15.592178729682
+dt, Initialdt: 0.0562013 0 
+TopGrid dt = 5.620129e-02     time = 34.224389801398    cycle = 660    z = 15.573904306163
+dt, Initialdt: 0.0570282 0 
+TopGrid dt = 5.702822e-02     time = 34.280591091262    cycle = 661    z = 15.555781688472
+dt, Initialdt: 0.0578679 0 
+TopGrid dt = 5.786791e-02     time = 34.337619312142    cycle = 662    z = 15.53744291587
+dt, Initialdt: 0.0584857 0 
+TopGrid dt = 5.848572e-02     time = 34.395487226081    cycle = 663    z = 15.518885939351
+dt, Initialdt: 0.058997 0 
+TopGrid dt = 5.899700e-02     time = 34.453972946343    cycle = 664    z = 15.500183645346
+dt, Initialdt: 0.05946 0 
+TopGrid dt = 5.945997e-02     time = 34.512969945041    cycle = 665    z = 15.481371392052
+dt, Initialdt: 0.0598855 0 
+TopGrid dt = 5.988547e-02     time = 34.57242991597    cycle = 666    z = 15.462465666683
+dt, Initialdt: 0.060282 0 
+TopGrid dt = 6.028204e-02     time = 34.632315390613    cycle = 667    z = 15.443479349299
+dt, Initialdt: 0.0606566 0 
+TopGrid dt = 6.065658e-02     time = 34.692597433238    cycle = 668    z = 15.424422488713
+dt, Initialdt: 0.0610242 0 
+TopGrid dt = 6.102420e-02     time = 34.753254014073    cycle = 669    z = 15.405302852853
+slurmstepd: error: *** JOB 7897457 ON c102-081 CANCELLED AT 2026-08-14T17:38:19 DUE TO TIME LIMIT ***
