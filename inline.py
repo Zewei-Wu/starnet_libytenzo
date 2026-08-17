@@ -114,7 +114,13 @@ _last_fired_bin = None   # None until recovered from CALL_LOG on the first call
  
 _last_events = []       # most recent deposition's events, for plotting
 _last_event_call = -1   # call number when those events were deposited
- 
+
+
+
+
+# ====
+# LOGGING HELPERS
+# ====
  
 def printlog(text):
     """Run log, root only."""
@@ -158,6 +164,10 @@ def log_event(call_num, z, t_myr, grid_idx, center, log_r, m_z, m_star):
         
 
 
+# ====
+# STARNET CADENCE BINNING HELPERS
+# ====
+
 # 26/8/10
 # more helper functions to assess when starnet is evaluated
 def _bin_index(t_myr):
@@ -193,7 +203,7 @@ def _recover_last_bin(t_now_myr, z_now):
     Returns -1 for a genuinely fresh start, so the first call always fires.
     """
     if not os.path.exists(CALL_LOG):
-        printlog("  cadence: no call log found -> fresh start")
+        printlog("  [CADENCE]: no call log found -> fresh start")
         return -1
     last, n_kept, n_dropped = -1, 0, 0
     with open(CALL_LOG) as f:
@@ -275,22 +285,23 @@ def _initialize():
     _initialized = True
  
  
+# ====
+# EVENT SUPPRESSION FUNCTION HELPERS
+# ====
 
 
-# =====
-# 26/8/12
-# Depositon suppression check AFTER the inference returns position & radius
-#
-# Does the sphere contain ANY cell at the MAX refinement level?
-# From Azton's FBNet: `if modified_vol[-1] == 0: return` in FBNet.apply_spherical_feedback,
-# where modified_vol is indexed 0..self.levels and self.levels comes from cfg['fbnet']['simulation_max_level'];
-# and modified_vol[level] accumulates local_dx**3 for every cell whose CENTER lies within radius of the sphere center, so this is a pure cell-center-in-sphere count.
-# 
-# We use ds.index.grid_* so no MPI reduction and this is safe inside the per-tile loop where only the owning rank runs.
-# Helper function that counts cells in max level
-# Takes in the data field, center, radius, and max_level set by user
-# =====
 def _has_maxlevel_cells(ds, center, radius, max_level):
+    """
+    ### 26/8/12
+    Depositon suppression check AFTER the inference returns position & radius
+
+    Does the sphere contain ANY cell at the MAX refinement level?
+    From Azton's FBNet: `if modified_vol[-1] == 0: return` in FBNet.apply_spherical_feedback, where modified_vol is indexed 0..self.levels and self.levels comes from cfg['fbnet']['simulation_max_level'];
+    We use ds.index.grid_* so no MPI reduction
+
+    Helper function that counts cells in max level
+    Takes in the data field, center, radius, and max_level set by user
+    """
     lv = np.asarray(ds.index.grid_levels)[:, 0]  # level info
     center = np.asarray(center, dtype=float)
     r2 = radius * radius
@@ -325,26 +336,100 @@ def _has_maxlevel_cells(ds, center, radius, max_level):
     return False
 
 
-# =====
-# distributed inference: ALL ranks walk the same grid/tile list together.
-# Every rank builds every tile's covering grid (collective requirement),
-# but only the assigned rank runs torch inference on each tile.
-# returns this rank's local event list and the total tile count.
-# =====
+def _prune_overlapping_events(ds, events):
+    """
+    ### 26/8/16
+
+    Restore Azton's within-sweep self-suppression
+
+    His StarNet deposited immediately after each accepted tile, so a later tile in the same sweep read the freshly enriched gas at its center and was denied by the Z > 3.1e-6 Zsun check.
+    Our inference is batched (all tiles -> allgather -> deposit), so nothing suppresses a second event on the same collapsing halo.
+    The solution is to "replay" the sequence, in global tile order, before depositing.
+
+    Every rank holds the identical events after the allgather and runs this deterministically, so no communication is needed and all ranks agree.
+    """
+
+    if len(events) <= 1:
+        return events, []
+
+    MSUN_G = 1.98892e33
+    ZSUN = 0.01295
+    ZCRIT = 3.1e-6
+
+    ev_sorted = sorted(events, key=lambda e: e["tile_index"])
+
+    # precompute each event's deposition radius once (yt conversions are slow)
+    for ev in ev_sorted:
+        r_kpccm = (10 ** ev["log_r"]) * _radius_modifier
+        ev["_r_code"] = float(ds.quan(r_kpccm, "kpccm").to("unitary").d)
+        ev["_r_cm"] = float(ds.quan(r_kpccm, "kpccm").to("cm").d)
+
+    kept, dropped = [], []
+    for ev in ev_sorted:
+        if ev["dens_at_c"] <= 0.0:  # check for density
+            kept.append(ev)
+            continue
+        z_metal = ev["metal_at_c"]   # check for metallicity
+        for prev in kept:
+            d = ev["center"] - prev["center"]
+            if float(np.dot(d, d)) >= prev["_r_code"] ** 2:
+                # center outside the earlier bubble
+                continue
+            v_cm3 = (4.0 / 3.0) * np.pi * prev["_r_cm"] ** 3
+            z_metal += (prev["m_z"] * MSUN_G) / v_cm3
+        if z_metal / ev["dens_at_c"] / ZSUN > ZCRIT:
+            # drop the event if the center is now higher metallicity than crit
+            # equivalent to "reject_enriched"
+            dropped.append(ev)
+        else:
+            kept.append(ev)
+    return kept, dropped
+
+
+
+# ====
+# OTHER FUNCTIONS
+# ====
+
+def _tile_edges(lo, hi, stride):
+    # helps with tiling
+    """
+    Tile origins covering [lo, hi] with no gaps and no cross-grid spill.
+    Steps by exactly one stride from the grid's left edge and clamps the last origin to hi - stride.
+    Every tile therefore stays inside its host grid (Azton's get_grid_volume containment requirement, which is what kept his tiling from double-covering inter-grid strips), and the only overlap is the final partial tile in each direction.
+    Azton's linspace spacing was gw/floor(gw/w), which is >= w and so left sub-tile gaps whenever gw was not an exact multiple of w; ours had the same defect from the other direction. Containment here is about coverage bookkeeping only.
+    smoothed_covering_grid reads the global hierarchy regardless of which grid a tile nominally belongs to.
+    """
+    span = hi - lo
+    if span <= stride:
+        return np.array([lo])          # grid smaller than one sample volume
+    n = int(np.ceil(span / stride - 1e-9))
+    return np.minimum(lo + stride * np.arange(n), hi - stride)
+
+
+
+
+# =========================
+# =========================
+# =========================
+# =========================
+# =========================
+
+"""
+### Distributed inference
+
+ALL ranks walk the same grid/tile list together, but only the assigned rank is called for torch inference on each tile
+returns this rank's local event list and the total tile count.
+"""
+
 def _run_starnet_inference_distributed(ds):
-    # ==
     # note here that this region_width is different from the one in StarFind, which uses the 10kpc from the param file as the SIZE of the volume
     # this "width" is the separation / stride for tile-stepping
-    # ==
     # region_width = 1.0 / float(ds.domain_dimensions[0])  # region_width = 1 / top grid dimensions
-    
-    
-    # tile stride = the sample width (10 kpccm), in code units. This makes
-    # tiling gap-free and box-size-independent. Azton used 1/TopGridDimensions
-    # as the stride, which equals 10 kpccm ONLY in the Phoenix box where one
-    # root cell was chosen to be 10 kpc; that coincidence does not hold for
-    # the Hicks box, so we use the physical sample width directly (matching
-    # the hardcoded 10 kpccm sample size in build_covering_grid).
+    # tile stride = the sample width (10 kpccm), in code units. This makes tiling gap-free and box-size-independent.
+    # Azton used 1/TopGridDimensions as the stride, which equals 10 kpccm ONLY in the Phoenix box where one root cell was chosen to be 10 kpc;
+    # this coincidence may not hold for other boxes, so we use the physical sample width directly, matching the hardcoded 10 kpccm sample size in build_covering_grid.
+
     tile_stride = float(
         ds.quan(_sf.sample_width_kpccm, "kpccm").to("unitary").d
     )
@@ -361,8 +446,23 @@ def _run_starnet_inference_distributed(ds):
     # for R4/R5: metal density this event would deposit, in code units
     mass_unit_msun = float(ds.mass_unit.in_units("Msun").d)
 
+    # for R0: Azton's hardcoded mean baryon density [g/cm^3] from Phoenix box: rho_crit = 9.9e-30; Omega_b = 0.0489
+    rho_mean_baryon = 9.9e-30 * 0.0489 * (1.0 + float(ds.current_redshift)) ** 3
+
+
+
     def note(outcome):
-        """exactly one outcome recorded per tile this rank owns"""
+        """
+        exactly one outcome recorded per tile this rank owns
+        records failure modes:
+            note("no_covering_grid")            # if no covering grid due to missing field
+            note("reject_tile_underdense")      # if mean density in tile is underdense < 3 mean baryon density at z
+            note("starfind_neg")                # forward pass negative, no star in tile
+            note("reject_enriched")             # sphere ceter already enriched
+            note("reject_no_maxlevel")          # no cell in sphere at highest refinement level set by fbnet.simulation_max_level
+            note("reject_bad_metal_density")    # invalid (inf/<0) valid for sphere volume OR metal density
+            note("ACCEPT")
+        """
         my_tile_log.append((tile_index, xi, yi, zi, outcome))
         my_outcomes[outcome] = my_outcomes.get(outcome, 0) + 1
 
@@ -375,16 +475,12 @@ def _run_starnet_inference_distributed(ds):
         # split up the grid
         le = np.asarray(ds.index.grid_left_edge[grid_idx])
         re = np.asarray(ds.index.grid_right_edge[grid_idx])
-        gw = re - le
+        # gw = re - le
  
         # split up the box by tile_stride
-        n_x = max(int(gw[0] / tile_stride), 1)
-        n_y = max(int(gw[1] / tile_stride), 1)
-        n_z = max(int(gw[2] / tile_stride), 1)
- 
-        x_e = np.linspace(le[0], re[0] - tile_stride, n_x) if n_x > 1 else np.array([le[0]])
-        y_e = np.linspace(le[1], re[1] - tile_stride, n_y) if n_y > 1 else np.array([le[1]])
-        z_e = np.linspace(le[2], re[2] - tile_stride, n_z) if n_z > 1 else np.array([le[2]])
+        x_e = _tile_edges(le[0], re[0], tile_stride)
+        y_e = _tile_edges(le[1], re[1], tile_stride)
+        z_e = _tile_edges(le[2], re[2], tile_stride)
  
         for xi in x_e:
             for yi in y_e:
@@ -394,17 +490,19 @@ def _run_starnet_inference_distributed(ds):
                     tile_le = np.array([xi, yi, zi])
  
                     # =====
-                    # ALL ranks build the covering grid (collective!).
-                    # build_covering_grid internally calls
-                    # ds.smoothed_covering_grid which is collective; every
-                    # rank must reach it in lockstep or we deadlock.
+                    # ALL ranks build the covering grid collectively.
+                    # build_covering_grid internally calls ds.smoothed_covering_grid which is collective
+                    # TESTED: every rank must reach it in lockstep or we deadlock.
                     # =====
                     result = _sf.build_covering_grid(ds, tile_le)
                     if tile_index % 10 == 0:
                         dbg(f"    walk: tile {tile_index}, t={time.time()-t0:.1f}s")
  
  
+                    # =====
+                    # Inference
                     # only the owning rank runs torch inference
+                    # =====
                     if owner != RANK:
                         tile_index += 1
                         continue
@@ -415,8 +513,20 @@ def _run_starnet_inference_distributed(ds):
                         continue
                     cg, dx = result
                     n_my_tiles += 1
- 
- 
+
+                    
+                    
+                    # =====
+                    # R0: mean-overdensity pre-gate
+                    # Replicating Azton's line 103+, density on the covering grid in CGS [g/cm^3]
+                    # Tiles below threshold never reach the classifier
+                    # =====
+                    rhomean = float(cg["Density"].mean()) / rho_mean_baryon
+                    if rhomean <= 3.0:
+                        note("reject_tile_underdense")
+                        tile_index += 1
+                        continue
+
                     # =====
                     # forward pass I
                     # whether or not there is pop III star
@@ -441,22 +551,26 @@ def _run_starnet_inference_distributed(ds):
 
 
                     # ==================================================
-
- 
                     # =====
                     # enrichment suppression (ported from azton's deposit_or_find_volume): reject if
+                    # R0        already checked before pass for mean overdensity in the tile > 3 mean baryon
                     # R1 & 2.   the CENTER is already above critical metallicity, with metal_density or SN_color
                     # R3.       NO cells in the sphere reaches max refinement level
                     # R4 & 5.   metal density to deposit is nan/inf/<=0
                     # =====
+                    # after each failure, a note() reason is given and the tile index is +1 updated per event
+
+
                     # find center xyz
                     cvox = _fb.find_feedback_center(pvox)  # (i,j,k) in 64^3
                     ci, cj, ck = [int(np.clip(c, 0, _sf.region_dim - 1)) for c in cvox]
                     
                     
                     # R1/R2: metal at the center of the deposition sphere.
-                    # reads Metal_Density off the smoothed covering grid
+                    # reads Metal_Density off the smoothed covering grid, ported from FBNet.py line 140
                     # Azton used SN_Colour + Metal_Density off native AMR
+                    
+                    # density & metal at deposition center
                     metal_at_c = float(cg["Metal_Density"][ci, cj, ck])
                     dens_at_c = float(cg["Density"][ci, cj, ck])
                     Z_over_Zsun = metal_at_c / dens_at_c / 0.01295 if dens_at_c > 0 else 0.0
@@ -471,14 +585,15 @@ def _run_starnet_inference_distributed(ds):
                     radius_code = float(ds.quan(r_kpccm, "kpccm").to("unitary").d)
 
 
-                    # R3: pop III does not form on coarse grids, so a sphere
-                    # touching no max-level cell is not a real star-forming region
+                    # R3: pop III does not form on coarse grids, so a sphere touching no max-level cell is not a real star-forming region
+                    # ported from FBNet.py line 248
                     if not _has_maxlevel_cells(ds, center, radius_code, _max_level):
                         note("reject_no_maxlevel")  # coarse grid
                         tile_index += 1
                         continue
 
                     # R4/R5: metal density must be finite and strictly positive
+                    # ported from FBNet.py line 265
                     v_sphere = (4.0 / 3.0) * np.pi * radius_code ** 3  # volume of sphere
                     mz_code = ((float(m_z) / mass_unit_msun) / v_sphere
                                if v_sphere > 0 else np.inf)
@@ -492,15 +607,19 @@ def _run_starnet_inference_distributed(ds):
                     note("ACCEPT")
 
  
-                    # append the grid ID, position, radius, metal, and stellar masses
+                    # append the grid ID, position, radius, metal, stellar masses
+                    # 260817: added index and metal & density at sphere center to the log
                     local_events.append({
                         "grid_idx": grid_idx,
+                        "tile_index": tile_index,   # tile index
                         "center": np.array([
                             float(center[0]), float(center[1]), float(center[2])
                         ]),
                         "log_r": float(log_r),
                         "m_z": float(m_z),
                         "m_star": float(m_star),
+                        "metal_at_c": metal_at_c,   # g/cm^3, pre-deposition
+                        "dens_at_c": dens_at_c,     # g/cm^3
                     })
  
                     tile_index += 1
@@ -529,6 +648,18 @@ def _run_starnet_inference_distributed(ds):
     return local_events, tile_index, my_outcomes
  
  
+
+
+
+
+
+
+
+# ====
+# DEPOSITION FUNCTIONS
+# ====
+
+
 # =====
 # target gas energy (code units) for T=1e4 K
 # specific energy: T = (gamma-1)*mu*GasEnergy_code*TempUnits
@@ -831,12 +962,25 @@ def yt_inline_func():
             all_outcomes = COMM.gather(my_outcomes, root=0)
             dbg(f"call #{_call_count} after allgather")
 
-            events = [ev for sublist in gathered for ev in sublist]  # unwrap
-            # persist the evaluation itself (not just its events) so the cadence survives a restart
+            # unwrap events
+            events = [ev for sublist in gathered for ev in sublist]
+
+            # 260817 mod: replay Azton's sequential suppression on the batched event list
+            # drop any event that forms from newly suppressed tiles, since we parallelized everything
+            n_raw = len(events)
+            # update events
+            events, suppressed = _prune_overlapping_events(ds, events)
+            if suppressed:
+                printlog(f"  [SUPPRESSION]: {len(suppressed)} of {n_raw} "
+                         f"events dropped (center inside an earlier bubble)")
+                for ev in suppressed:
+                    printlog(f"    dropped tile #{ev['tile_index']} at ({ev['center'][0]:.4f}, {ev['center'][1]:.4f}, {ev['center'][2]:.4f})")
+
+            # put events into log file
             log_call(z, t_myr, _call_count, len(events))
 
             printlog(
-                f"  inference: {total_tiles} total tiles walked, "
+                f"  [INFERENCE]: {total_tiles} total tiles walked, "
                 f"{len(events)} events found across all ranks"
             )
 
@@ -846,15 +990,13 @@ def yt_inline_func():
                 for d in all_outcomes:
                     for k, v in d.items():
                         merged[k] = merged.get(k, 0) + v
-                printlog("  outcomes: " + ", ".join(
+                printlog("  [OUTCOMES]: " + ", ".join(
                     f"{k}={merged[k]}" for k in sorted(merged)))
                 nseg = merged.get("ACCEPT", 0) + sum(
                     v for k, v in merged.items() if k.startswith("reject_"))
                 if nseg:
                     printlog(
-                        f"  starfind positives: {nseg}, accepted "
-                        f"{merged.get('ACCEPT', 0)} "
-                        f"({100.0 * merged.get('ACCEPT', 0) / nseg:.1f}%)")
+                        f"    starfind positives: {nseg}, accepted {merged.get('ACCEPT', 0)} ({100.0 * merged.get('ACCEPT', 0) / nseg:.1f}%)")
  
  
  
@@ -919,13 +1061,12 @@ def yt_inline_func():
                 global_cells = COMM.allreduce(local_cells, op=MPI.SUM)
                 per_rank = COMM.gather(local_cells, root=0)
                 all_levels = COMM.gather(local_levels, root=0)
-                printlog(f"  DEPOSITED {len(events)} events: global_cells={global_cells}")
+                printlog(f"  [DEPOSITION]: {len(events)} events; global_cells={global_cells}")
                 # print which ranks had deposition
                 if per_rank is not None:
                     nonzero = [c for c in per_rank if c > 0]
                     printlog(
-                        f"  per-rank cells (nonzero ranks): {nonzero} "
-                        f"(sum={global_cells})"
+                        f"    per-rank cells (nonzero ranks): {nonzero} (sum={global_cells})"
                     )
                 # print how many cells per level
                 if all_levels is not None:
@@ -934,7 +1075,7 @@ def yt_inline_func():
                         for lvl, n in d.items():
                             merged[lvl] = merged.get(lvl, 0) + n
                     breakdown = ", ".join(f"L{lvl}={merged[lvl]}" for lvl in sorted(merged))
-                    printlog(f"  per-level cells: {breakdown}")
+                    printlog(f"    per-level cells: {breakdown}")
  
  
  
@@ -963,7 +1104,7 @@ def yt_inline_func():
         else:  # if STARNET did not fullfill run condition
             # print the binned run expectations in starnet_insitu_run.log
             printlog(
-                f"  skipping StarNet (z={z:.2f}, t={t_myr:.3f} Myr, "
+                f"  [SKIPPED] StarNet (z={z:.2f}, t={t_myr:.3f} Myr, "
                 f"bin={_bin_index(t_myr)}, last_fired_bin={_last_fired_bin}, "
                 f"next tick at t="
                 f"{(_last_fired_bin + 1) * STARNET_CADENCE_MYR:.1f} Myr)"
@@ -985,10 +1126,10 @@ def yt_inline_func():
         dbg(f"call #{_call_count} projection saved (fired={fired}), COMPLETE")
  
     except Exception as e:
-        dbg(f"call #{_call_count} EXCEPTION {type(e).__name__}: {e}")
+        dbg(f"call #{_call_count} [EXCEPTION] {type(e).__name__}: {e}")
         dbg(traceback.format_exc())
         printlog(
-            f"!!! EXCEPTION call #{_call_count}: {type(e).__name__}: {e}"
+            f"!!! [EXCEPTION] call #{_call_count}: {type(e).__name__}: {e}"
         )
         printlog(traceback.format_exc())
         # An exception on ONE rank leaves it outside the collective sequence,
