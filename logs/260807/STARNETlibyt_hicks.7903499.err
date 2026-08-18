@@ -1,0 +1,1296 @@
+
+The following have been reloaded with a version change:
+  1) intel/19.0.5 => intel/19.1.1
+
+ldd: missing file arguments
+Try `ldd --help' for more information.
+warning: the following parameter line was not interpreted:
+use_grackle                 = 1
+warning: the following parameter line was not interpreted:
+with_radiative_cooling      = 1
+warning: the following parameter line was not interpreted:
+use_volumetric_heating_rate = 0
+warning: the following parameter line was not interpreted:
+use_specific_heating_rate   = 0
+warning: the following parameter line was not interpreted:
+self_shielding_method       = 1
+warning: the following parameter line was not interpreted:
+H2_self_shielding           = 0
+warning: the following parameter line was not interpreted:
+UVbackground                = 1
+warning: the following parameter line was not interpreted:
+Compton_xray_heating        = 0
+warning: the following parameter line was not interpreted:
+LWbackground_intensity      = 0.000000
+warning: the following parameter line was not interpreted:
+LWbackground_sawtooth_suppression = 0
+warning: the following parameter line was not interpreted:
+dust_chemistry              = 0
+warning: the following parameter line was not interpreted:
+local_dust_to_gas_ratio     = 0.009387
+warning: the following parameter line was not interpreted:
+use_isrf_field              = 0
+warning: the following parameter line was not interpreted:
+use_dust_density_field      = 0
+Output to Global Dir .
+Successfully read ParameterFile z_0010/z_0010.
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 238 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 240 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 245 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 246 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 247 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 2 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 126 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 250 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 3 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,061 Global parallel computation enabled: 384 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 357 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 127 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 239 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 9 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 479 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 129 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 241 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 530 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 550 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 11 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 480 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,061 Global parallel computation enabled: 388 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 359 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 131 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 242 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 551 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 13 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 481 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,065 Global parallel computation enabled: 464 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,061 Global parallel computation enabled: 389 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 361 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 411 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 134 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 243 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 518 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 553 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 17 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 482 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,065 Global parallel computation enabled: 467 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,061 Global parallel computation enabled: 391 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 350 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 197 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 413 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 309 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 426 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 135 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 244 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 519 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 554 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 0 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 483 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,065 Global parallel computation enabled: 468 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,061 Global parallel computation enabled: 378 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 42 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 351 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 198 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 86 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 414 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 294 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 429 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 136 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 248 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 520 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 555 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 1 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 484 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,065 Global parallel computation enabled: 470 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,061 Global parallel computation enabled: 379 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 45 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 352 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 274 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 204 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 87 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 415 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 295 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 430 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 138 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 249 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 521 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 558 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 4 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 485 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,065 Global parallel computation enabled: 471 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,061 Global parallel computation enabled: 380 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 52 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 353 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 276 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 206 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 88 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 416 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 297 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 431 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 139 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 251 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 522 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 546 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 5 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 487 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,065 Global parallel computation enabled: 472 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,061 Global parallel computation enabled: 381 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 43 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 354 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 277 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 207 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 91 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 417 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 298 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 433 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 128 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 226 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 523 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 547 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 6 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 488 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,065 Global parallel computation enabled: 475 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,061 Global parallel computation enabled: 382 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 44 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 355 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 266 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 208 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 96 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 419 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 299 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 420 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 130 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 227 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 524 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 548 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 7 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 493 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,065 Global parallel computation enabled: 462 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,061 Global parallel computation enabled: 383 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 46 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 356 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 267 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 209 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 84 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 406 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 300 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 421 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 141 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 229 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 525 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 549 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 8 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 476 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,065 Global parallel computation enabled: 463 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,061 Global parallel computation enabled: 385 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 47 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 358 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 268 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 199 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 85 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 407 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 301 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 422 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 142 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 230 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 526 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 552 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 10 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 477 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,065 Global parallel computation enabled: 465 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,061 Global parallel computation enabled: 386 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 48 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 360 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 269 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 200 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 89 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 408 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 302 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 423 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 137 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 231 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 527 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 556 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 12 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 478 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,065 Global parallel computation enabled: 466 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,061 Global parallel computation enabled: 387 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 49 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 362 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 270 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 201 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 90 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 409 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 303 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 424 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 150 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 233 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 513 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 557 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 21 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 486 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,065 Global parallel computation enabled: 469 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,061 Global parallel computation enabled: 390 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 50 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 363 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 271 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 202 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 92 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 410 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 304 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 425 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 151 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 234 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 528 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 559 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 22 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 489 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,065 Global parallel computation enabled: 473 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 369 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 51 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 340 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 272 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 203 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 93 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 418 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 305 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 427 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 152 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 235 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 506 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 23 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 494 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,065 Global parallel computation enabled: 474 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 373 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 53 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 342 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 273 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 205 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 94 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 412 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 306 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 428 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 140 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 237 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 508 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 24 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 495 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 364 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 54 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 339 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 275 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 196 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 95 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 307 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 432 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 143 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 224 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 511 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 25 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 500 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 367 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 55 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 344 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 278 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 168 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 97 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 311 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 435 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 144 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 225 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 514 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 26 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 501 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 371 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 71 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 346 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 279 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 170 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 98 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 328 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 442 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 146 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 228 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 516 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 27 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 502 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 376 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 73 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 347 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 169 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 103 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 296 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 447 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 147 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 232 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 517 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 14 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 490 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 366 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 76 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 337 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 176 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 106 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 316 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 434 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 148 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 236 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 529 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 15 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 491 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 372 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 79 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 341 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 178 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 107 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 330 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 436 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 149 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 504 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 16 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 492 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 375 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 80 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 343 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 173 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 109 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 317 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 437 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 153 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 507 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 18 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 496 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 377 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 81 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 345 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 174 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 99 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 332 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 438 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 133 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 509 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 19 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 497 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 365 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 83 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 348 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 175 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 100 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 318 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 439 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 132 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 510 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 20 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 498 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 368 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 70 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 349 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 179 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 101 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 322 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 440 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,064 Global parallel computation enabled: 145 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 515 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 499 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 370 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 72 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 336 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 181 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 102 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 319 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 441 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 531 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 503 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 374 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 74 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 338 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 171 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 104 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 323 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 443 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 505 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 75 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 172 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 105 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 308 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 444 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 512 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 77 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 177 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 108 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 324 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 445 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 78 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 180 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 110 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 312 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 446 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 82 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 111 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 326 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 313 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 327 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 314 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 329 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 315 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 331 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 320 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 333 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 321 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 334 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 335 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,062 Global parallel computation enabled: 310 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,063 Global parallel computation enabled: 325 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,069 Global parallel computation enabled: 183 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,069 Global parallel computation enabled: 185 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,069 Global parallel computation enabled: 186 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,069 Global parallel computation enabled: 188 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,069 Global parallel computation enabled: 189 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,069 Global parallel computation enabled: 190 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,069 Global parallel computation enabled: 191 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,069 Global parallel computation enabled: 182 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,069 Global parallel computation enabled: 184 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,069 Global parallel computation enabled: 187 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,069 Global parallel computation enabled: 192 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,069 Global parallel computation enabled: 193 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,069 Global parallel computation enabled: 194 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,069 Global parallel computation enabled: 195 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,086 Global parallel computation enabled: 30 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,086 Global parallel computation enabled: 34 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,086 Global parallel computation enabled: 35 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,086 Global parallel computation enabled: 37 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,086 Global parallel computation enabled: 38 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,086 Global parallel computation enabled: 40 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,086 Global parallel computation enabled: 41 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,086 Global parallel computation enabled: 28 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,086 Global parallel computation enabled: 29 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,086 Global parallel computation enabled: 31 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,086 Global parallel computation enabled: 32 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,086 Global parallel computation enabled: 33 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,086 Global parallel computation enabled: 36 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,086 Global parallel computation enabled: 39 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,094 Global parallel computation enabled: 538 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,094 Global parallel computation enabled: 540 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,094 Global parallel computation enabled: 542 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,094 Global parallel computation enabled: 532 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,094 Global parallel computation enabled: 533 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,094 Global parallel computation enabled: 534 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,094 Global parallel computation enabled: 535 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,094 Global parallel computation enabled: 537 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,094 Global parallel computation enabled: 539 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,094 Global parallel computation enabled: 541 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,094 Global parallel computation enabled: 543 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,094 Global parallel computation enabled: 545 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,094 Global parallel computation enabled: 536 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,094 Global parallel computation enabled: 544 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 155 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 58 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 158 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 159 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 163 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 165 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 60 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 167 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 61 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 154 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 62 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 156 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 64 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 116 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 157 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 66 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 117 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 160 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 67 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 120 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 161 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 69 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 123 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 162 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 56 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 112 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 164 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 57 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 113 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 166 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 59 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 114 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 63 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 115 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 65 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 118 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 68 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 119 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 121 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 122 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 124 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,101 Global parallel computation enabled: 125 / 560
+Finished calling initialize!
+yt : [INFO     ] 2026-08-17 19:56:26,108 Global parallel computation enabled: 451 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,108 Global parallel computation enabled: 453 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,108 Global parallel computation enabled: 454 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,108 Global parallel computation enabled: 456 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,108 Global parallel computation enabled: 457 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,108 Global parallel computation enabled: 459 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,108 Global parallel computation enabled: 448 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,108 Global parallel computation enabled: 449 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,108 Global parallel computation enabled: 450 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,108 Global parallel computation enabled: 452 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,108 Global parallel computation enabled: 455 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,108 Global parallel computation enabled: 458 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,108 Global parallel computation enabled: 460 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,108 Global parallel computation enabled: 461 / 560
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+yt : [INFO     ] 2026-08-17 19:56:26,117 Global parallel computation enabled: 283 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,117 Global parallel computation enabled: 285 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,117 Global parallel computation enabled: 286 / 560
+Finished calling initialize!
+yt : [INFO     ] 2026-08-17 19:56:26,117 Global parallel computation enabled: 288 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,117 Global parallel computation enabled: 289 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,117 Global parallel computation enabled: 291 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,117 Global parallel computation enabled: 293 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,117 Global parallel computation enabled: 280 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,117 Global parallel computation enabled: 281 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,117 Global parallel computation enabled: 282 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,117 Global parallel computation enabled: 284 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,117 Global parallel computation enabled: 287 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,117 Global parallel computation enabled: 290 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,117 Global parallel computation enabled: 292 / 560
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+yt : [INFO     ] 2026-08-17 19:56:26,123 Global parallel computation enabled: 216 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,123 Global parallel computation enabled: 219 / 560
+Finished calling initialize!
+yt : [INFO     ] 2026-08-17 19:56:26,123 Global parallel computation enabled: 220 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,123 Global parallel computation enabled: 221 / 560
+Finished calling initialize!
+yt : [INFO     ] 2026-08-17 19:56:26,123 Global parallel computation enabled: 210 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,123 Global parallel computation enabled: 212 / 560
+Finished calling initialize!
+yt : [INFO     ] 2026-08-17 19:56:26,123 Global parallel computation enabled: 213 / 560
+Finished calling initialize!
+yt : [INFO     ] 2026-08-17 19:56:26,123 Global parallel computation enabled: 214 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,123 Global parallel computation enabled: 217 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,123 Global parallel computation enabled: 218 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,123 Global parallel computation enabled: 222 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,123 Global parallel computation enabled: 211 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,123 Global parallel computation enabled: 215 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,123 Global parallel computation enabled: 223 / 560
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 253 / 560
+Finished calling initialize!
+Finished calling initialize!
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 399 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 256 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 401 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 252 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 402 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 254 / 560
+Finished calling initialize!
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 403 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 255 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 404 / 560
+Finished calling initialize!
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 257 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 405 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 258 / 560
+Finished calling initialize!
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 394 / 560
+Finished calling initialize!
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 259 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 392 / 560
+Finished calling initialize!
+Finished calling initialize!
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 260 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 393 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 261 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 395 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 262 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 397 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 263 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 398 / 560
+Finished calling initialize!
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 264 / 560
+Finished calling initialize!
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 396 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 265 / 560
+yt : [INFO     ] 2026-08-17 19:56:26,131 Global parallel computation enabled: 400 / 560
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+INITIALDT :::::::::::   0.00000000e+00
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+Finished calling initialize!
+dt, Initialdt: 0.0607034 0 
+TopGrid dt = 6.070344e-02     time = 18.475145412448    cycle = 412    z = 23.9999997207
+dt, Initialdt: 0.06078 0 
+TopGrid dt = 6.077997e-02     time = 18.535848854663    cycle = 413    z = 23.945385269746
+dt, Initialdt: 0.0608577 0 
+TopGrid dt = 6.085770e-02     time = 18.596628829243    cycle = 414    z = 23.890999815793
+dt, Initialdt: 0.060936 0 
+TopGrid dt = 6.093596e-02     time = 18.657486527016    cycle = 415    z = 23.836840832376
+dt, Initialdt: 0.0610152 0 
+TopGrid dt = 6.101521e-02     time = 18.718422491967    cycle = 416    z = 23.782906399765
+dt, Initialdt: 0.0610914 0 
+TopGrid dt = 6.109140e-02     time = 18.779437698441    cycle = 417    z = 23.729194222121
+dt, Initialdt: 0.0611556 0 
+TopGrid dt = 6.115558e-02     time = 18.840529099025    cycle = 418    z = 23.675705501324
+dt, Initialdt: 0.0612207 0 
+TopGrid dt = 6.122070e-02     time = 18.90168468295    cycle = 419    z = 23.622449331831
+dt, Initialdt: 0.061287 0 
+TopGrid dt = 6.128701e-02     time = 18.962905383821    cycle = 420    z = 23.569423326964
+dt, Initialdt: 0.0613546 0 
+TopGrid dt = 6.135458e-02     time = 19.02419239559    cycle = 421    z = 23.516624908407
+dt, Initialdt: 0.0614233 0 
+TopGrid dt = 6.142326e-02     time = 19.085546979352    cycle = 422    z = 23.464051476805
+dt, Initialdt: 0.0614933 0 
+TopGrid dt = 6.149327e-02     time = 19.146970244022    cycle = 423    z = 23.411700599142
+dt, Initialdt: 0.0615645 0 
+TopGrid dt = 6.156453e-02     time = 19.208463512014    cycle = 424    z = 23.359569610561
+dt, Initialdt: 0.061637 0 
+TopGrid dt = 6.163701e-02     time = 19.270028044708    cycle = 425    z = 23.307656080123
+dt, Initialdt: 0.061711 0 
+TopGrid dt = 6.171103e-02     time = 19.331665051344    cycle = 426    z = 23.255957620091
+dt, Initialdt: 0.0617867 0 
+TopGrid dt = 6.178669e-02     time = 19.393376085602    cycle = 427    z = 23.204471564918
+dt, Initialdt: 0.0618638 0 
+TopGrid dt = 6.186377e-02     time = 19.455162776532    cycle = 428    z = 23.153195226
+dt, Initialdt: 0.0619427 0 
+TopGrid dt = 6.194266e-02     time = 19.517026549665    cycle = 429    z = 23.102126122311
+dt, Initialdt: 0.0620228 0 
+TopGrid dt = 6.202279e-02     time = 19.578969210168    cycle = 430    z = 23.051261468081
+dt, Initialdt: 0.0621043 0 
+TopGrid dt = 7.352910e-04     time = 19.640992003019    cycle = 431    z = 23.000598953475
+Continuation Flag = 1
+dt, Initialdt: 0.0621053 0 
+TopGrid dt = 6.210533e-02     time = 19.641727293979    cycle = 432    z = 22.999999940107
+dt, Initialdt: 0.0621885 0 
+TopGrid dt = 6.218846e-02     time = 19.703832619043    cycle = 433    z = 22.949539628706
+dt, Initialdt: 0.0622727 0 
+TopGrid dt = 6.227274e-02     time = 19.76602107539    cycle = 434    z = 22.899276694943
+dt, Initialdt: 0.0623439 0 
+TopGrid dt = 6.234390e-02     time = 19.828293812868    cycle = 435    z = 22.849209057055
+dt, Initialdt: 0.0624089 0 
+TopGrid dt = 6.240893e-02     time = 19.890637711112    cycle = 436    z = 22.799346045313
+dt, Initialdt: 0.062475 0 
+TopGrid dt = 6.247496e-02     time = 19.953046642458    cycle = 437    z = 22.749691231697
+dt, Initialdt: 0.0625423 0 
+TopGrid dt = 6.254225e-02     time = 20.015521598966    cycle = 438    z = 22.700242399753
+dt, Initialdt: 0.06261 0 
+TopGrid dt = 6.261001e-02     time = 20.078063851649    cycle = 439    z = 22.650997263386
+dt, Initialdt: 0.0626788 0 
+TopGrid dt = 6.267883e-02     time = 20.140673864621    cycle = 440    z = 22.601954191627
+dt, Initialdt: 0.062749 0 
+TopGrid dt = 6.274897e-02     time = 20.203352696622    cycle = 441    z = 22.553111074845
+dt, Initialdt: 0.0628196 0 
+TopGrid dt = 6.281963e-02     time = 20.266101668107    cycle = 442    z = 22.504465629238
+dt, Initialdt: 0.0628907 0 
+TopGrid dt = 6.289069e-02     time = 20.328921295258    cycle = 443    z = 22.456016221639
+dt, Initialdt: 0.0629499 0 
+TopGrid dt = 6.294988e-02     time = 20.391811987997    cycle = 444    z = 22.40776131772
+dt, Initialdt: 0.0630098 0 
+TopGrid dt = 6.300975e-02     time = 20.45476186326    cycle = 445    z = 22.359708648647
+dt, Initialdt: 0.0630701 0 
+TopGrid dt = 6.307007e-02     time = 20.517771614127    cycle = 446    z = 22.31185647082
+dt, Initialdt: 0.0631312 0 
+TopGrid dt = 6.313122e-02     time = 20.580841686982    cycle = 447    z = 22.264203135133
+dt, Initialdt: 0.0631933 0 
+TopGrid dt = 6.319327e-02     time = 20.643972902889    cycle = 448    z = 22.216746730213
+dt, Initialdt: 0.063256 0 
+TopGrid dt = 6.325602e-02     time = 20.707166172181    cycle = 449    z = 22.169485302213
+dt, Initialdt: 0.0633199 0 
+TopGrid dt = 6.331987e-02     time = 20.770422192604    cycle = 450    z = 22.122417080183
+dt, Initialdt: 0.0633848 0 
+TopGrid dt = 6.338475e-02     time = 20.833742062303    cycle = 451    z = 22.075539991055
+dt, Initialdt: 0.0634505 0 
+TopGrid dt = 3.933499e-02     time = 20.897126813817    cycle = 452    z = 22.028852005028
+Continuation Flag = 1
+dt, Initialdt: 0.063492 0 
+TopGrid dt = 6.349195e-02     time = 20.936461799981    cycle = 453    z = 21.999997119317
+dt, Initialdt: 0.0635597 0 
+TopGrid dt = 6.355966e-02     time = 20.999953751859    cycle = 454    z = 21.953611595173
+dt, Initialdt: 0.0636287 0 
+TopGrid dt = 6.362868e-02     time = 21.063513412739    cycle = 455    z = 21.907410134687
+dt, Initialdt: 0.0636994 0 
+TopGrid dt = 6.369941e-02     time = 21.12714209061    cycle = 456    z = 21.86139066249
+dt, Initialdt: 0.0637712 0 
+TopGrid dt = 6.377117e-02     time = 21.190841497896    cycle = 457    z = 21.815550841332
+dt, Initialdt: 0.0638441 0 
+TopGrid dt = 6.384414e-02     time = 21.254612664087    cycle = 458    z = 21.769888855536
+dt, Initialdt: 0.063909 0 
+TopGrid dt = 6.390900e-02     time = 21.318456800377    cycle = 459    z = 21.724402666359
+dt, Initialdt: 0.0639692 0 
+TopGrid dt = 6.396917e-02     time = 21.382365801901    cycle = 460    z = 21.67909708378
+dt, Initialdt: 0.0640303 0 
+TopGrid dt = 6.403033e-02     time = 21.446334973761    cycle = 461    z = 21.633974295719
+dt, Initialdt: 0.0640929 0 
+TopGrid dt = 6.409286e-02     time = 21.510365299211    cycle = 462    z = 21.589032458066
+dt, Initialdt: 0.0641558 0 
+TopGrid dt = 6.415575e-02     time = 21.574458162352    cycle = 463    z = 21.54426947111
+dt, Initialdt: 0.0642196 0 
+TopGrid dt = 6.421962e-02     time = 21.638613916826    cycle = 464    z = 21.499683978327
+dt, Initialdt: 0.0642848 0 
+TopGrid dt = 6.428475e-02     time = 21.702833541533    cycle = 465    z = 21.455274201574
+dt, Initialdt: 0.0643503 0 
+TopGrid dt = 6.435030e-02     time = 21.767118292706    cycle = 466    z = 21.411038089226
+dt, Initialdt: 0.0644169 0 
+TopGrid dt = 6.441695e-02     time = 21.831468591665    cycle = 467    z = 21.366974411977
+dt, Initialdt: 0.0644847 0 
+TopGrid dt = 6.448465e-02     time = 21.89588553703    cycle = 468    z = 21.323081378943
+dt, Initialdt: 0.0645532 0 
+TopGrid dt = 6.455320e-02     time = 21.960370188144    cycle = 469    z = 21.279357249086
+dt, Initialdt: 0.0646228 0 
+TopGrid dt = 6.462278e-02     time = 22.024923386749    cycle = 470    z = 21.235800450247
+slurmstepd: error: *** JOB 7903499 ON c132-032 CANCELLED AT 2026-08-17T23:54:29 DUE TO TIME LIMIT ***
+[proxy:0:0@c132-032.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/proxy/intel/i_proxy.c:124): downstream from host c132-033 exited with status 255
+[proxy:0:0@c132-032.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/proxy/intel/i_proxy.c:124): downstream from host c132-034 exited with status 255
+[mpiexec@c132-032.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c132-041 exited with status 255
+[mpiexec@c132-032.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c132-044 exited with status 255
+[mpiexec@c132-032.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c132-053 exited with status 255
+[mpiexec@c132-032.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c132-062 exited with status 255
+[mpiexec@c132-032.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c132-071 exited with status 255
+[mpiexec@c132-032.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c132-074 exited with status 255
+[mpiexec@c132-032.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c132-083 exited with status 255
+[mpiexec@c132-032.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c132-092 exited with status 255
+[mpiexec@c132-032.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c132-094 exited with status 255
+[mpiexec@c132-032.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c132-102 exited with status 255
+[mpiexec@c132-032.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c132-104 exited with status 255
+[mpiexec@c132-032.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c132-112 exited with status 255
+[mpiexec@c132-032.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c132-114 exited with status 255
+[mpiexec@c132-032.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c132-122 exited with status 255
+[mpiexec@c132-032.frontera.tacc.utexas.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:527): downstream from host c132-124 exited with status 255
+[mpiexec@c132-032.frontera.tacc.utexas.edu] main (../../../../../src/pm/i_hydra/mpiexec/mpiexec.c:2096): assert (exitcodes != NULL) failed

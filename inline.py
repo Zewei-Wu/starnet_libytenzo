@@ -387,33 +387,9 @@ def _prune_overlapping_events(ds, events):
 
 
 
-# ====
-# OTHER FUNCTIONS
-# ====
-
-def _tile_edges(lo, hi, stride):
-    # helps with tiling
-    """
-    Tile origins covering [lo, hi] with no gaps and no cross-grid spill.
-    Steps by exactly one stride from the grid's left edge and clamps the last origin to hi - stride.
-    Every tile therefore stays inside its host grid (Azton's get_grid_volume containment requirement, which is what kept his tiling from double-covering inter-grid strips), and the only overlap is the final partial tile in each direction.
-    Azton's linspace spacing was gw/floor(gw/w), which is >= w and so left sub-tile gaps whenever gw was not an exact multiple of w; ours had the same defect from the other direction. Containment here is about coverage bookkeeping only.
-    smoothed_covering_grid reads the global hierarchy regardless of which grid a tile nominally belongs to.
-    """
-    span = hi - lo
-    if span <= stride:
-        return np.array([lo])          # grid smaller than one sample volume
-    n = int(np.ceil(span / stride - 1e-9))
-    return np.minimum(lo + stride * np.arange(n), hi - stride)
 
 
 
-
-# =========================
-# =========================
-# =========================
-# =========================
-# =========================
 
 """
 ### Distributed inference
@@ -475,12 +451,16 @@ def _run_starnet_inference_distributed(ds):
         # split up the grid
         le = np.asarray(ds.index.grid_left_edge[grid_idx])
         re = np.asarray(ds.index.grid_right_edge[grid_idx])
-        # gw = re - le
+        gw = re - le
  
         # split up the box by tile_stride
-        x_e = _tile_edges(le[0], re[0], tile_stride)
-        y_e = _tile_edges(le[1], re[1], tile_stride)
-        z_e = _tile_edges(le[2], re[2], tile_stride)
+        n_x = max(int(gw[0] / tile_stride), 1)
+        n_y = max(int(gw[1] / tile_stride), 1)
+        n_z = max(int(gw[2] / tile_stride), 1)
+ 
+        x_e = np.linspace(le[0], re[0] - tile_stride, n_x) if n_x > 1 else np.array([le[0]])
+        y_e = np.linspace(le[1], re[1] - tile_stride, n_y) if n_y > 1 else np.array([le[1]])
+        z_e = np.linspace(le[2], re[2] - tile_stride, n_z) if n_z > 1 else np.array([le[2]])
  
         for xi in x_e:
             for yi in y_e:
@@ -570,7 +550,7 @@ def _run_starnet_inference_distributed(ds):
                     # reads Metal_Density off the smoothed covering grid, ported from FBNet.py line 140
                     # Azton used SN_Colour + Metal_Density off native AMR
                     
-                    # density & metal at deposition center
+                    # density & metal at deposition CENTER
                     metal_at_c = float(cg["Metal_Density"][ci, cj, ck])
                     dens_at_c = float(cg["Density"][ci, cj, ck])
                     Z_over_Zsun = metal_at_c / dens_at_c / 0.01295 if dens_at_c > 0 else 0.0
@@ -648,18 +628,6 @@ def _run_starnet_inference_distributed(ds):
     return local_events, tile_index, my_outcomes
  
  
-
-
-
-
-
-
-
-# ====
-# DEPOSITION FUNCTIONS
-# ====
-
-
 # =====
 # target gas energy (code units) for T=1e4 K
 # specific energy: T = (gamma-1)*mu*GasEnergy_code*TempUnits
